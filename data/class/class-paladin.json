@@ -293,7 +293,6 @@
 				},
 				"Ability Score Improvement|Paladin||4",
 				"Proficiency Versatility|Paladin||4|UAClassFeatureVariants",
-				"Martial Versatility|Paladin||4|TCE",
 				"Extra Attack|Paladin||5",
 				"Aura of Protection|Paladin||6",
 				{
@@ -316,10 +315,7 @@
 				"Aura improvements|Paladin||18",
 				"Ability Score Improvement|Paladin||19",
 				"Proficiency Versatility|Paladin||19|UAClassFeatureVariants",
-				{
-					"classFeature": "Sacred Oath feature|Paladin||20",
-					"gainSubclassFeature": true
-				}
+				"Sacred Warrior|Paladin||20"
 			],
 			"subclassTitle": "Sacred Oath",
 			"fluff": [
@@ -705,19 +701,19 @@
 					"prepared": {
 						"3": [
 							"protection from evil and good",
-							"sanctuary"
+							"shield of faith"
 						],
 						"5": [
-							"lesser restoration",
+							"aid",
 							"zone of truth"
 						],
 						"9": [
-							"beacon of hope",
-							"dispel magic"
+							"aura of vitality",
+							"blinding smite"
 						],
 						"13": [
-							"freedom of movement",
-							"guardian of faith"
+							"guardian of faith",
+							"staggering smite"
 						],
 						"17": [
 							"commune",
@@ -729,8 +725,7 @@
 			"subclassFeatures": [
 				"Oath of Devotion|Paladin||Devotion||3",
 				"Aura of Devotion|Paladin||Devotion||7",
-				"Purity of Spirit|Paladin||Devotion||15",
-				"Holy Nimbus|Paladin||Devotion||20"
+				"Holy Nimbus|Paladin||Devotion||15"
 			]
 		},
 		{
@@ -769,8 +764,7 @@
 			"subclassFeatures": [
 				"Oath of the Ancients|Paladin||Ancients||3",
 				"Aura of Warding|Paladin||Ancients||7",
-				"Undying Sentinel|Paladin||Ancients||15",
-				"Elder Champion|Paladin||Ancients||20"
+				"Undying Sentinel|Paladin||Ancients||15"
 			]
 		},
 		{
@@ -809,8 +803,7 @@
 			"subclassFeatures": [
 				"Oath of Vengeance|Paladin||Vengeance||3",
 				"Relentless Avenger|Paladin||Vengeance||7",
-				"Soul of Vengeance|Paladin||Vengeance||15",
-				"Avenging Angel|Paladin||Vengeance||20"
+				"Soul of Vengeance|Paladin||Vengeance||15"
 			]
 		},
 		{
@@ -849,8 +842,7 @@
 			"subclassFeatures": [
 				"Oathbreaker|Paladin||Oathbreaker|DMG|3",
 				"Aura of Hate|Paladin||Oathbreaker|DMG|7",
-				"Supernatural Resistance|Paladin||Oathbreaker|DMG|15",
-				"Dread Lord|Paladin||Oathbreaker|DMG|20"
+				"Supernatural Resistance|Paladin||Oathbreaker|DMG|15"
 			]
 		},
 		{
@@ -889,8 +881,7 @@
 			"subclassFeatures": [
 				"Oath of the Crown|Paladin||Crown|SCAG|3",
 				"Divine Allegiance|Paladin||Crown|SCAG|7",
-				"Unyielding Spirit|Paladin||Crown|SCAG|15",
-				"Exalted Champion|Paladin||Crown|SCAG|20"
+				"Unyielding Spirit|Paladin||Crown|SCAG|15"
 			]
 		},
 		{
@@ -930,8 +921,7 @@
 			"subclassFeatures": [
 				"Oath of Conquest|Paladin||Conquest (UA)|UAPaladin|3",
 				"Aura of Conquest|Paladin||Conquest (UA)|UAPaladin|7",
-				"Implacable Spirit|Paladin||Conquest (UA)|UAPaladin|15",
-				"Invincible Conqueror|Paladin||Conquest (UA)|UAPaladin|20"
+				"Implacable Spirit|Paladin||Conquest (UA)|UAPaladin|15"
 			]
 		},
 		{
@@ -970,8 +960,7 @@
 			"subclassFeatures": [
 				"Oath of Treachery|Paladin||Treachery (UA)|UAPaladin|3",
 				"Aura of Treachery|Paladin||Treachery (UA)|UAPaladin|7",
-				"Blackguard's Escape|Paladin||Treachery (UA)|UAPaladin|15",
-				"Icon of Deceit|Paladin||Treachery (UA)|UAPaladin|20"
+				"Blackguard's Escape|Paladin||Treachery (UA)|UAPaladin|15"
 			]
 		},
 		{
@@ -1011,8 +1000,7 @@
 			"subclassFeatures": [
 				"Oath of Redemption|Paladin||Redemption (UA)|UAATrioOfSubclasses|3",
 				"Aura of the Guardian|Paladin||Redemption (UA)|UAATrioOfSubclasses|7",
-				"Protective Spirit|Paladin||Redemption (UA)|UAATrioOfSubclasses|15",
-				"Emissary of Redemption|Paladin||Redemption (UA)|UAATrioOfSubclasses|20"
+				"Protective Spirit|Paladin||Redemption (UA)|UAATrioOfSubclasses|15"
 			]
 		},
 		{
@@ -1052,8 +1040,7 @@
 			"subclassFeatures": [
 				"Oath of Conquest v2|Paladin||Conquest v2 (UA)|UARevisedClassOptions|3",
 				"Aura of Conquest|Paladin||Conquest v2 (UA)|UARevisedClassOptions|7",
-				"Scornful Rebuke|Paladin||Conquest v2 (UA)|UARevisedClassOptions|15",
-				"Invincible Conqueror|Paladin||Conquest v2 (UA)|UARevisedClassOptions|20"
+				"Scornful Rebuke|Paladin||Conquest v2 (UA)|UARevisedClassOptions|15"
 			]
 		},
 		{
@@ -1092,8 +1079,7 @@
 			"subclassFeatures": [
 				"Oath of Conquest|Paladin||Conquest|XGE|3",
 				"Aura of Conquest|Paladin||Conquest|XGE|7",
-				"Scornful Rebuke|Paladin||Conquest|XGE|15",
-				"Invincible Conqueror|Paladin||Conquest|XGE|20"
+				"Scornful Rebuke|Paladin||Conquest|XGE|15"
 			]
 		},
 		{
@@ -1132,8 +1118,7 @@
 			"subclassFeatures": [
 				"Oath of Redemption|Paladin||Redemption|XGE|3",
 				"Aura of the Guardian|Paladin||Redemption|XGE|7",
-				"Protective Spirit|Paladin||Redemption|XGE|15",
-				"Emissary of Redemption|Paladin||Redemption|XGE|20"
+				"Protective Spirit|Paladin||Redemption|XGE|15"
 			]
 		},
 		{
@@ -1173,8 +1158,7 @@
 			"subclassFeatures": [
 				"Oath of Heroism|Paladin||Heroism (UA)|UABardAndPaladin|3",
 				"Mighty Deed|Paladin||Heroism (UA)|UABardAndPaladin|7",
-				"Glorious Defense|Paladin||Heroism (UA)|UABardAndPaladin|15",
-				"Living Myth|Paladin||Heroism (UA)|UABardAndPaladin|20"
+				"Glorious Defense|Paladin||Heroism (UA)|UABardAndPaladin|15"
 			]
 		},
 		{
@@ -1214,8 +1198,7 @@
 			"subclassFeatures": [
 				"Oath of the Watchers|Paladin||Watchers (UA)|UA2020SubclassesPt1|3",
 				"Aura of the Sentinel|Paladin||Watchers (UA)|UA2020SubclassesPt1|7",
-				"Vigilant Rebuke|Paladin||Watchers (UA)|UA2020SubclassesPt1|15",
-				"Mortal Bulwark|Paladin||Watchers (UA)|UA2020SubclassesPt1|20"
+				"Vigilant Rebuke|Paladin||Watchers (UA)|UA2020SubclassesPt1|15"
 			]
 		},
 		{
@@ -1260,8 +1243,7 @@
 			"subclassFeatures": [
 				"Oath of Glory|Paladin||Glory|TCE|3",
 				"Aura of Alacrity|Paladin||Glory|TCE|7",
-				"Glorious Defense|Paladin||Glory|TCE|15",
-				"Living Legend|Paladin||Glory|TCE|20"
+				"Glorious Defense|Paladin||Glory|TCE|15"
 			]
 		},
 		{
@@ -1300,8 +1282,7 @@
 			"subclassFeatures": [
 				"Oath of the Watchers|Paladin||Watchers|TCE|3",
 				"Aura of the Sentinel|Paladin||Watchers|TCE|7",
-				"Vigilant Rebuke|Paladin||Watchers|TCE|15",
-				"Mortal Bulwark|Paladin||Watchers|TCE|20"
+				"Vigilant Rebuke|Paladin||Watchers|TCE|15"
 			]
 		},
 		{
@@ -1341,8 +1322,7 @@
 				"Oath of the Open Sea|Paladin|PHB|Open Sea|TDCSR|3",
 				"Aura of Liberation|Paladin|PHB|Open Sea|TDCSR|7",
 				"Stormy Waters|Paladin|PHB|Open Sea|TDCSR|15",
-				"Aura of Liberation (18th Level)|Paladin|PHB|Open Sea|TDCSR|18",
-				"Mythic Swashbuckler|Paladin|PHB|Open Sea|TDCSR|20"
+				"Aura of Liberation (18th Level)|Paladin|PHB|Open Sea|TDCSR|18"
 			]
 		}
 	],
@@ -1384,7 +1364,7 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of {@dice 5d8}. The damage increases by {@dice 1d8} if the target is an undead or a fiend, to a maximum of {@dice 6d8}."
+				"Starting at 2nd level, when you hit a creature with a melee weapon attack for the first time in your turn, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of {@dice 5d8}. The damage increases by {@dice 1d8} if the target is an undead or a fiend, to a maximum of {@dice 6d8}."
 			]
 		},
 		{
@@ -1490,12 +1470,24 @@
 				"By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter paladin spell list|spells|class=paladin}.",
 				{
 					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"You can prepare two Cantrips, you learn one extra at 10th level and another at 14th level. You choose them from the Cleric Spell list."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"Your Class table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Preparing and Casting Spells",
 					"entries": [
-						"The Paladin table shows how many spell slots you have to cast your {@filter paladin spells|spells|class=paladin}. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-						"You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
-						"For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd-level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+						"Whenever you finish a Long Rest, you can replace any spell you have prepared for this Class with another Spell from {@filter paladin spells|spells|class=paladin}. At higher levels in this Class, you can prepare more Spells. The amount of spells you can prepare is equal to your Charisma modifier + half your paladin level, rounded down (minimum of 1). Additionally, you will always have the {@spell compelled duel} that won’t count to your Spells prepared, additionally it doesn’t require concentration.",
+						"For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd-level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells."
 					]
 				},
 				{
@@ -1601,8 +1593,21 @@
 					"name": "Oath Spells",
 					"type": "entries",
 					"entries": [
-						"Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.",
-						"If you gain an oath spell that doesn't appear on the paladin spell list, the spell is nonetheless a paladin spell for you."
+						"The magic of your oath gives you the following benefits:",
+						{
+							"type": "entries",
+							"name": "Prepared Spells",
+							"entries": [
+								"You always have certain spells ready; when you reach a Paladin level specified in your Oath Spells Table, you thereafter always have the listed spells prepared. These spells don't count against the number of spells you can prepare, and they follow the rules of this class's Spellcasting feature."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Divine Casting",
+							"entries": [
+								"You can cast one of your Oaths spells without expending a Spell Slot, then you must finish a Long Rest before you use this benefit again."
+							]
+						}
 					]
 				},
 				{
@@ -1639,19 +1644,6 @@
 			"entries": [
 				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Martial Versatility",
-			"source": "TCE",
-			"page": 52,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"level": 4,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 4th-level paladin {@variantrule optional class features|tce|optional feature}}",
-				"Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a {@filter fighting style|optionalfeatures|feature type=FS:P} you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice."
 			]
 		},
 		{
@@ -1845,7 +1837,7 @@
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"At 18th level, the range of your Aura of Protection increases to 30 feet."
+				"At 18th level, the range of your Auras increases to 30 feet."
 			]
 		},
 		{
@@ -1876,7 +1868,7 @@
 			]
 		},
 		{
-			"name": "Sacred Oath feature",
+			"name": "Sacred Warrior",
 			"source": "PHB",
 			"page": 82,
 			"srd": true,
@@ -1884,7 +1876,7 @@
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"At 20th level, you gain a feature granted to you by your Sacred Oath."
+				"At 20th level, whenever you roll Initiative, you regain one use of this class’s Channel Divinity."
 			]
 		}
 	],
@@ -2339,14 +2331,10 @@
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
+				"When you take this oath at 3rd level, you gain the following Channel Divinity option.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Sacred Weapon|Paladin||Devotion||3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Turn the Unholy|Paladin||Devotion||3"
 				}
 			]
 		},
@@ -2377,19 +2365,19 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell protection from evil and good}, {@spell sanctuary}"
+							"{@spell protection from evil and good}, {@spell shield of faith}"
 						],
 						[
 							"5th",
-							"{@spell lesser restoration}, {@spell zone of truth}"
+							"{@spell aid}, {@spell zone of truth}"
 						],
 						[
 							"9th",
-							"{@spell beacon of hope}, {@spell dispel magic}"
+							"{@spell aura of vitality}, {@spell blinding smite}"
 						],
 						[
 							"13th",
-							"{@spell freedom of movement}, {@spell guardian of faith}"
+							"{@spell guardian of faith}, {@spell staggering smite}"
 						],
 						[
 							"17th",
@@ -2411,8 +2399,9 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration.",
-				"You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall {@condition unconscious}, this effect ends."
+				"As a bonus action, you can imbue one Simple or Martial weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1), and each time you hit with it, you cause it to deal radiant damage instead of its normal damage type.",
+				"The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that.",
+				"You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you have the Incapacitated, this effect ends."
 			]
 		},
 		{
@@ -2491,7 +2480,7 @@
 			]
 		},
 		{
-			"name": "Turn the Unholy",
+			"name": "Smite of Protection",
 			"source": "PHB",
 			"page": 85,
 			"srd": true,
@@ -2502,8 +2491,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.",
-				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Dodge} action."
+				"Your Divine Smite now radiates protective energy that allows you and your allies to stay in the fight. Whenever you use your Divine Smite, choose yourself or an ally within 30 feet of yourself. The chosen creature gains Temporary Hit Points equal to 1d8 plus the level of the Spell Slot used for the Divine Smite."
 			]
 		},
 		{
@@ -2518,23 +2506,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, you and friendly creatures within 10 feet of you can't be {@condition charmed} while you are conscious.",
-				"At 18th level, the range of this aura increases to 30 feet."
-			]
-		},
-		{
-			"name": "Purity of Spirit",
-			"source": "PHB",
-			"page": 85,
-			"srd": true,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Devotion",
-			"subclassSource": "PHB",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"Beginning at 15th level, you are always under the effects of a {@spell protection from evil and good} spell."
+				"Starting at 7th level, you and your allies are immune to the {@condition charmed} condition while in your Aura of Protection. If a {@condition charmed} ally enters the aura, that condition is suppressed while the ally is there."
 			]
 		},
 		{
@@ -2546,13 +2518,26 @@
 			"classSource": "PHB",
 			"subclassShortName": "Devotion",
 			"subclassSource": "PHB",
-			"level": 20,
+			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.",
-				"Whenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage.",
-				"In addition, for the duration, you have advantage on saving throws against spells cast by fiends or undead.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"Beginning at 15th level, as a bonus action, you can imbue your Aura of Protection with holy power. The aura gains the following benefits for 1 minute or until you end them as a Bonus Action.",
+					{
+						"type": "entries",
+						"name": "Radiant Damage",
+						"entries": [
+							"Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Proficiency Bonus plus your Charisma modifier."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Sunlight",
+						"entries": [
+							"The aura is filled with light, that is sunlight. As a bonus action, you can create an explosion of light inside your aura, forcing any creature that is inside of it to make a Constitution saving throw against your spellcasting DC, being blinded on a failed save."
+						]
+					},
+					"Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again."
+				
 			]
 		},
 		{
