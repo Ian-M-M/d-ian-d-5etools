@@ -1,0 +1,181 @@
+{
+	"spell": [
+		{
+			"name": "Pact Weapon",
+			"source": "HMB",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hours",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"Tracing arcane sigils in the air, you conjure a Simple or Martial melee weapon of your choice in your outstretched hand, or you create a bond with a magic weapon you touch. The weapon you conjure or touch must lack the Heavy property, and the spell fails if you touch a magic item that is attuned to someone else. For the duration, the weapon grants you the following benefits:",
+				{
+					"type": "entries",
+					"name": "Eldritch Warrior",
+					"entries": [
+						"When you attack with the weapon, you can use your spellcasting ability modifier for the attack and damage rolls, instead of using Strength or Dexterity. Additionally you are proficient with medium armor for the duration."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Proficiency",
+					"entries": [
+						"You have proficiency with the weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Returning Weapon",
+					"entries": [
+						"If the weapon has the Thrown property, the weapon returns to your hand immediately after hitting or missing a target. The spell ends early if you cast the spell again or die. When it ends, a conjured weapon disappears, or your bond with a magic weapon stops."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"When you reach 5th level as a Warlock, you gain the Extra Attack feature for the conjured or magic weapon only. With that feature, you can attack twice with the weapon, instead of once, when you take the Attack action on your turn"
+					]
+				}
+			]
+		},
+		{
+			"name": "Pact Familiar",
+			"source": "HMB",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You summon an unearthly entity to serve you. It manifests in an unoccupied space of your choice within range. This creature uses the Pact Familiar stat block. If you already have a familiar from this spell, that familiar transforms into the new one but retains its memories; you don’t get a second Pact Familiar. Whenever you cast the spell, choose the familiar’s creature type: Aberration (flumph or knot of tentacles), Celestial (owl, raven, or other bird), Dragon (pseudodragon or similar dragonet), Fey (pixie or sprite), Fiend (imp or quasit), or Undead (shadow or skull). This choice affects the familiar’s default appearance, as noted in the parentheses, and it determines certain traits in its stat block. You can alter details of the creature’s appearance each time you summon it.",
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"The familiar is an ally to you and your companions, and it obeys you. In combat, it shares your Initiative count, but it takes its turn immediately after yours. On its turn, the familiar takes the Dodge action and uses its Move to avoid danger, unless you use your Reaction to command it to attack instead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Disappearance of the Familiar",
+					"entries": [
+						"The familiar disappears if it drops to 0 Hit Points, if you dismiss it as a Bonus Action, or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the familiar that disappeared or a different one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Remote Viewing",
+					"entries": [
+						"As a Magic action, you can see what your familiar sees and hear what it hears until the end of your next turn."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"Starting when you reach 5th level as a Warlock, you can communicate telepathically with your familiar as long as you two are on the same plane of existence. Additionally, while perceiving through your familiar’s senses, you can also speak through your familiar in your own voice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pact Book",
+			"source": "HMB",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Stitching together strands of shadow, you conjure forth a book in your hand. The book contains eldritch magic that only you can access, granting you the following benefits:",
+				{
+					"type": "entries",
+					"name": "Cantrips and Rituals",
+					"entries": [
+						"When the book appears, choose two cantrips, and choose two 1st-level spells that have the Ritual tag. The spells can be from any spell lists, and they must be spells you don’t already have prepared. While the book is on your person, you have the chosen spells prepared."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use the book as a Spellcasting Focus. The book disappears if you cast this spell again or die."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"When you reach 5th level as a Warlock, this spell also enhances other cantrips while the book is on your person; you can add your Warlock spellcasting ability modifier to the damage rolls of any cantrip you cast that doesn’t already have that modifier added to its damage roll."
+					]
+				}
+			]
+		}
+	]
+}

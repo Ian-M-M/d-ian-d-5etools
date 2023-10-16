@@ -6769,6 +6769,16 @@
 			]
 		}
 	},
+	"HMB" :{
+		"Pact Weapon": {
+			"class": [
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+			]
+		}
+	},
 	"SCC": {
 		"Borrowed Knowledge": {
 			"class": [
