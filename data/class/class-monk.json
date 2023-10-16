@@ -108,7 +108,7 @@
 								"toRoll": [
 									{
 										"number": 1,
-										"faces": 4
+										"faces": 6
 									}
 								],
 								"rollable": true
@@ -125,7 +125,7 @@
 								"toRoll": [
 									{
 										"number": 1,
-										"faces": 4
+										"faces": 6
 									}
 								],
 								"rollable": true
@@ -142,7 +142,7 @@
 								"toRoll": [
 									{
 										"number": 1,
-										"faces": 4
+										"faces": 6
 									}
 								],
 								"rollable": true
@@ -159,7 +159,7 @@
 								"toRoll": [
 									{
 										"number": 1,
-										"faces": 4
+										"faces": 6
 									}
 								],
 								"rollable": true
@@ -1499,7 +1499,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be {@condition stunned} until the end of your next turn."
+				"Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 2 ki points to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn. These attacks must be from your Attack action."
 			]
 		},
 		{
@@ -1773,7 +1773,7 @@
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points."
+				"At 20th level, you master the use of your Ki, at the start of your turn you regain 1 Ki point. This benefit only works during combat, whenever you roll initiative you regain a number of ki points equal to a roll of your Martial Art dice plus your Wisdom modifier."
 			]
 		}
 	],
