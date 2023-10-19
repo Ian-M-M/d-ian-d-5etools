@@ -6770,6 +6770,22 @@
 		}
 	},
 	"HMB" :{
+		"Pact Book": {
+			"class": [
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+			]
+		},
+		"Pact Familiar": {
+			"class": [
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+			]
+		},
 		"Pact Weapon": {
 			"class": [
 				{

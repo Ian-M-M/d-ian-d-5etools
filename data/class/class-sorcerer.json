@@ -1867,7 +1867,7 @@
 					"type": "entries",
 					"name": "Cantrips",
 					"entries": [
-						"You learn cantrips from the Sorcerer Spell List as the sorcerer class table stays. Additionally, you learn the cantrip {@spell sorcerous burst} that doesn’t count to your Cantrips Knows.",
+						"You learn cantrips from the Sorcerer Spell List as the sorcerer class table stays. Additionally, you learn the cantrip {@spell sorcerous burst|HMB} that doesn’t count to your Cantrips Knows.",
 						"Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from this class spell list."
 					]
 				},
@@ -2123,7 +2123,7 @@
 			"classSource": "PHB",
 			"level": 7,
 			"entries": [
-				"At 7th level, you can now unleash magical energy that roils inside you; you always have the {@spell arcane eruption} spell prepared and doesn’t count for your number of spells prepared for this class."
+				"At 7th level, you can now unleash magical energy that roils inside you; you always have the {@spell arcane eruption|HMB} spell prepared and doesn’t count for your number of spells prepared for this class."
 			]
 		},
 		{

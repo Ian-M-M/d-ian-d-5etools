@@ -593,6 +593,16 @@
 			]
 		},
 		{
+			"name": "Homebrew",
+			"id": "HMB",
+			"source": "HMB",
+			"group": "core",
+			"published": "2023-10-19",
+			"author": "Ian",
+			"contents": [
+			]
+		},
+		{
 			"name": "Plane Shift: Innistrad",
 			"id": "PS-I",
 			"source": "PSI",
