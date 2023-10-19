@@ -1028,9 +1028,9 @@
 								"{@spell Friends}",
 								"{@spell Mage Hand}",
 								"{@spell Minor Illusion}",
-								"{@spell Pact Book}",
-								"{@spell Pact Familiar}",
-								"{@spell Pact Weapon}",
+								"{@spell Pact Book|HMB}",
+								"{@spell Pact Familiar|HMB}",
+								"{@spell Pact Weapon|HMB}",
 								"{@spell Poison Spray}",
 								"{@spell Prestidigitation}",
 								"{@spell True Strike}"
