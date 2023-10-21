@@ -6092,6 +6092,195 @@
 			"entries": [
 				"You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight."
 			]
+		},
+		{
+			"name": "Pack Tactics",
+			"source": "HMB",
+			"srd": true,
+			"featureType": [
+				"DAI"
+			],
+			"entries": [
+				"You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated."
+			]
+		},
+		{
+			"name": "Keen Smell",
+			"source": "HMB",
+			"srd": true,
+			"featureType": [
+				"DAI"
+			],
+			"entries": [
+				"You have advantage on Wisdom (Perception) checks that rely on smell."
+			]
+		},
+		{
+			"name": "Keen Hearing",
+			"source": "HMB",
+			"srd": true,
+			"featureType": [
+				"DAI"
+			],
+			"entries": [
+				"You have advantage on Wisdom (Perception) checks that rely on hear."
+			]
+		},
+		{
+			"name": "Charge",
+			"source": "HMB",
+			"srd": true,
+			"featureType": [
+				"DAI"
+			],
+			"entries": [
+				"If you move at least 20 feet straight toward a target and then hit it with an attack on the same turn, the target takes an extra 4 (1d8) bludgeoning damage. If the target is a creature, it must succeed on a Strength saving throw against your DC or be knocked prone."
+			]
+		},
+		{
+			"name": "Sure-Footed",
+			"source": "HMB",
+			"srd": true,
+			"featureType": [
+				"DAI"
+			],
+			"entries": [
+				"You have advantage on Strength and Dexterity saving throws made against effects that would knock you prone."
+			]
+		},
+		{
+			"name": "Poisonous Bite",
+			"source": "HMB",
+			"srd": true,
+			"featureType": [
+				"DAI"
+			],
+			"prerequisite": [
+				{
+					"item": [
+						"The form requires to deal piercing damage."
+					]
+				}
+			],
+			"entries": [
+				"On a hit on your attacks, the target must make a Constitution saving throw against your DC, taking an amount of d8s equals to half of your proficiency bonus (rounded up, minimum of 1) poison damage on a failed save."
+			]
+		},
+		{
+			"name": "Constrict",
+			"source": "HMB",
+			"srd": true,
+			"featureType": [
+				"DAI"
+			],
+			"entries": [
+				"On a hit on your attacks, the target is grappled (escape DC 8 + your Wildshapep Strength). You can't constrict another target."
+			]
+		},
+		{
+			"name": "Amphibious",
+			"source": "HMB",
+			"srd": true,
+			"featureType": [
+				"DAI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can breathe air and water."
+			]
+		},
+		{
+			"name": "Blood Frenzy",
+			"source": "HMB",
+			"srd": true,
+			"featureType": [
+				"DAI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You have advantage on melee attack rolls against any creature that doesn't have all its hit points."
+			]
+		},
+		{
+			"name": "Relentless (Recharges after a Short or Long Rest)",
+			"source": "HMB",
+			"srd": true,
+			"featureType": [
+				"DAI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
+			"entries": [
+				"If you take damage that would reduce you to 0 hit points, you are reduced to 1 hit point instead."
+			]
+		},
+		{
+			"name": "Mimicry",
+			"source": "HMB",
+			"srd": true,
+			"featureType": [
+				"DAI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check against your DC."
+			]
+		},
+		{
+			"name": "Flyby",
+			"source": "HMB",
+			"srd": true,
+			"featureType": [
+				"DAI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You don’t provoke opportunity attacks when it flies out of an enemy's reach."
+			]
 		}
 	]
 }

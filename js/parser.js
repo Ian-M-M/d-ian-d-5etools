@@ -2522,6 +2522,7 @@ Parser.SRC_LMoP = "LMoP";
 Parser.SRC_MM = "MM";
 Parser.SRC_OotA = "OotA";
 Parser.SRC_PHB = "PHB";
+Parser.SRC_HMB = "HMB";
 Parser.SRC_PotA = "PotA";
 Parser.SRC_RoT = "RoT";
 Parser.SRC_RoTOS = "RoTOS";
@@ -2754,6 +2755,7 @@ Parser.SOURCE_JSON_TO_FULL[Parser.SRC_LMoP] = "Lost Mine of Phandelver";
 Parser.SOURCE_JSON_TO_FULL[Parser.SRC_MM] = "Monster Manual";
 Parser.SOURCE_JSON_TO_FULL[Parser.SRC_OotA] = "Out of the Abyss";
 Parser.SOURCE_JSON_TO_FULL[Parser.SRC_PHB] = "Player's Handbook";
+Parser.SOURCE_JSON_TO_FULL[Parser.SRC_HMB] = "Ian's Homebrew";
 Parser.SOURCE_JSON_TO_FULL[Parser.SRC_PotA] = "Princes of the Apocalypse";
 Parser.SOURCE_JSON_TO_FULL[Parser.SRC_RoT] = "The Rise of Tiamat";
 Parser.SOURCE_JSON_TO_FULL[Parser.SRC_RoTOS] = "The Rise of Tiamat Online Supplement";
@@ -2962,6 +2964,7 @@ Parser.SOURCE_JSON_TO_ABV[Parser.SRC_LMoP] = "LMoP";
 Parser.SOURCE_JSON_TO_ABV[Parser.SRC_MM] = "MM";
 Parser.SOURCE_JSON_TO_ABV[Parser.SRC_OotA] = "OotA";
 Parser.SOURCE_JSON_TO_ABV[Parser.SRC_PHB] = "PHB";
+Parser.SOURCE_JSON_TO_ABV[Parser.SRC_HMB] = "HMB";
 Parser.SOURCE_JSON_TO_ABV[Parser.SRC_PotA] = "PotA";
 Parser.SOURCE_JSON_TO_ABV[Parser.SRC_RoT] = "RoT";
 Parser.SOURCE_JSON_TO_ABV[Parser.SRC_RoTOS] = "RoTOS";
@@ -3170,6 +3173,7 @@ Parser.SOURCE_JSON_TO_DATE[Parser.SRC_LMoP] = "2014-07-15";
 Parser.SOURCE_JSON_TO_DATE[Parser.SRC_MM] = "2014-09-30";
 Parser.SOURCE_JSON_TO_DATE[Parser.SRC_OotA] = "2015-09-15";
 Parser.SOURCE_JSON_TO_DATE[Parser.SRC_PHB] = "2014-08-19";
+Parser.SOURCE_JSON_TO_DATE[Parser.SRC_HMB] = "On Release";
 Parser.SOURCE_JSON_TO_DATE[Parser.SRC_PotA] = "2015-04-07";
 Parser.SOURCE_JSON_TO_DATE[Parser.SRC_RoT] = "2014-11-04";
 Parser.SOURCE_JSON_TO_DATE[Parser.SRC_RoTOS] = "2014-11-04";
@@ -3506,6 +3510,7 @@ Parser.SOURCES_VANILLA = new Set([
 	Parser.SRC_DMG,
 	Parser.SRC_MM,
 	Parser.SRC_PHB,
+	Parser.SRC_HMB,
 	Parser.SRC_SCAG,
 	// Parser.SRC_TTP, // "Legacy" source, removed in favor of MPMM
 	// Parser.SRC_VGM, // "Legacy" source, removed in favor of MPMM
