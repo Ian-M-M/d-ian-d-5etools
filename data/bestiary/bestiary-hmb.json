@@ -1,0 +1,183 @@
+{
+	"_meta": {
+		"otherSources": {
+			"monster": {
+				"MM": "TCE",
+				"DMG": "TCE"
+			}
+		},
+		"dependencies": {
+			"monster": [
+				"MM"
+			]
+		}
+	},
+	"monster": [
+		{
+			"name": "Animal of the Land",
+			"source": "HMB",
+			"size": [
+				"S",
+				"M",
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "10 + your Wisdom modifier"
+				}
+			],
+			"hp": {
+				"special": "Use your Hit Points and Hit Dice"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": {
+					"number": 40,
+					"condition": "(requires 5th+ level)"
+				},
+				"canHover": true
+			},
+			"str": 0,
+			"dex": 0,
+			"con": 0,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": "Your passive perception",
+			"languages": [
+				"Your Languagues"
+			],
+			"action": [
+				{
+					"name": "Multiattack (requires 5th+ level)",
+					"entries": [
+						"You make two Bestial Strike attacks."
+					]
+				},
+				{
+					"name": "Bestial Strike",
+					"entries": [
+						"Melee Attack: your Spell Attack Modifier to hit, reach 5 ft., one target. Hit: 1d8 + your Wisdom modifier Bludgeoning, Piercing, or Slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Animal of the Sea",
+			"source": "HMB",
+			"size": [
+				"S",
+				"M",
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "10 + your Wisdom modifier"
+				}
+			],
+			"hp": {
+				"special": "Use your Hit Points and Hit Dice"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": {
+					"number": 40
+				},
+				"canHover": true
+			},
+			"str": 0,
+			"dex": 0,
+			"con": 0,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"senses": [
+				"darkvision 90 ft."
+			],
+			"passive": "Your passive perception",
+			"languages": [
+				"Your Languagues"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"You make two Bestial Strike attacks."
+					]
+				},
+				{
+					"name": "Bestial Strike",
+					"entries": [
+						"Melee Attack: your Spell Attack Modifier to hit, reach 5 ft., one target. Hit: 1d6 + your Wisdom modifier Bludgeoning, Piercing, or Slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Animal of the Sky",
+			"source": "HMB",
+			"size": [
+				"S",
+				"M",
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "8 + your Wisdom modifier"
+				}
+			],
+			"hp": {
+				"special": "Use your Hit Points and Hit Dice"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": {
+					"number": 40
+				},
+				"canHover": true
+			},
+			"str": 0,
+			"dex": 0,
+			"con": 0,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": "Your passive perception",
+			"languages": [
+				"Your Languagues"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"You make two Bestial Strike attacks."
+					]
+				},
+				{
+					"name": "Bestial Strike",
+					"entries": [
+						"Melee Attack: your Spell Attack Modifier to hit, reach 5 ft., one target. Hit: 1d4 + your Wisdom modifier Bludgeoning, Piercing, or Slashing damage."
+					]
+				}
+			]
+		}
+	]
+}

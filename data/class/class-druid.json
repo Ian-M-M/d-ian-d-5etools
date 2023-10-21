@@ -148,6 +148,140 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
+						"Channel Nature"
+					],
+					"rows": [
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"2"
+						],
+						[
+							"3"
+						],
+						[
+							"3"
+						],
+						[
+							"3"
+						],
+						[
+							"3"
+						],
+						[
+							"4"
+						],
+						[
+							"4"
+						],
+						[
+							"4"
+						],
+						[
+							"4"
+						],
+						[
+							"4"
+						],
+						[
+							"4"
+						],
+						[
+							"4"
+						],
+						[
+							"4"
+						],
+						[
+							"4"
+						],
+						[
+							"4"
+						],
+						[
+							"4"
+						],
+						[
+							"Unlimited"
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter Invocations Known|optionalfeatures|feature type=dai}"
+					],
+					"rows": [
+						[
+							1
+						],
+						[
+							1
+						],
+						[
+							1
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						]
+					]
+				},
+				{
+					"colLabels": [
 						"{@filter Cantrips Known|spells|level=0|class=Druid}"
 					],
 					"rows": [
@@ -451,43 +585,59 @@
 				}
 			],
 			"classFeatures": [
+
+				"Animalistic Invocations|Druid||1",
+				"Channel Nature|Druid||1",
 				"Druidic|Druid||1",
 				"Spellcasting|Druid||1",
-				"Cantrip Versatility|Druid||1|UAClassFeatureVariants",
-				"Wild Shape|Druid||2",
-				"Wild Companion|Druid||2|UAClassFeatureVariants",
-				"Wild Companion|Druid||2|TCE",
+
+				"Nature's Aid|Druid||2",
 				{
 					"classFeature": "Druid Circle|Druid||2",
 					"gainSubclassFeature": true
 				},
-				"Wild Shape Improvement|Druid||4",
+				
 				"Ability Score Improvement|Druid||4",
-				"Proficiency Versatility|Druid||4|UAClassFeatureVariants",
-				"Cantrip Versatility|Druid||4|TCE",
+
+				"Might of the Land|Druid||5",
+
 				{
 					"classFeature": "Druid Circle feature|Druid||6",
 					"gainSubclassFeature": true
 				},
-				"Wild Shape Improvement|Druid||8",
+
+				"Aquatic Form|Druid||7",
+
 				"Ability Score Improvement|Druid||8",
-				"Proficiency Versatility|Druid||8|UAClassFeatureVariants",
+
+				"Aerial Form|Druid||9",
+
 				{
 					"classFeature": "Druid Circle feature|Druid||10",
 					"gainSubclassFeature": true
 				},
+
+				"Tiny Critter|Druid||11",
+
 				"Ability Score Improvement|Druid||12",
-				"Proficiency Versatility|Druid||12|UAClassFeatureVariants",
+
+				"Altering Forms|Druid||13",
+
 				{
 					"classFeature": "Druid Circle feature|Druid||14",
 					"gainSubclassFeature": true
 				},
+
+				"Wild Resurge|Druid||15",
+
 				"Ability Score Improvement|Druid||16",
-				"Proficiency Versatility|Druid||16|UAClassFeatureVariants",
-				"Timeless Body|Druid||18",
+				
+				"Timeless Body|Druid||17",
+
 				"Beast Spells|Druid||18",
+
 				"Ability Score Improvement|Druid||19",
-				"Proficiency Versatility|Druid||19|UAClassFeatureVariants",
+
 				"Archdruid|Druid||20"
 			],
 			"subclassTitle": "Druid Circle",
@@ -2555,6 +2705,46 @@
 			]
 		},
 		{
+			"name": "Animalistic Invocations",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 1,
+			"entries": [
+				"At 1st level, you learn the specific form as a creature gaining the ability given by that beast. You can choose 1 animalistic Invocation with which you have access to the form that it requires, additionally you can use this trait when you have in other forms (like using the poison of a snake while you are in aquatic form).",
+				"You gain the benefits of the given trait as long as you are in your Wildshape.",
+				"You learn additional Animalistic Invocations as shown in the Animalistic Invocations column. When you learn new Invocations you can replace one of the Invocations that you know."
+			]
+		},
+		{
+			"name": "Channel Nature",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 1,
+			"entries": [
+				"At 1st level, the magic of nature infuses you. Tapping into that power, you can create various magical effects. You start with one such effect: Wild Shape, which is described below. Other Druid features give additional Channel Nature effect options. Each time you use this Channel Nature, you choose which effect to create from among those you have from this class. You can use Channel Nature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.",
+				"You gain additional uses at 5th and 9th level. At 20th level you get unlimited uses.",
+				"If a Channel Nature effect requires a saving throw, the DC equals the Spell Save DC from this class’s Spellcasting feature.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"name": "Wild Shape",
+							"entries": [
+								"As an action, you transform into a form that you have learned for this  feature. You start knowing one form, Animal of the Land, which is detailed in the “Wild Shapes” section later in this class’s description. You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also end Wild Shape early as a Bonus Action. While in a form, its game statistics replace yours, and your ability to handle objects is determined by the form’s limbs, rather than your own. You retain your personality, memories, ability to speak, Wild Shape, skills and saving throw proficiencies. You lose access to all your other features, such as the ability to cast spells (you can continue to concentrate on one). When you transform, you choose whether your equipment falls to the ground in your space or merges into your new form. Equipment that merges with the form has no effect until you leave the form."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Druidic",
 			"source": "PHB",
 			"page": 64,
@@ -2580,7 +2770,7 @@
 					"type": "entries",
 					"name": "Cantrips",
 					"entries": [
-						"At 1st level, you know two cantrips of your choice from the {@filter druid spell list|spells|level=0|class=druid}. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table."
+						"You learn cantrips from the druid spell List Cantrips Knows on the Druid table shows. Additionally, you learn the {@spell druidcraft} Cantrip, it doesn’t count to your Cantrips Knows."
 					]
 				},
 				{
@@ -2640,6 +2830,35 @@
 			"level": 2,
 			"entries": [
 				"At 2nd level, you choose to identify with a circle of druids from the list of available circles. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
+			]
+		},
+		{
+			"name": "Nauture's Aid",
+			"source": "TCE",
+			"page": 35,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you learn two more ways to use your Channel Nature—Healing Blossoms and Wild Companion—each of which is described below.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"name": "Healing Blossoms",
+							"entries": [
+								"As an action, you channel healing energy that appears as blooming flowers. Choose a point within 30 feet of yourself, and spectral flowers appear for a moment in a 10-foot-radius sphere centered on that point. Then roll a number of d4s equal to your Wisdom modifier (minimum of one die), and add the dice together. The total is the number of Hit Points you can distribute to creatures in that sphere. You decide the number of Hit Points that are restored to each of those creatures, deducting the healing from the total."
+							]
+						},
+						{
+							"name": "Wild Companion",
+							"entries": [
+								"You can summon a nature spirit that assumes an animal form to aid you. As an action, you can expend a use of your Channel Nature and cast the Find Familiar spell without material components. When you cast the spell in this way, the familiar is a Fey, and it disappears when you finish a Long Rest."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -2751,6 +2970,18 @@
 			]
 		},
 		{
+			"name": "Might of the Land",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 5,
+			"entries": [
+				"At 5th level, your connection to the land deepens, empowering the Animal of the Land form of your Wild Shape; you unlock that form’s Climb Speed and Multiattack."
+			]
+		},
+		{
 			"name": "Cantrip Versatility",
 			"source": "TCE",
 			"page": 35,
@@ -2802,6 +3033,18 @@
 			]
 		},
 		{
+			"name": "Aquatic Form",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 7,
+			"entries": [
+				"At 7th level, you learn a new form for your Wild Shape: Animal of the Sea, which is described in the “Wild Shapes” section later in this class’s description."
+			]
+		},
+		{
 			"name": "Ability Score Improvement",
 			"source": "PHB",
 			"page": 64,
@@ -2829,15 +3072,15 @@
 			]
 		},
 		{
-			"name": "Wild Shape Improvement",
+			"name": "Aerial Form",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
 			"className": "Druid",
 			"classSource": "PHB",
-			"level": 8,
+			"level": 9,
 			"entries": [
-				"At 8th level, your Wild Shape improves as shown on the Beast Shapes table."
+				"At 9th level, you learn a new form for your Wild Shape: Animal of the Sky, which is described in the “Wild Shapes” section later in this class’s description."
 			]
 		},
 		{
@@ -2853,6 +3096,18 @@
 			]
 		},
 		{
+			"name": "Tiny Critter",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain the ability to become a Tiny creature. When you transform into a Wild Shape form, you can make it Tiny. If you do so, you can stay in  that form no longer than 10 minutes, and the damage you deal in that form is halved."
+			]
+		},
+		{
 			"name": "Ability Score Improvement",
 			"source": "PHB",
 			"page": 64,
@@ -2863,6 +3118,18 @@
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Alternating Forms",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 13,
+			"entries": [
+				"At 13th level, you can now rapidly shift between a Wild Shape form and your normal form. If you’re in a Wild Shape form, you can switch to your normal form as a Bonus Action, and you can then switch back into that Wild Shape form within the next minute as a Bonus Action. Neither switch expends a use of Wild Shape."
 			]
 		},
 		{
@@ -2889,6 +3156,18 @@
 			"level": 14,
 			"entries": [
 				"At 14th level, you gain a feature granted by your Druid Circle feature."
+			]
+		},
+		{
+			"name": "Wild Resurge",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 15,
+			"entries": [
+				"At 15th level, when you use your Wild Shape, primal magic radiates from you, allowing you to use Healing Blossoms as part of the same use of Channel Nature."
 			]
 		},
 		{
@@ -2919,6 +3198,18 @@
 			]
 		},
 		{
+			"name": "Timeless Body",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 17,
+			"entries": [
+				"Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year."
+			]
+		},
+		{
 			"name": "Beast Spells",
 			"source": "PHB",
 			"page": 64,
@@ -2928,18 +3219,6 @@
 			"level": 18,
 			"entries": [
 				"Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components."
-			]
-		},
-		{
-			"name": "Timeless Body",
-			"source": "PHB",
-			"page": 64,
-			"srd": true,
-			"className": "Druid",
-			"classSource": "PHB",
-			"level": 18,
-			"entries": [
-				"Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year."
 			]
 		},
 		{
