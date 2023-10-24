@@ -37,15 +37,15 @@ class StatGenUi extends BaseComponent {
 		if (this._isFvttMode) {
 			let cnt = 0;
 			this._IX_TAB_NONE = cnt++;
-			this._IX_TAB_ROLLED = cnt++;
-			this._IX_TAB_ARRAY = cnt++;
+			// this._IX_TAB_ROLLED = cnt++;
+			// this._IX_TAB_ARRAY = cnt++;
 			this._IX_TAB_PB = cnt++;
 			this._IX_TAB_MANUAL = cnt;
 		} else {
 			this._IX_TAB_NONE = -1;
 			let cnt = 0;
-			this._IX_TAB_ROLLED = cnt++;
-			this._IX_TAB_ARRAY = cnt++;
+			// this._IX_TAB_ROLLED = cnt++;
+			// this._IX_TAB_ARRAY = cnt++;
 			this._IX_TAB_PB = cnt++;
 			this._IX_TAB_MANUAL = cnt;
 		}
@@ -229,8 +229,8 @@ class StatGenUi extends BaseComponent {
 			]
 			: [
 				this._isFvttMode ? new TabUiUtil.TabMeta({name: "Select...", icon: this._isFvttMode ? `fas fa-fw fa-square` : `far fa-fw fa-square`, hasBorder: true, isNoPadding: this._isFvttMode}) : null,
-				new TabUiUtil.TabMeta({name: "Roll", icon: this._isFvttMode ? `fas fa-fw fa-dice` : `far fa-fw fa-dice`, hasBorder: true, isNoPadding: this._isFvttMode}),
-				new TabUiUtil.TabMeta({name: "Standard Array", icon: this._isFvttMode ? `fas fa-fw fa-signal` : `far fa-fw fa-signal-alt`, hasBorder: true, isNoPadding: this._isFvttMode}),
+				// new TabUiUtil.TabMeta({name: "Roll", icon: this._isFvttMode ? `fas fa-fw fa-dice` : `far fa-fw fa-dice`, hasBorder: true, isNoPadding: this._isFvttMode}),
+				// new TabUiUtil.TabMeta({name: "Standard Array", icon: this._isFvttMode ? `fas fa-fw fa-signal` : `far fa-fw fa-signal-alt`, hasBorder: true, isNoPadding: this._isFvttMode}),
 				new TabUiUtil.TabMeta({name: "Point Buy", icon: this._isFvttMode ? `fas fa-fw fa-chart-bar` : `far fa-fw fa-chart-bar`, hasBorder: true, isNoPadding: this._isFvttMode}),
 				new TabUiUtil.TabMeta({name: "Manual", icon: this._isFvttMode ? `fas fa-fw fa-tools` : `far fa-fw fa-tools`, hasBorder: true, isNoPadding: this._isFvttMode}),
 				...this._tabMetasAdditional || [],
@@ -363,8 +363,8 @@ class StatGenUi extends BaseComponent {
 
 		switch (this.ixActiveTab) {
 			case this._IX_TAB_NONE: Object.assign(nxtState, this._getDefaultStateNoneResettable()); break;
-			case this._IX_TAB_ROLLED: Object.assign(nxtState, this._getDefaultStateRolledResettable()); break;
-			case this._IX_TAB_ARRAY: Object.assign(nxtState, this._getDefaultStateArrayResettable()); break;
+			// case this._IX_TAB_ROLLED: Object.assign(nxtState, this._getDefaultStateRolledResettable()); break;
+			// case this._IX_TAB_ARRAY: Object.assign(nxtState, this._getDefaultStateArrayResettable()); break;
 			case this._IX_TAB_PB: Object.assign(nxtState, this._getDefaultStatePointBuyResettable()); break;
 			case this._IX_TAB_MANUAL: Object.assign(nxtState, this._getDefaultStateManualResettable()); break;
 		}
@@ -594,11 +594,6 @@ class StatGenUi extends BaseComponent {
 			</div>
 
 			<hr class="hr-4 mb-2">
-
-			<label class="ve-flex-v-center">
-				<div class="mr-2">Custom Rules</div>
-				${ComponentUiUtil.$getCbBool(this, "pb_isCustom")}
-			</label>
 		</div>`;
 	}
 
@@ -692,8 +687,8 @@ class StatGenUi extends BaseComponent {
 			$stgNone.toggleVe(this.ixActiveTab === this._IX_TAB_NONE);
 			$stgMain.toggleVe(this.ixActiveTab !== this._IX_TAB_NONE);
 
-			$elesRolled.forEach($ele => $ele.toggleVe(this.ixActiveTab === this._IX_TAB_ROLLED));
-			$elesArray.forEach($ele => $ele.toggleVe(this.ixActiveTab === this._IX_TAB_ARRAY));
+			// $elesRolled.forEach($ele => $ele.toggleVe(this.ixActiveTab === this._IX_TAB_ROLLED));
+			// $elesArray.forEach($ele => $ele.toggleVe(this.ixActiveTab === this._IX_TAB_ARRAY));
 			$elesPb.forEach($ele => $ele.toggleVe(this.ixActiveTab === this._IX_TAB_PB));
 			$elesManual.forEach($ele => $ele.toggleVe(this.ixActiveTab === this._IX_TAB_MANUAL));
 		};
@@ -883,7 +878,7 @@ class StatGenUi extends BaseComponent {
 
 						<div class="ve-flex-col mr-3">
 							<div class="my-1 statgen-pb__header"></div>
-							<div class="my-1 statgen-pb__header ve-flex-vh-center help text-muted" title="Input any additional/custom bonuses here">User</div>
+							<div class="my-1 statgen-pb__header ve-flex-vh-center help text-muted"">Back.</div>
 							${$wrpsUser}
 						</div>
 
@@ -1250,16 +1245,16 @@ class StatGenUi extends BaseComponent {
 
 			const {$btnToggleTashasPin, $dispTashas} = this._$getPtsTashas();
 
-			out.$stgSel.append($$`<label class="ve-flex-v-center mb-1">
-				<div class="mr-2">Allow Origin Customization</div>
-				${ComponentUiUtil.$getCbBool(this._parent, "common_isTashas")}
-			</label>`);
+			// out.$stgSel.append($$`<label class="ve-flex-v-center mb-1">
+			// 	<div class="mr-2">Allow Origin Customization</div>
+			// 	${ComponentUiUtil.$getCbBool(this._parent, "common_isTashas")}
+			// </label>`);
 
-			out.$stgSel.append($$`<div class="ve-flex">
-				<div class="ve-small ve-muted italic mr-1">${Renderer.get().render(`An {@variantrule Customizing Your Origin|TCE|optional rule}`)}</div>
-				${$btnToggleTashasPin}
-				<div class="ve-small ve-muted italic ml-1">${Renderer.get().render(`from Tasha's Cauldron of Everything, page 8.`)}</div>
-			</div>`);
+			// out.$stgSel.append($$`<div class="ve-flex">
+			// 	<div class="ve-small ve-muted italic mr-1">${Renderer.get().render(`An {@variantrule Customizing Your Origin|TCE|optional rule}`)}</div>
+			// 	${$btnToggleTashasPin}
+			// 	<div class="ve-small ve-muted italic ml-1">${Renderer.get().render(`from Tasha's Cauldron of Everything, page 8.`)}</div>
+			// </div>`);
 
 			out.$dispTashas = $dispTashas;
 
@@ -1294,28 +1289,29 @@ class StatGenUi extends BaseComponent {
 		}
 
 		_$getPtsTashas () {
+			
 			const $btnToggleTashasPin = ComponentUiUtil.$getBtnBool(
 				this._parent,
-				"common_isShowTashasRules",
-				{
-					html: `<button class="btn btn-xxs btn-default ve-small p-0 statgen-shared__btn-toggle-tashas-rules ve-flex-vh-center" title="Toggle &quot;Customizing Your Origin&quot; Section"><span class="glyphicon glyphicon-eye-open"></span></button>`,
-				},
+				// "common_isShowTashasRules",
+				// {
+					// html: `<button class="btn btn-xxs btn-default ve-small p-0 statgen-shared__btn-toggle-tashas-rules ve-flex-vh-center" title="Toggle &quot;Customizing Your Origin&quot; Section"><span class="glyphicon glyphicon-eye-open"></span></button>`,
+				// },
 			);
 
 			const $dispTashas = $(`<div class="ve-flex-col"><div class="italic ve-muted">Loading...</div></div>`);
-			DataLoader.pCacheAndGet(UrlUtil.PG_VARIANTRULES, Parser.SRC_TCE, UrlUtil.URL_TO_HASH_BUILDER[UrlUtil.PG_VARIANTRULES]({name: "Customizing Your Origin", source: Parser.SRC_TCE}))
-				.then(rule => {
-					$$($dispTashas.empty())`${Renderer.hover.$getHoverContent_stats(UrlUtil.PG_VARIANTRULES, rule)}<hr class="hr-3">`;
-				});
-			const hkIsShowTashas = () => {
-				$dispTashas.toggleVe(this._parent._state.common_isShowTashasRules);
-			};
-			this._parent._addHookBase("common_isShowTashasRules", hkIsShowTashas);
-			hkIsShowTashas();
+			// DataLoader.pCacheAndGet(UrlUtil.PG_VARIANTRULES, Parser.SRC_TCE, UrlUtil.URL_TO_HASH_BUILDER[UrlUtil.PG_VARIANTRULES]({name: "Customizing Your Origin", source: Parser.SRC_TCE}))
+			// 	.then(rule => {
+			// 		$$($dispTashas.empty())`${Renderer.hover.$getHoverContent_stats(UrlUtil.PG_VARIANTRULES, rule)}<hr class="hr-3">`;
+			// 	});
+			// const hkIsShowTashas = () => {
+			// 	$dispTashas.toggleVe(this._parent._state.common_isShowTashasRules);
+			// };
+			// this._parent._addHookBase("common_isShowTashasRules", hkIsShowTashas);
+			// hkIsShowTashas();
 
 			return {
 				$btnToggleTashasPin,
-				$dispTashas,
+				// $dispTashas,
 			};
 		}
 	};
@@ -1430,8 +1426,8 @@ class StatGenUi extends BaseComponent {
 			const getTotalScore = () => {
 				if (this._isLevelUp) return this._levelUp_getTotalScore(ab);
 				switch (this.ixActiveTab) {
-					case this._IX_TAB_ROLLED: return this._rolled_getTotalScore(ab);
-					case this._IX_TAB_ARRAY: return this._array_getTotalScore(ab);
+					// case this._IX_TAB_ROLLED: return this._rolled_getTotalScore(ab);
+					// case this._IX_TAB_ARRAY: return this._array_getTotalScore(ab);
 					case this._IX_TAB_PB: return this._pb_getTotalScore(ab);
 					case this._IX_TAB_MANUAL: return this._manual_getTotalScore(ab);
 					default: return 0;
