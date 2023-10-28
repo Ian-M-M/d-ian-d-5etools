@@ -600,8 +600,8 @@
 			"subclassFeatures": [
 				"Path of the Berserker|Barbarian||Berserker||3",
 				"Mindless Rage|Barbarian||Berserker||6",
-				"Intimidating Presence|Barbarian||Berserker||10",
-				"Retaliation|Barbarian||Berserker||14"
+				"Retaliation|Barbarian||Berserker||10",
+				"Intimidating Presence|Barbarian||Berserker||14"
 			]
 		},
 		{
@@ -636,81 +636,6 @@
 			]
 		},
 		{
-			"name": "Path of the Battlerager",
-			"shortName": "Battlerager",
-			"source": "SCAG",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 121,
-			"subclassFeatures": [
-				"Path of the Battlerager|Barbarian||Battlerager|SCAG|3",
-				"Reckless Abandon|Barbarian||Battlerager|SCAG|6",
-				"Battlerager Charge|Barbarian||Battlerager|SCAG|10",
-				"Spiked Retribution|Barbarian||Battlerager|SCAG|14"
-			]
-		},
-		{
-			"name": "Path of the Ancestral Guardian (UA)",
-			"shortName": "Ancestral Guardian (UA)",
-			"source": "UABarbarianPrimalPaths",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 1,
-			"isReprinted": true,
-			"subclassFeatures": [
-				"Path of the Ancestral Guardian|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|3",
-				"Ancestral Shield|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|6",
-				"Consult the Spirits|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|10",
-				"Vengeful Ancestors|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|14"
-			]
-		},
-		{
-			"name": "Path of the Storm Herald (UA)",
-			"shortName": "Storm Herald (UA)",
-			"source": "UABarbarianPrimalPaths",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 1,
-			"isReprinted": true,
-			"subclassFeatures": [
-				"Path of the Storm Herald|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|3",
-				"Storm Soul|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|6",
-				"Shield of the Storm|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|10",
-				"Raging Storm|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|14"
-			]
-		},
-		{
-			"name": "Path of the Zealot (UA)",
-			"shortName": "Zealot (UA)",
-			"source": "UABarbarianPrimalPaths",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 2,
-			"isReprinted": true,
-			"subclassFeatures": [
-				"Path of the Zealot|Barbarian||Zealot (UA)|UABarbarianPrimalPaths|3",
-				"Zealous Focus|Barbarian||Zealot (UA)|UABarbarianPrimalPaths|6",
-				"Zealous Presence|Barbarian||Zealot (UA)|UABarbarianPrimalPaths|10",
-				"Rage Beyond Death|Barbarian||Zealot (UA)|UABarbarianPrimalPaths|14"
-			]
-		},
-		{
-			"name": "Path of the Ancestral Guardian v2 (UA)",
-			"shortName": "Ancestral Guardian v2 (UA)",
-			"source": "UARevisedSubclasses",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 1,
-			"isReprinted": true,
-			"spellcastingAbility": "wis",
-			"subclassFeatures": [
-				"Path of the Ancestral Guardian v2|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|3",
-				"Ancestral Shield|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|6",
-				"Consult the Spirits|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|10",
-				"Vengeful Ancestors|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|14"
-			]
-		},
-		{
 			"name": "Path of the Ancestral Guardian",
 			"shortName": "Ancestral Guardian",
 			"source": "XGE",
@@ -733,155 +658,6 @@
 				"Spirit Shield|Barbarian||Ancestral Guardian|XGE|6",
 				"Consult the Spirits|Barbarian||Ancestral Guardian|XGE|10",
 				"Vengeful Ancestors|Barbarian||Ancestral Guardian|XGE|14"
-			]
-		},
-		{
-			"name": "Path of the Storm Herald",
-			"shortName": "Storm Herald",
-			"source": "XGE",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 10,
-			"subclassFeatures": [
-				"Path of the Storm Herald|Barbarian||Storm Herald|XGE|3",
-				"Storm Soul|Barbarian||Storm Herald|XGE|6",
-				"Shielding Storm|Barbarian||Storm Herald|XGE|10",
-				"Raging Storm|Barbarian||Storm Herald|XGE|14"
-			]
-		},
-		{
-			"name": "Path of the Zealot",
-			"shortName": "Zealot",
-			"source": "XGE",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 11,
-			"subclassFeatures": [
-				"Path of the Zealot|Barbarian||Zealot|XGE|3",
-				"Fanatical Focus|Barbarian||Zealot|XGE|6",
-				"Zealous Presence|Barbarian||Zealot|XGE|10",
-				"Rage beyond Death|Barbarian||Zealot|XGE|14"
-			]
-		},
-		{
-			"name": "Path of the Wild Soul (UA)",
-			"shortName": "Wild Soul (UA)",
-			"source": "UABarbarianAndMonk",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 1,
-			"isReprinted": true,
-			"subclassFeatures": [
-				"Path of the Wild Soul|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|3",
-				"Magic Reserves|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|6",
-				"Arcane Rebuke|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|10",
-				"Chaotic Fury|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|14",
-				"Improved Magic Reserves|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|14"
-			]
-		},
-		{
-			"name": "Path of the Beast (UA)",
-			"shortName": "Beast (UA)",
-			"source": "UA2020SubclassesPt1",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 1,
-			"isReprinted": true,
-			"subclassFeatures": [
-				"Path of the Beast|Barbarian||Beast (UA)|UA2020SubclassesPt1|3",
-				"Bestial Soul|Barbarian||Beast (UA)|UA2020SubclassesPt1|6",
-				"Infectious Fury|Barbarian||Beast (UA)|UA2020SubclassesPt1|10",
-				"Call the Hunt|Barbarian||Beast (UA)|UA2020SubclassesPt1|14"
-			]
-		},
-		{
-			"name": "Path of the Beast",
-			"shortName": "Beast",
-			"source": "TCE",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 24,
-			"subclassFeatures": [
-				"Path of the Beast|Barbarian||Beast|TCE|3",
-				"Bestial Soul|Barbarian||Beast|TCE|6",
-				"Infectious Fury|Barbarian||Beast|TCE|10",
-				"Call the Hunt|Barbarian||Beast|TCE|14"
-			]
-		},
-		{
-			"name": "Path of Wild Magic",
-			"shortName": "Wild Magic",
-			"source": "TCE",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 25,
-			"subclassFeatures": [
-				"Path of Wild Magic|Barbarian||Wild Magic|TCE|3",
-				"Bolstering Magic|Barbarian||Wild Magic|TCE|6",
-				"Unstable Backlash|Barbarian||Wild Magic|TCE|10",
-				"Controlled Surge|Barbarian||Wild Magic|TCE|14"
-			]
-		},
-		{
-			"name": "Path of the Juggernaut",
-			"shortName": "Juggernaut",
-			"source": "TDCSR",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 165,
-			"subclassFeatures": [
-				"Path of the Juggernaut|Barbarian|PHB|Juggernaut|TDCSR|3",
-				"Demolishing Might|Barbarian|PHB|Juggernaut|TDCSR|6",
-				"Resolute Stance|Barbarian|PHB|Juggernaut|TDCSR|6",
-				"Thunderous Blows (10th Level)|Barbarian|PHB|Juggernaut|TDCSR|10",
-				"Hurricane Strike|Barbarian|PHB|Juggernaut|TDCSR|10",
-				"Unstoppable|Barbarian|PHB|Juggernaut|TDCSR|14"
-			]
-		},
-		{
-			"name": "Path of the Giant (UA)",
-			"shortName": "Giant (UA)",
-			"source": "UA2022GiantOptions",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 1,
-			"isReprinted": true,
-			"subclassFeatures": [
-				"Path of the Giant|Barbarian||Giant (UA)|UA2022GiantOptions|3",
-				"Elemental Cleaver|Barbarian||Giant (UA)|UA2022GiantOptions|6",
-				"Mighty Impel|Barbarian||Giant (UA)|UA2022GiantOptions|10",
-				"Demiurgic Colossus|Barbarian||Giant (UA)|UA2022GiantOptions|14"
-			]
-		},
-		{
-			"name": "Path of the Giant",
-			"shortName": "Giant",
-			"source": "BGG",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 1,
-			"spellcastingAbility": "wis",
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": [
-							"druidcraft#c"
-						]
-					}
-				},
-				{
-					"innate": {
-						"3": [
-							"thaumaturgy#c"
-						]
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Path of the Giant|Barbarian||Giant|BGG|3",
-				"Elemental Cleaver|Barbarian||Giant|BGG|6",
-				"Mighty Impel|Barbarian||Giant|BGG|10",
-				"Demiurgic Colossus|Barbarian||Giant|BGG|14"
 			]
 		}
 	],
@@ -1446,7 +1222,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of {@condition exhaustion}."
+				"You can go into a frenzy in battle. If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack."
 			]
 		},
 		{
@@ -1461,23 +1237,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Beginning at 6th level, you can't be {@condition charmed} or {@condition frightened} while raging. If you are {@condition charmed} or {@condition frightened} when you enter your rage, the effect is suspended for the duration of the rage."
-			]
-		},
-		{
-			"name": "Intimidating Presence",
-			"source": "PHB",
-			"page": 49,
-			"srd": true,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Berserker",
-			"subclassSource": "PHB",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be {@condition frightened} of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the {@condition frightened} creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.",
-				"If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours."
+				"You have immunity to the {@condition Charmed} and {@condition Frightened} conditions while your Rage is active. If you are Charmed or Frightened when you enter your Rage, that condition ends on you."
 			]
 		},
 		{
@@ -1489,10 +1249,26 @@
 			"classSource": "PHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"When you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature."
+			]
+		},
+		{
+			"name": "Intimidating Presence",
+			"source": "PHB",
+			"page": 49,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Berserker",
+			"subclassSource": "PHB",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, when you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature."
+				"Instead of one of your attacks, you can strike terror into others with your menacing presence, as you swell with primal power. When you do so, each creature of your choice within 30 feet of you—or 60 feet of you if your Rage is active—must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Strength modifier), provided the creature isn’t behind Total Cover. On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature’s turns, the creature repeats the saving throw, ending the effect on itself on a successful save.",
+				"Once you use this feature, you can’t use it again until you finish a Long Rest. If you’ve run out of uses of this feature, you can expend a use of your Rage, choosing not to activate the Rage and activating Intimidating Presence instead."
 			]
 		},
 		{
@@ -1505,7 +1281,7 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment."
+				"While raging, at the start of your turn you gain temporary hit points to equal your Constitution mod + your barbarian level. The spirit of the bear makes you tough enough to stand up to any punishment."
 			]
 		},
 		{
