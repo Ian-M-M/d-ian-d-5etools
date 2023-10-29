@@ -838,8 +838,6 @@
 				"Life Domain|Cleric||Life||1",
 				"Channel Divinity: Preserve Life|Cleric||Life||2",
 				"Blessed Healer|Cleric||Life||6",
-				"Divine Strike|Cleric||Life||8",
-				"Blessed Strikes|Cleric||Life||8|UAClassFeatureVariants",
 				"Blessed Strikes|Cleric||Life||8|TCE",
 				"Supreme Healing|Cleric||Life||17"
 			]
@@ -891,8 +889,6 @@
 				"Death Domain|Cleric||Death|HMB|1",
 				"Channel Divinity: Touch of Death|Cleric||Death|HMB|2",
 				"Inescapable Destruction|Cleric||Death|HMB|6",
-				"Divine Strike|Cleric||Death|HMB|8",
-				"Blessed Strikes|Cleric||Death|HMB|8|UAClassFeatureVariants",
 				"Blessed Strikes|Cleric||Death|HMB|8|TCE",
 				"Improved Reaper|Cleric||Death|HMB|17"
 			]
@@ -934,7 +930,6 @@
 				"Peace Domain|Cleric||Peace|TCE|1",
 				"Channel Divinity: Balm of Peace|Cleric||Peace|TCE|2",
 				"Protective Bond|Cleric||Peace|TCE|6",
-				"Potent Spellcasting|Cleric||Peace|TCE|8",
 				"Blessed Strikes|Cleric||Peace|TCE|8|TCE",
 				"Expansive Bond|Cleric||Peace|TCE|17"
 			]
@@ -1933,11 +1928,9 @@
 			"subclassShortName": "Life",
 			"subclassSource": "PHB",
 			"level": 8,
-			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Divine Strike feature}",
-				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also heal {@dice 1d8} hit points to a creature that is 30 ft from you, including yourself. Once you heal this way, you can't use this feature again until the start of your next turn."
 			]
 		},
 		{
@@ -4201,11 +4194,9 @@
 			"subclassShortName": "Peace",
 			"subclassSource": "TCE",
 			"level": 8,
-			"isClassFeatureVariant": true,
 			"header": 2,
 			"entries": [
-				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature}",
-				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can give {@dice 1d8} temporary creature to a creature that is 30 ft from you, including yourself. Once you use this trait, you can't use this feature again until the start of your next turn."
 			]
 		},
 		{
