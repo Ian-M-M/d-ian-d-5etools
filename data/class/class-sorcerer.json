@@ -1311,7 +1311,7 @@
 				"At 7th level, you learn the following metamagic options:",
 				{
 					"type": "options",
-					"count": 1,
+					"count": 3,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
@@ -1399,7 +1399,7 @@
 				"At 11th level, you learn the following metamagic options:",
 				{
 					"type": "options",
-					"count": 1,
+					"count": 2,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
@@ -1486,11 +1486,11 @@
 				"At 15th level, you learn the following metamagic options:",
 				{
 					"type": "options",
-					"count": 1,
+					"count": 2,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": " Empowered Spell"
+							"optionalfeature": "Empowered Spell"
 						},
 						{
 							"type": "refOptionalfeature",
