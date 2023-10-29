@@ -1138,7 +1138,25 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you gain access to the following metamagics: Distant Spell, Subtle Spell and Transmuted Spell. You can use only one Metamagic option on a spell when you cast it, unless otherwise noted. In addition you have one use of each metamagic per short rest without expending any spell point."
+				"At 2nd level, you gain access to the following metamagics:",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distant Spell"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Subtle Spell"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Transmuted Spell"
+						}
+					]
+				}
 			]
 		},
 		{
@@ -1290,7 +1308,25 @@
 			"classSource": "PHB",
 			"level": 7,
 			"entries": [
-				"At 7th level, you learn the following metamagic options: Quickened Spell, Careful Spell and Extended Spell."
+				"At 7th level, you learn the following metamagic options:",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": " Quickened Spell"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Careful Spell"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Extended Spell"
+						}
+					]
+				}
 			]
 		},
 
@@ -1360,7 +1396,21 @@
 			"classSource": "PHB",
 			"level": 11,
 			"entries": [
-				"At 11th level, you learn the following metamagic options: Heightened Spell and Twinned Spell"
+				"At 11th level, you learn the following metamagic options:",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": " Heightened Spell"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Twinned Spell"
+						}
+					]
+				}
 			]
 		},
 		{
@@ -1433,7 +1483,21 @@
 			"classSource": "PHB",
 			"level": 15,
 			"entries": [
-				"At 15th level, you learn the following metamagic options: Empowered Spell and Seeking Spell"
+				"At 15th level, you learn the following metamagic options:",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": " Empowered Spell"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Seeking Spell"
+						}
+					]
+				}
 			]
 		},
 		{
@@ -1470,7 +1534,17 @@
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"At 18th level, you learn the following metamagic options: Autonomous Spell."
+				"At 18th level, you learn the following metamagic options: Autonomous Spell.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": " Autonomous Spell"
+						}
+					]
+				}
 			]
 		},
 		{

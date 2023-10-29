@@ -4865,10 +4865,24 @@
 			]
 		},
 		{
-			"name": "Seeking Spell",
-			"source": "TCE",
+			"name": "Autonomous Spell",
+			"source": "PHB",
 			"page": 66,
-			"isClassFeatureVariant": true,
+			"featureType": [
+				"MM"
+			],
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 2
+			},
+			"entries": [
+				"When you cast a spell that has a duration of concentration, you can spend 13 Spell Points to cast it without requiring concentration. For example, using an autonomous spell on “detect magic“ changes its duration to 10 minutes. You can have only one autonomous spell in effect at a time. If you use this metamagic to modify a second spell, the first autonomous spell ends."
+			]
+		},
+		{
+			"name": "Seeking Spell",
+			"source": "PHB",
+			"page": 66,
 			"featureType": [
 				"MM"
 			],
@@ -5575,9 +5589,8 @@
 		},
 		{
 			"name": "Transmuted Spell",
-			"source": "TCE",
+			"source": "PHB",
 			"page": 66,
-			"isClassFeatureVariant": true,
 			"featureType": [
 				"MM"
 			],
