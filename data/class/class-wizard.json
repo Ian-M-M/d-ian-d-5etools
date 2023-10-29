@@ -782,313 +782,6 @@
 	],
 	"subclass": [
 		{
-			"name": "School of Abjuration",
-			"shortName": "Abjuration",
-			"source": "PHB",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 115,
-			"subclassFeatures": [
-				"School of Abjuration|Wizard||Abjuration||2",
-				"Projected Ward|Wizard||Abjuration||6",
-				"Improved Abjuration|Wizard||Abjuration||10",
-				"Spell Resistance|Wizard||Abjuration||14"
-			]
-		},
-		{
-			"name": "School of Conjuration",
-			"shortName": "Conjuration",
-			"source": "PHB",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 116,
-			"subclassFeatures": [
-				"School of Conjuration|Wizard||Conjuration||2",
-				"Benign Transposition|Wizard||Conjuration||6",
-				"Focused Conjuration|Wizard||Conjuration||10",
-				"Durable Summons|Wizard||Conjuration||14"
-			]
-		},
-		{
-			"name": "School of Divination",
-			"shortName": "Divination",
-			"source": "PHB",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 116,
-			"subclassFeatures": [
-				"School of Divination|Wizard||Divination||2",
-				"Expert Divination|Wizard||Divination||6",
-				"The Third Eye|Wizard||Divination||10",
-				"Greater Portent|Wizard||Divination||14"
-			]
-		},
-		{
-			"name": "School of Enchantment",
-			"shortName": "Enchantment",
-			"source": "PHB",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 117,
-			"subclassFeatures": [
-				"School of Enchantment|Wizard||Enchantment||2",
-				"Instinctive Charm|Wizard||Enchantment||6",
-				"Split Enchantment|Wizard||Enchantment||10",
-				"Alter Memories|Wizard||Enchantment||14"
-			]
-		},
-		{
-			"name": "School of Evocation",
-			"shortName": "Evocation",
-			"source": "PHB",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 117,
-			"srd": true,
-			"basicRules": true,
-			"subclassFeatures": [
-				"School of Evocation|Wizard||Evocation||2",
-				"Potent Cantrip|Wizard||Evocation||6",
-				"Empowered Evocation|Wizard||Evocation||10",
-				"Overchannel|Wizard||Evocation||14"
-			]
-		},
-		{
-			"name": "School of Illusion",
-			"shortName": "Illusion",
-			"source": "PHB",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 118,
-			"additionalSpells": [
-				{
-					"known": {
-						"1": [
-							"minor illusion#c"
-						]
-					}
-				}
-			],
-			"subclassFeatures": [
-				"School of Illusion|Wizard||Illusion||2",
-				"Malleable Illusions|Wizard||Illusion||6",
-				"Illusory Self|Wizard||Illusion||10",
-				"Illusory Reality|Wizard||Illusion||14"
-			]
-		},
-		{
-			"name": "School of Necromancy",
-			"shortName": "Necromancy",
-			"source": "PHB",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 118,
-			"subclassFeatures": [
-				"School of Necromancy|Wizard||Necromancy||2",
-				"Undead Thralls|Wizard||Necromancy||6",
-				"Inured to Undeath|Wizard||Necromancy||10",
-				"Command Undead|Wizard||Necromancy||14"
-			]
-		},
-		{
-			"name": "School of Transmutation",
-			"shortName": "Transmutation",
-			"source": "PHB",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 119,
-			"subclassFeatures": [
-				"School of Transmutation|Wizard||Transmutation||2",
-				"Transmuter's Stone|Wizard||Transmutation||6",
-				"Shapechanger|Wizard||Transmutation||10",
-				"Master Transmuter|Wizard||Transmutation||14"
-			]
-		},
-		{
-			"name": "Artificer (UA)",
-			"shortName": "Artificer (UA)",
-			"source": "UAEberron",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 3,
-			"subclassFeatures": [
-				"Artificer|Wizard||Artificer (UA)|UAEberron|2",
-				"Infuse Weapons and Armor|Wizard||Artificer (UA)|UAEberron|6",
-				"Superior Artificer|Wizard||Artificer (UA)|UAEberron|10",
-				"Master Artificer|Wizard||Artificer (UA)|UAEberron|14"
-			]
-		},
-		{
-			"name": "Technomancy (UA)",
-			"shortName": "Technomancy (UA)",
-			"source": "UAModernMagic",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 3,
-			"subclassFeatures": [
-				"Technomancy|Wizard||Technomancy (UA)|UAModernMagic|2",
-				"Program Spell|Wizard||Technomancy (UA)|UAModernMagic|6",
-				"Online Casting|Wizard||Technomancy (UA)|UAModernMagic|10",
-				"Chained Device|Wizard||Technomancy (UA)|UAModernMagic|14"
-			]
-		},
-		{
-			"name": "Lore Mastery (UA)",
-			"shortName": "Lore Mastery (UA)",
-			"source": "UAWarlockAndWizard",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 5,
-			"subclassFeatures": [
-				"Lore Mastery|Wizard||Lore Mastery (UA)|UAWarlockAndWizard|2",
-				"Alchemical Casting|Wizard||Lore Mastery (UA)|UAWarlockAndWizard|6",
-				"Prodigious Memory|Wizard||Lore Mastery (UA)|UAWarlockAndWizard|10",
-				"Master of Magic|Wizard||Lore Mastery (UA)|UAWarlockAndWizard|14"
-			]
-		},
-		{
-			"name": "Theurgy (UA)",
-			"shortName": "Theurgy (UA)",
-			"source": "UAWizardRevisited",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 1,
-			"subclassFeatures": [
-				"Theurgy|Wizard||Theurgy (UA)|UAWizardRevisited|2",
-				"Arcane Acolyte|Wizard||Theurgy (UA)|UAWizardRevisited|6",
-				"Arcane Priest|Wizard||Theurgy (UA)|UAWizardRevisited|10",
-				"Arcane High Priest|Wizard||Theurgy (UA)|UAWizardRevisited|14"
-			]
-		},
-		{
-			"name": "War Magic (UA)",
-			"shortName": "War (UA)",
-			"source": "UAWizardRevisited",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 2,
-			"isReprinted": true,
-			"subclassFeatures": [
-				"War Magic|Wizard||War (UA)|UAWizardRevisited|2",
-				"Power Surge|Wizard||War (UA)|UAWizardRevisited|6",
-				"Durable Magic|Wizard||War (UA)|UAWizardRevisited|10",
-				"Durable Magic|Wizard||War (UA)|UAWizardRevisited|14"
-			]
-		},
-		{
-			"name": "War Magic",
-			"shortName": "War",
-			"source": "XGE",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 59,
-			"subclassFeatures": [
-				"War Magic|Wizard||War|XGE|2",
-				"Power Surge|Wizard||War|XGE|6",
-				"Durable Magic|Wizard||War|XGE|10",
-				"Deflecting Shroud|Wizard||War|XGE|14"
-			]
-		},
-		{
-			"name": "School of Invention (UA)",
-			"shortName": "Invention (UA)",
-			"source": "UAThreeSubclasses",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 2,
-			"subclassFeatures": [
-				"School of Invention|Wizard||Invention (UA)|UAThreeSubclasses|2",
-				"Alchemical Casting|Wizard||Invention (UA)|UAThreeSubclasses|6",
-				"Prodigious Inspiration|Wizard||Invention (UA)|UAThreeSubclasses|10",
-				"Controlled Chaos|Wizard||Invention (UA)|UAThreeSubclasses|14"
-			]
-		},
-		{
-			"name": "Onomancy (UA)",
-			"shortName": "Onomancy (UA)",
-			"source": "UAClericDruidWizard",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 4,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"2": [
-							"bane",
-							"bless"
-						]
-					}
-				}
-			],
-			"optionalfeatureProgression": [
-				{
-					"name": "Onomancy Resonant",
-					"featureType": [
-						"OR"
-					],
-					"progression": {
-						"6": 2,
-						"10": 2
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Onomancy|Wizard||Onomancy (UA)|UAClericDruidWizard|2",
-				"Resonant Utterance|Wizard||Onomancy (UA)|UAClericDruidWizard|6",
-				"Inexorable Pronouncement|Wizard||Onomancy (UA)|UAClericDruidWizard|10",
-				"Relentless Naming|Wizard||Onomancy (UA)|UAClericDruidWizard|14"
-			]
-		},
-		{
-			"name": "Psionics (UA)",
-			"shortName": "Psionics (UA)",
-			"source": "UAFighterRogueWizard",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 3,
-			"additionalSpells": [
-				{
-					"known": {
-						"2": {
-							"_": [
-								{
-									"choose": {
-										"from": [
-											"friends#c",
-											"mage hand#c",
-											"message#c"
-										]
-									}
-								}
-							]
-						},
-						"10": {
-							"daily": {
-								"1e": [
-									{
-										"choose": {
-											"from": [
-												"dominate person",
-												"scrying",
-												"telekinesis"
-											]
-										}
-									}
-								]
-							}
-						}
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Psionics|Wizard||Psionics (UA)|UAFighterRogueWizard|2",
-				"Thought Form|Wizard||Psionics (UA)|UAFighterRogueWizard|6",
-				"Mental Discipline|Wizard||Psionics (UA)|UAFighterRogueWizard|10",
-				"Empowered Psionics|Wizard||Psionics (UA)|UAFighterRogueWizard|10",
-				"Thought Travel|Wizard||Psionics (UA)|UAFighterRogueWizard|14"
-			]
-		},
-		{
 			"name": "Chronurgy Magic",
 			"shortName": "Chronurgy",
 			"source": "EGW",
@@ -1107,50 +800,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"Chronurgy Magic|Wizard||Chronurgy|EGW|2",
+				"Chronurgy Magic|Wizard||Chronurgy|EGW|3",
 				"Momentary Stasis|Wizard||Chronurgy|EGW|6",
 				"Arcane Abeyance|Wizard||Chronurgy|EGW|10",
 				"Convergent Future|Wizard||Chronurgy|EGW|14"
-			]
-		},
-		{
-			"name": "Graviturgy Magic",
-			"shortName": "Graviturgy",
-			"source": "EGW",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 185,
-			"additionalSpells": [
-				{
-					"expanded": {
-						"1": [
-							{
-								"all": "source=EGW"
-							}
-						]
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Graviturgy Magic|Wizard||Graviturgy|EGW|2",
-				"Gravity Well|Wizard||Graviturgy|EGW|6",
-				"Violent Attraction|Wizard||Graviturgy|EGW|10",
-				"Event Horizon|Wizard||Graviturgy|EGW|14"
-			]
-		},
-		{
-			"name": "Order of Scribes (UA)",
-			"shortName": "Scribes (UA)",
-			"source": "UA2020SubclassesRevisited",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 4,
-			"isReprinted": true,
-			"subclassFeatures": [
-				"Order of Scribes|Wizard||Scribes (UA)|UA2020SubclassesRevisited|2",
-				"Master Scrivener|Wizard||Scribes (UA)|UA2020SubclassesRevisited|6",
-				"Manifest Mind|Wizard||Scribes (UA)|UA2020SubclassesRevisited|10",
-				"One with the Word|Wizard||Scribes (UA)|UA2020SubclassesRevisited|14"
 			]
 		},
 		{
@@ -1167,7 +820,7 @@
 				}
 			],
 			"subclassFeatures": [
-				"Bladesinging|Wizard||Bladesinging|TCE|2",
+				"Bladesinging|Wizard||Bladesinging|TCE|3",
 				"Extra Attack|Wizard||Bladesinging|TCE|6",
 				"Song of Defense|Wizard||Bladesinging|TCE|10",
 				"Song of Victory|Wizard||Bladesinging|TCE|14"
@@ -1181,107 +834,10 @@
 			"classSource": "PHB",
 			"page": 77,
 			"subclassFeatures": [
-				"Order of Scribes|Wizard||Scribes|TCE|2",
+				"Order of Scribes|Wizard||Scribes|TCE|3",
 				"Manifest Mind|Wizard||Scribes|TCE|6",
 				"Master Scrivener|Wizard||Scribes|TCE|10",
 				"One with the Word|Wizard||Scribes|TCE|14"
-			]
-		},
-		{
-			"name": "Mage of Lorehold (UA)",
-			"shortName": "Lorehold (UA)",
-			"source": "UA2021MagesOfStrixhaven",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"_copy": {
-				"name": "Mage of Lorehold (UA)",
-				"shortName": "Lorehold (UA)",
-				"source": "UA2021MagesOfStrixhaven",
-				"className": "Generic",
-				"classSource": "Generic",
-				"_preserve": {
-					"page": true
-				}
-			}
-		},
-		{
-			"name": "Mage of Prismari (UA)",
-			"shortName": "Prismari (UA)",
-			"source": "UA2021MagesOfStrixhaven",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"_copy": {
-				"name": "Mage of Prismari (UA)",
-				"shortName": "Prismari (UA)",
-				"source": "UA2021MagesOfStrixhaven",
-				"className": "Generic",
-				"classSource": "Generic",
-				"_preserve": {
-					"page": true
-				}
-			}
-		},
-		{
-			"name": "Mage of Quandrix (UA)",
-			"shortName": "Quandrix (UA)",
-			"source": "UA2021MagesOfStrixhaven",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"_copy": {
-				"name": "Mage of Quandrix (UA)",
-				"shortName": "Quandrix (UA)",
-				"source": "UA2021MagesOfStrixhaven",
-				"className": "Generic",
-				"classSource": "Generic",
-				"_preserve": {
-					"page": true
-				}
-			}
-		},
-		{
-			"name": "Mage of Silverquill (UA)",
-			"shortName": "Silverquill (UA)",
-			"source": "UA2021MagesOfStrixhaven",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"_copy": {
-				"name": "Mage of Silverquill (UA)",
-				"shortName": "Silverquill (UA)",
-				"source": "UA2021MagesOfStrixhaven",
-				"className": "Generic",
-				"classSource": "Generic",
-				"_preserve": {
-					"page": true
-				}
-			}
-		},
-		{
-			"name": "Blood Magic",
-			"shortName": "Blood Magic",
-			"source": "TDCSR",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 178,
-			"subclassFeatures": [
-				"Blood Magic|Wizard|PHB|Blood Magic|TDCSR|2",
-				"Bond of Mutual Suffering|Wizard|PHB|Blood Magic|TDCSR|6",
-				"Glyph of Hemorrhaging|Wizard|PHB|Blood Magic|TDCSR|10",
-				"Bond of Mutual Suffering (14th Level)|Wizard|PHB|Blood Magic|TDCSR|14",
-				"Thicker than Water|Wizard|PHB|Blood Magic|TDCSR|14"
-			]
-		},
-		{
-			"name": "Runecrafter (UA)",
-			"shortName": "Runecrafter (UA)",
-			"source": "UA2022GiantOptions",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 3,
-			"subclassFeatures": [
-				"Runecrafter|Wizard||Runecrafter (UA)|UA2022GiantOptions|2",
-				"Sigils of Warding|Wizard||Runecrafter (UA)|UA2022GiantOptions|6",
-				"Rune Maven|Wizard||Runecrafter (UA)|UA2022GiantOptions|10",
-				"Engraved Enmity|Wizard||Runecrafter (UA)|UA2022GiantOptions|14"
 			]
 		}
 	],
@@ -1889,16 +1445,16 @@
 			"classSource": "PHB",
 			"subclassShortName": "Chronurgy",
 			"subclassSource": "EGW",
-			"level": 2,
+			"level": 3,
 			"entries": [
 				"Focusing on the manipulation of time, those who follow the Chronurgy tradition learn to alter the pace of reality to their liking. Using the ramping of anticipatory dunamis energy, these mages can bend the flow of time as adroitly as a skilled musician plays an instrument, lending themselves and their allies an advantage in the blink of an eye.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Chronal Shift|Wizard||Chronurgy|EGW|2"
+					"subclassFeature": "Chronal Shift|Wizard||Chronurgy|EGW|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Temporal Awareness|Wizard||Chronurgy|EGW|2"
+					"subclassFeature": "Temporal Awareness|Wizard||Chronurgy|EGW|3"
 				}
 			]
 		},
@@ -1910,12 +1466,11 @@
 			"classSource": "PHB",
 			"subclassShortName": "Chronurgy",
 			"subclassSource": "EGW",
-			"level": 2,
+			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Chronurgy Magic feature}",
-				"You can magically exert limited control over the flow of time around a creature. As a reaction, after you or a creature you can see within 30 feet of you makes an attack roll, an ability check, or a saving throw, you can force the creature to reroll. You make this decision after you see whether the roll succeeds or fails. The target must use the result of the second roll.",
-				"You can use this ability twice, and you regain any expended uses when you finish a long rest."
+				"You can magically exert limited control over the flow of time around a creature. As a reaction, after you or a creature you can see within 30 feet of you makes an attack roll, an ability check, or a saving throw, you can force the creature to reroll. You make this decision after you see whether the roll succeeds or fails. The target must use the result of the new roll.",
+				"You can use this ability a number of times equal to your Intelligence modifier, and you regain any expended uses when you finish a long rest."
 			]
 		},
 		{
@@ -1926,10 +1481,9 @@
 			"classSource": "PHB",
 			"subclassShortName": "Chronurgy",
 			"subclassSource": "EGW",
-			"level": 2,
+			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Chronurgy Magic feature}",
 				"You can add your Intelligence modifier to your initiative rolls."
 			]
 		},
@@ -1944,9 +1498,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Chronurgy Magic feature}",
 				"As an action, you can magically force a Large or smaller creature you can see within 60 feet of you to make a Constitution saving throw against your spell save DC. Unless the saving throw is a success, the creature is encased in a field of magical energy until the end of your next turn or until the creature takes any damage. While encased in this way, the creature is {@condition incapacitated} and has a speed of 0.",
-				"You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+				"You can use this feature a number of times equal to half your proficiency bonus. You regain all expended uses when you finish a long rest."
 			]
 		},
 		{
@@ -1960,7 +1513,6 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Chronurgy Magic feature}",
 				"When you cast a spell using a spell slot of 4th level or lower, you can condense the spell's magic into a mote. The spell is frozen in time at the moment of casting and held within a gray bead for 1 hour. This bead is a Tiny object with AC 15 and 1 hit point, and it is immune to poison and psychic damage. When the duration ends, or if the bead is destroyed, it vanishes in a flash of light, and the spell is lost.",
 				"A creature holding the bead can use its action to release the spell within, whereupon the bead disappears. The spell uses your spell attack bonus and save DC, and the spell treats the creature who released it as the caster for all other purposes.",
 				"Once you create a bead with this feature, you can't do so again until you finish a short or long rest."
@@ -1977,9 +1529,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Chronurgy Magic feature}",
 				"You can peer through possible futures and magically pull one of them into events around you, ensuring a particular outcome. When you or a creature you can see within 60 feet of you makes an attack roll, an ability check, or a saving throw, you can use your reaction to ignore the die roll and decide whether the number rolled is the minimum needed to succeed or one less than that number (your choice).",
-				"When you use this feature, you gain one level of {@condition exhaustion}. Only by finishing a long rest can you remove a level of {@condition exhaustion} gained in this way."
+				"When you use this feature, you can’t use it again until you finish a long rest."
 			]
 		},
 		{
@@ -2922,7 +2473,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Bladesinging",
 			"subclassSource": "TCE",
-			"level": 2,
+			"level": 3,
 			"entries": [
 				"Bladesingers master a tradition of wizardry that incorporates swordplay and dance. Originally created by elves, this tradition has been adopted by non-elf practitioners, who honor and expand on the elven ways.",
 				"In combat, a bladesinger uses a series of intricate, elegant maneuvers that fend off harm and allow the bladesinger to channel magic into devastating attacks and a cunning defense. Many who have observed a bladesinger at work remember the display as one of the more beautiful experiences in their life, a glorious dance accompanied by a singing blade.",
@@ -3104,7 +2655,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Scribes",
 			"subclassSource": "TCE",
-			"level": 2,
+			"level": 3,
 			"entries": [
 				"Magic of the book-that's what many folk call wizardry. The name is apt, given how much time wizards spend poring over tomes and penning theories about the nature of magic. It's rare to see wizards traveling without books and scrolls sprouting from their bags, and a wizard would go to great lengths to plumb an archive of ancient knowledge.",
 				"Among wizards, the Order of Scribes is the most bookish. It takes many forms in different worlds, but its primary mission is the same everywhere: recording magical discoveries so that wizardry can flourish. And while all wizards value spellbooks, a wizard in the Order of Scribes magically awakens their book, turning it into a trusted companion. All wizards study books, but a wizardly scribe talks to theirs!",
