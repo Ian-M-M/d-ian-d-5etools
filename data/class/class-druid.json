@@ -621,7 +621,7 @@
 
 				"Ability Score Improvement|Druid||12",
 
-				"Altering Forms|Druid||13",
+				"Alternating Forms|Druid||13",
 
 				{
 					"classFeature": "Druid Circle feature|Druid||14",
@@ -2833,8 +2833,8 @@
 			]
 		},
 		{
-			"name": "Nauture's Aid",
-			"source": "TCE",
+			"name": "Nature's Aid",
+			"source": "PHB",
 			"page": 35,
 			"className": "Druid",
 			"classSource": "PHB",
