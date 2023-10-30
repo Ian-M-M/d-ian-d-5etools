@@ -1769,8 +1769,7 @@
 					"type": "entries",
 					"name": "Cantrips (0-Level Spells)",
 					"entries": [
-						"At 1st level, you know two cantrips of your choice from the {@filter artificer spell list|spells|level=0|class=Artificer}. At higher levels, you learn additional artificer cantrips of your choice, as shown in the Cantrips Known column of the Artificer table.",
-						"When you gain a level in this class, you can replace one of the artificer cantrips you know with another cantrip from the artificer spell list."
+						"You can prepare two Cantrips, you learn one extra at 10th level and another at 14th level. Those Cantrips are from the Artificer Spell List.  Additionally you always have the {@spell Arcane Weapon|HMB} cantrip, and doesn’t count for the amount of cantrips that you know."
 					]
 				},
 				{
