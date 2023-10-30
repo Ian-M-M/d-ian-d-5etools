@@ -181,6 +181,46 @@
 			"name": "Sorcerous Burst",
 			"source": "HMB",
 			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You channel arcane energy into one Artificer Spellcasting Focus you're holding, and choose one damage type: acid, cold, fire, lightning, poison, or thunder. You make a ranged spell attack against a creature in the range, dealing 1d8 damage of the chosen type to any target you hit."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sorcerous Burst",
+			"source": "HMB",
+			"level": 0,
 			"school": "V",
 			"time": [
 				{
