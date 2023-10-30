@@ -1025,15 +1025,12 @@
 			]
 		},
 		{
-			"name": "Channel Divinity: Harness Divine Power",
+			"name": "Harness Divine Power",
 			"source": "TCE",
 			"page": 52,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"level": 3,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
 			"entries": [
 				"You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 3rd level, once; 7th level, twice; and 15th level, thrice. You regain all expended uses when you finish a long rest."
 			]
@@ -1046,9 +1043,6 @@
 			"classSource": "PHB",
 			"level": 3,
 			"isClassFeatureVariant": true,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
 			"entries": [
 				"{@i 3rd-level paladin feature (enhances Channel Divinity)}",
 				"You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended 1st-level spell slot."
@@ -1104,11 +1098,7 @@
 				},
 				{
 					"type": "refClassFeature",
-					"classFeature": "Channel Divinity: Harness Divine Power|Paladin||3|UAClassFeatureVariants"
-				},
-				{
-					"type": "refClassFeature",
-					"classFeature": "Channel Divinity: Harness Divine Power|Paladin||3|TCE"
+					"classFeature": "Harness Divine Power|Paladin||3|TCE"
 				},
 				{
 					"name": "Breaking Your Oath",
@@ -1437,6 +1427,9 @@
 			"subclassSource": "DMG",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"As a bonus action, you can expend a use of your Channel Divinity to force each creature that is 10 feet from you, must make a Wisdom saving throw. On a failed save, the target is frightened of you for 1 minute. A creature frightened by you can repeat the save at the end of its turn, ending the effect on itself."
 			]
@@ -1571,9 +1564,6 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
 			"entries": [
 				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
 				{
@@ -1596,6 +1586,9 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be {@condition restrained}. While {@condition restrained} by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish."
 			]
@@ -1720,8 +1713,11 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
-				"As a bonus action, you can expend and heal yourself and any ally that is 10 ft from you. At the start of your next turn you heal again. The amount of healing is your charisma modifier. The second heal only happens while you aren’t incapacitated."
+				"As a bonus action, you can expend a use of your Channel Divinity and heal yourself and any ally that is 10 ft from you. At the start of your next turn you heal again. The amount of healing is your charisma modifier. The second heal only happens while you aren’t incapacitated."
 			]
 		},
 		{
@@ -1884,6 +1880,9 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"As a bonus action, you can imbue one Simple or Martial weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1), and each time you hit with it, you cause it to deal radiant damage instead of its normal damage type.",
 				"The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that.",
@@ -2210,6 +2209,9 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"You can use your Channel Divinity as a bonus action and distribute temporary hit points to creatures of your choice within 30 feet of you, which can include you. The total number of temporary hit points equals 2d8 + your level in this class, divided among the chosen creatures however you like."
 			]
@@ -2230,6 +2232,9 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"As a bonus action, you can use your Channel Divinity to augment your athleticism. For the next 10 minutes, you have advantage on Strength ({@skill Athletics}) and Dexterity ({@skill Acrobatics}) checks; you can carry, push, drag, and lift twice as much weight as normal; and the distance of your long and high jumps increases by 10 feet (this extra distance costs movement as normal)."
 			]
