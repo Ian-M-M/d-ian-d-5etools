@@ -498,7 +498,7 @@
 			"className": "Fighter",
 			"classSource": "PHB",
 			"page": 74,
-			"spellcastingAbility": "int",
+			"spellcastingAbility": "con",
 			"casterProgression": "1/3",
 			"cantripProgression": [
 				0,
@@ -861,6 +861,49 @@
 				"Ever-Ready Shot|Fighter||Arcane Archer|XGE|15",
 				"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|15",
 				"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|18"
+			]
+		},
+		{
+			"name": "Champion",
+			"shortName": "Champion",
+			"source": "PHB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"page": 72,
+			"srd": true,
+			"basicRules": true,
+			"optionalfeatureProgression": [
+				{
+					"name": "Fighting Style",
+					"featureType": [
+						"FS:F"
+					],
+					"progression": {
+						"10": 1
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Champion|Fighter||Champion||3",
+				"Remarkable Athlete|Fighter||Champion||7",
+				"Additional Fighting Style|Fighter||Champion||10",
+				"Superior Critical|Fighter||Champion||15",
+				"Survivor|Fighter||Champion||18"
+			]
+		},
+		{
+			"name": "Psi Warrior",
+			"shortName": "Psi Warrior",
+			"source": "TCE",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"page": 42,
+			"subclassFeatures": [
+				"Psi Warrior|Fighter||Psi Warrior|TCE|3",
+				"Telekinetic Adept|Fighter||Psi Warrior|TCE|7",
+				"Guarded Mind|Fighter||Psi Warrior|TCE|10",
+				"Bulwark of Force|Fighter||Psi Warrior|TCE|15",
+				"Telekinetic Master|Fighter||Psi Warrior|TCE|18"
 			]
 		},
 		{
@@ -2150,19 +2193,19 @@
 							"type": "entries",
 							"name": "Spellcasting Ability",
 							"entries": [
-								"Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
+								"Constitution is your spellcasting ability for your wizard spells, since your magic is tied up to the workship of your training. You use your Constitution whenever a spell refers to your spellcasting ability. In addition, you use your Constitution modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
 								{
 									"type": "abilityDc",
 									"name": "Spell",
 									"attributes": [
-										"int"
+										"con"
 									]
 								},
 								{
 									"type": "abilityAttackMod",
 									"name": "Spell",
 									"attributes": [
-										"int"
+										"con"
 									]
 								}
 							]
