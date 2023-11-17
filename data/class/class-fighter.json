@@ -1098,7 +1098,7 @@
 				{
 					"name": "Maneuvers",
 					"entries":[
-						"You learn one maneuver of your choice, which are listed in the Class Features as “Battle Maneuvers”. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.",
+						"You learn one {@filter maneuver|optionalfeatures|Feature Type=MV:B} of your choice. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.",
 						"Your Maneuvers Known is equal to your Proficiency Bonus minus 1. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one."
 					]
 				},

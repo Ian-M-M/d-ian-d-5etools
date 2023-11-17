@@ -292,60 +292,65 @@
 			],
 			"classFeatures": [
 				"Favored Enemy|Ranger||1",
-				"Natural Explorer|Ranger||1",
-				"Deft Explorer|Ranger||1|UAClassFeatureVariants",
-				"Deft Explorer|Ranger||1|TCE",
+				"Favored Terrain|Ranger||1",
+				"Hunter's Sense|Ranger||1",
+
+				"Expertise|Ranger||2",
 				"Fighting Style|Ranger||2",
-				"Martial Versatility|Ranger||2|UAClassFeatureVariants",
-				"Spellcasting|Ranger||2",
-				"Spell Versatility|Ranger||2|UAClassFeatureVariants",
-				"Spellcasting Focus|Ranger||2|UAClassFeatureVariants",
-				"Spellcasting Focus|Ranger||2|TCE",
+
+				"Spellcasting|Ranger||3",
+				"Nature Magic|Ranger||3",
 				{
-					"classFeature": "Ranger Archetype|Ranger||3",
+					"classFeature": "Ranger Conclave|Ranger||3",
 					"gainSubclassFeature": true
 				},
-				"Primeval Awareness|Ranger||3",
-				"Primal Awareness|Ranger||3|UAClassFeatureVariants",
-				"Primal Awareness|Ranger||3|TCE",
+
 				"Ability Score Improvement|Ranger||4",
-				"Proficiency Versatility|Ranger||4|UAClassFeatureVariants",
-				"Martial Versatility|Ranger||4|TCE",
+
 				"Extra Attack|Ranger||5",
-				"Favored Enemy and Natural Explorer improvements|Ranger||6",
-				"Deft Explorer Improvement|Ranger||6|TCE",
+
+				"Greater Favored Enemy|Ranger||6",
+				"Roving|Ranger||6",
+
 				{
-					"classFeature": "Ranger Archetype feature|Ranger||7",
+					"classFeature": "Ranger Conclave feature|Ranger||7",
 					"gainSubclassFeature": true
 				},
+
 				"Ability Score Improvement|Ranger||8",
-				"Proficiency Versatility|Ranger||8|UAClassFeatureVariants",
-				"Land's Stride|Ranger||8",
-				"Hide in Plain Sight|Ranger||10",
-				"Fade Away|Ranger||10|UAClassFeatureVariants",
-				"Nature's Veil|Ranger||10|TCE",
-				"Natural Explorer improvement|Ranger||10",
-				"Deft Explorer Improvement|Ranger||10|TCE",
+				
+				"Expertise|Ranger||9",
+
+				"Tireless|Ranger||10",
+				"Favored Enemy improvement|Ranger||10",
+				
 				{
-					"classFeature": "Ranger Archetype feature|Ranger||11",
+					"classFeature": "Ranger Conclave feature|Ranger||11",
 					"gainSubclassFeature": true
 				},
+
 				"Ability Score Improvement|Ranger||12",
-				"Proficiency Versatility|Ranger||12|UAClassFeatureVariants",
-				"Vanish|Ranger||14",
+
+				"Nature's Veil|Ranger||13",
+
 				"Favored Enemy improvement|Ranger||14",
+
 				{
-					"classFeature": "Ranger Archetype feature|Ranger||15",
+					"classFeature": "Ranger Conclave feature|Ranger||15",
 					"gainSubclassFeature": true
 				},
+
 				"Ability Score Improvement|Ranger||16",
-				"Proficiency Versatility|Ranger||16|UAClassFeatureVariants",
-				"Feral Senses|Ranger||18",
+				
+				"Feral Senses|Ranger||17",
+
+				"Favored Enemy improvement|Ranger||18",
+
 				"Ability Score Improvement|Ranger||19",
-				"Proficiency Versatility|Ranger||19|UAClassFeatureVariants",
+				
 				"Foe Slayer|Ranger||20"
 			],
-			"subclassTitle": "Ranger Archetype",
+			"subclassTitle": "Ranger Conclave",
 			"fluff": [
 				{
 					"name": "Ranger",
@@ -816,7 +821,7 @@
 				"Martial Versatility|Ranger (Spell-less)|UAModifyingClasses|2|UAClassFeatureVariants",
 				"Combat Superiority|Ranger (Spell-less)|UAModifyingClasses|2",
 				{
-					"classFeature": "Ranger Archetype|Ranger (Spell-less)|UAModifyingClasses|3",
+					"classFeature": "Ranger Conclave|Ranger (Spell-less)|UAModifyingClasses|3",
 					"gainSubclassFeature": true
 				},
 				"Primeval Awareness|Ranger (Spell-less)|UAModifyingClasses|3",
@@ -831,7 +836,7 @@
 				"Favored Enemy and Natural Explorer improvements|Ranger (Spell-less)|UAModifyingClasses|6",
 				"Deft Explorer Improvement|Ranger (Spell-less)|UAModifyingClasses|6|TCE",
 				{
-					"classFeature": "Ranger Archetype feature|Ranger (Spell-less)|UAModifyingClasses|7",
+					"classFeature": "Ranger Conclave feature|Ranger (Spell-less)|UAModifyingClasses|7",
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Ranger (Spell-less)|UAModifyingClasses|8",
@@ -845,7 +850,7 @@
 				"Natural Explorer improvement|Ranger (Spell-less)|UAModifyingClasses|10",
 				"Deft Explorer Improvement|Ranger (Spell-less)|UAModifyingClasses|10|TCE",
 				{
-					"classFeature": "Ranger Archetype feature|Ranger (Spell-less)|UAModifyingClasses|11",
+					"classFeature": "Ranger Conclave feature|Ranger (Spell-less)|UAModifyingClasses|11",
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Ranger (Spell-less)|UAModifyingClasses|12",
@@ -855,7 +860,7 @@
 				"Vanish|Ranger (Spell-less)|UAModifyingClasses|14",
 				"Favored Enemy improvement|Ranger (Spell-less)|UAModifyingClasses|14",
 				{
-					"classFeature": "Ranger Archetype feature|Ranger (Spell-less)|UAModifyingClasses|15",
+					"classFeature": "Ranger Conclave feature|Ranger (Spell-less)|UAModifyingClasses|15",
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Ranger (Spell-less)|UAModifyingClasses|16",
@@ -867,7 +872,7 @@
 				"Proficiency Versatility|Ranger (Spell-less)|UAModifyingClasses|19|UAClassFeatureVariants",
 				"Foe Slayer|Ranger (Spell-less)|UAModifyingClasses|20"
 			],
-			"subclassTitle": "Ranger Archetype",
+			"subclassTitle": "Ranger Conclave",
 			"fluff": [
 				{
 					"name": "Ranger",
@@ -3262,6 +3267,20 @@
 			]
 		},
 		{
+			"name": "Hunter's Sense",
+			"source": "PHB",
+			"page": 89,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"level": 1,
+			"entries": [
+				"At 1st level, when you hit with an attack you can designate it as your Prey, you must be able to see or hear the prey, or you must be tracking the prey during exploration.",
+				"You gain a +2 bonus to Perception checks when you Seek your prey and to Survival checks when you Track your prey. You also ignore the disadvantage for making ranged attacks within your long range and for attacking at 5 ft against the prey you’re hunting. Additionally, the first time you hit your prey in a round, you also deal 1d8 additional damage.",
+				"You can have only one creature designated as your prey at a time.  If you use Hunter’s Sense against a creature when you already have a creature designated, the prior creature loses the designation and the new prey gains the designation. Your designation lasts until your next Long Rest."
+			]
+		},
+		{
 			"name": "Favored Enemy",
 			"source": "PHB",
 			"page": 89,
@@ -3270,11 +3289,73 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
-				"Choose a type of favored enemy: {@filter aberrations|bestiary|type=aberration}, {@filter beasts|bestiary|type=beast}, {@filter celestials|bestiary|type=celestial}, {@filter constructs|bestiary|type=construct}, {@filter dragons|bestiary|type=dragon}, {@filter elementals|bestiary|type=elemental}, {@filter fey|bestiary|type=fey}, {@filter fiends|bestiary|type=fiend}, {@filter giants|bestiary|type=giant}, {@filter monstrosities|bestiary|type=monstrosity}, {@filter oozes|bestiary|type=ooze}, {@filter plants|bestiary|type=plant}, or {@filter undead|bestiary|type=undead}. Alternatively, you can select two races of {@filter humanoid|bestiary|type=humanoid} (such as {@creature gnoll||gnolls} and {@creature orc||orcs}) as favored enemies.",
-				"You have advantage on Wisdom ({@skill Survival}) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
-				"When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
-				"You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."
+				"Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy commonly encountered in the wilds.",
+				"Choose a type of favored enemy: beasts, fey, humanoids, monstrosities, or undead. You gain a +2 bonus to damage rolls with weapon attacks against creatures of the chosen type. Additionally, if you have marked a creature of your favored enemy as your Prey, you have advantage attacking them.",
+				"When you gain this feature, you also learn one language of your choice, typically one spoken by your favored enemy or creatures associated with it. However, you are free to pick any language you wish to learn."
+			]
+		},
+		{
+			"name": "Favored Terrain",
+			"source": "PHB",
+			"page": 89,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"level": 1,
+			"entries": [
+				"At 1st level, you have studied a specific terrain to overcome its challenges. Choose aquatic, arctic, desert, forest, mountain, plains, sky, swamp, or underground as your favored terrain. When in that terrain, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You ignore difficult terrain.",
+						"You have advantage on initiative rolls.",
+						"On your first turn during combat, you have advantage on attack rolls against creatures that have not yet acted."
+					]
+				},
+				"Additionally, you gain a second benefit, depending on your choice.",
+				{
+					"name": "Aquatic",
+					"entries":[
+						"You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain +10 ft to your swim Speed."
+					]
+				},
+				{
+					"name": "Artic",
+					"entries":[
+						"You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain +10 ft to your swim Speed."
+					]
+				},
+				{
+
+					"name": "Desert ",
+					"entries":[
+						"You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain +10 ft to your swim Speed."
+					]
+				},
+				{
+					"name": "Forest, Mountain, or Underground",
+					"entries":[
+						"You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain +10 ft to your swim Speed."
+					]
+				},
+				{
+					"name": "Plains or Swamp",
+					"entries":[
+						"You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain +10 ft to your swim Speed."
+					]
+				},
+				{
+					"name": "Sky",
+					"entries":[
+						"You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain +10 ft to your swim Speed."
+					]
+				},
+				{
+					"name": "Urban",
+					"entries":[
+						"You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain +10 ft to your swim Speed."
+					]
+				}
 			]
 		},
 		{
@@ -3333,6 +3414,17 @@
 			]
 		},
 		{
+			"name": "Expertise",
+			"source": "PHB",
+			"page": 7,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you gain Expertise in two of your Skill Proficiencies of your choice."
+			]
+		},
+		{
 			"name": "Roving",
 			"source": "UAClassFeatureVariants",
 			"page": 7,
@@ -3355,6 +3447,52 @@
 			"entries": [
 				"As an action, you can give yourself a number of temporary hit points equal to {@dice 1d10} + your Wisdom modifier. You can use this special action a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest.",
 				"In addition, whenever you finish a short rest, your {@condition exhaustion} level, if any, is decreased by 1."
+			]
+		},
+		{
+			"name": "Nature Magic",
+			"source": "PHB",
+			"page": 7,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Nature Magic Spells table. These spells don't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Nature Magic Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell Speak with animals}"
+						],
+						[
+							"5th",
+							"{@spell Beast sense}"
+						],
+						[
+							"9th",
+							"{@spell Speak with plants}"
+						],
+						[
+							"13th",
+							"{@spell Locate creature}"
+						],
+						[
+							"17th",
+							"{@spell Commune with nature}"
+						]
+					]
+				},
+				"You can cast each of these spells once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest."
 			]
 		},
 		{
@@ -3459,6 +3597,68 @@
 			"entries": [
 				"{@i 2nd-level ranger feature (enhances Spellcasting)}",
 				"Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the ranger spell list. The new spell must be the same level as the spell you replace."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "PHB",
+			"page": 89,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"level": 3,
+			"entries": [
+				"By the time you reach 3rd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter ranger spell list|spells|class=ranger}.",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"You can prepare two Cantrips (you learn one extra at 10th level); those cantrips must be from the Druid spell list."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Ranger table shows how many spell slots you have to cast your {@filter ranger spells|spells|class=ranger} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"For example, if you know the 1st-level spell {@spell animal friendship} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell animal friendship} using either slot."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Preparing and Casting Spells",
+					"entries": [
+						"Any Spell you prepare for this Class must be a Druid or Ranger Spell. Whenever you finish a Long Rest, you can commune with nature and replace any Spell you have prepared for this Class with another Druid or Ranger Spell. At higher levels in this Class, you can prepare more Spells. The amount of spells you can prepare is equal to your Wisdom modifier + half of your Ranger level, rounded down (minimum of 1)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"wis"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"wis"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use a Druidic Focus as a Spellcasting Focus for the Spells you prepare for this Class."
+					]
+				}
 			]
 		},
 		{
@@ -3646,7 +3846,7 @@
 			]
 		},
 		{
-			"name": "Ranger Archetype",
+			"name": "Ranger Conclave",
 			"source": "PHB",
 			"page": 89,
 			"srd": true,
@@ -3654,7 +3854,28 @@
 			"classSource": "PHB",
 			"level": 3,
 			"entries": [
-				"At 3rd level, you choose an archetype that you strive to emulate from the list of available archetypes. Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level."
+				"At 3rd level, you choose an conclave that you strive to emulate from the list of available conclaves. Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level.",
+				{
+					"type": "entries",
+					"name": "Channel Nature",
+					"entries": [
+						"Your ranger archetype allows you to channel nature's energy to fuel magical effects. Each Channel Nature option provided by your Conclave explains how to use it.",
+						"When you use your Channel Nature, you choose which option to use. You must then finish a short or long rest to use your Channel Nature again.",
+						"Some Channel Nature effects require saving throws. When you use such an effect from this class, the DC equals your ranger spell save DC.",
+						{
+							"type": "entries",
+							"name": "Channel Nature: Invoke Spirit",
+							"entries": [
+								"When you gain your Conclave, you have forged a special bond with a spirit, that give you your Ranger Conclave traits.",
+								"You can expend a use of your Channel Nature to invoice your spirit. You magically summon a creature which is related to your Conclave. The spirit is friendly to you and your companions and obeys your commands. Choose its stat block—Beast of the Land, Beast of the Sea, or Beast of the Sky—which uses your proficiency bonus (PB) in several places. You also determine the form of the spirit, choosing a kind appropriate for the stat block. Whatever kind you choose, the spirit bears primal markings, indicating its mystical origin.",
+								"In combat, the spirit acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action. If you are incapacitated, the beast can take any action of its choice, not just Dodge.",
+								"If the spirit has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The spirit returns to life after 1 minute with all its hit points restored.",
+								"When you finish a long rest, you can summon the spirit without using your Channel Nature. The spirit appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have the spirits from this feature, it vanishes when the new spirit appears. The spirit also vanishes if you die.",
+								"At 11th level, your spirit gains Multiattack and its attacks counts as magical."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -3710,6 +3931,29 @@
 			]
 		},
 		{
+			"name": "Greater Favored Enemy",
+			"source": "PHB",
+			"page": 56,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"level": 6,
+			"entries": [
+				"At 6th level, you are ready to hunt even deadlier game. Choose a type of greater favored enemy: aberrations, celestials, constructs, dragons, elementals, fiends, or giants. You gain all the benefits against this chosen enemy that you normally gain against your favored enemy, including an additional language. Your bonus to damage rolls against all your favored enemies increases to +4.",
+				"Additionally, you have advantage on saving throws against the spells and abilities used by a greater favored enemy."
+			]
+		},
+		{
+			"name": "Roving",
+			"source": "PHB",
+			"page": 56,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"level": 6,
+			"entries": [
+				"Beginning at 6th level, your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed."
+			]
+		},
+		{
 			"name": "Deft Explorer Improvement",
 			"source": "TCE",
 			"page": 56,
@@ -3742,7 +3986,7 @@
 			]
 		},
 		{
-			"name": "Ranger Archetype feature",
+			"name": "Ranger Conclave feature",
 			"source": "PHB",
 			"page": 89,
 			"srd": true,
@@ -3750,7 +3994,7 @@
 			"classSource": "PHB",
 			"level": 7,
 			"entries": [
-				"At 7th level, you gain a feature granted to you by your Ranger Archetype."
+				"At 7th level, you gain a feature granted to you by your Ranger Conclave."
 			]
 		},
 		{
@@ -3764,6 +4008,18 @@
 			"entries": [
 				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "PHB",
+			"page": 89,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"level": 9,
+			"entries": [
+				"At 9th level, you gain Expertise in two of your Skill Proficiencies of your choice."
 			]
 		},
 		{
@@ -3791,6 +4047,29 @@
 				"{@i 8th-level feature (enhances Ability Score Improvement)}",
 				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
+			]
+		},
+		{
+			"name": "Tireless",
+			"source": "PHB",
+			"page": 56,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"level": 10,
+			"entries": [
+				"At 10th level, as an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+				"In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1."
+			]
+		},
+		{
+			"name": "Favored Enemy improvement",
+			"source": "PHB",
+			"page": 56,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"level": 10,
+			"entries": [
+				"At 10th level, the damage of your Hunter’s Mark spell becomes 1d8."
 			]
 		},
 		{
@@ -3867,7 +4146,7 @@
 			]
 		},
 		{
-			"name": "Ranger Archetype feature",
+			"name": "Ranger Conclave feature",
 			"source": "PHB",
 			"page": 89,
 			"srd": true,
@@ -3875,7 +4154,7 @@
 			"classSource": "PHB",
 			"level": 11,
 			"entries": [
-				"At 11th level, you gain a feature granted to you by your Ranger Archetype."
+				"At 11th level, you gain a feature granted to you by your Ranger Conclave."
 			]
 		},
 		{
@@ -3889,6 +4168,17 @@
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Nature's Veil",
+			"source": "PHB",
+			"page": 56,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"level": 13,
+			"entries": [
+				"At 13th level, you invoke spirits of nature to magically hide yourself from view. As a Bonus Action, you can expend a Spell Slot and become Invisible until the end of your next turn."
 			]
 		},
 		{
@@ -3914,7 +4204,7 @@
 			"classSource": "PHB",
 			"level": 14,
 			"entries": [
-				"At 14th level, you choose one additional favored enemy, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures."
+				"At 14th level, if you have marked your Prey, your attacks are critical against that creature on a 19 or 20."
 			]
 		},
 		{
@@ -3930,7 +4220,7 @@
 			]
 		},
 		{
-			"name": "Ranger Archetype feature",
+			"name": "Ranger Conclave feature",
 			"source": "PHB",
 			"page": 89,
 			"srd": true,
@@ -3938,7 +4228,7 @@
 			"classSource": "PHB",
 			"level": 15,
 			"entries": [
-				"At 15th level, you gain a feature granted to you by your Ranger Archetype."
+				"At 15th level, you gain a feature granted to you by your Ranger Conclave."
 			]
 		},
 		{
@@ -3975,9 +4265,33 @@
 			"srd": true,
 			"className": "Ranger",
 			"classSource": "PHB",
+			"level": 17,
+			"entries": [
+				"At 17th level, your connection to the forces of nature grants you Blindsight with a range of 30 feet."
+			]
+		},
+		{
+			"name": "Feral Senses",
+			"source": "PHB",
+			"page": 89,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "PHB",
 			"level": 18,
 			"entries": [
 				"At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it. You are also aware of the location of any {@condition invisible} creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't {@condition blinded} or {@condition deafened}."
+			]
+		},
+		{
+			"name": "Favored Enemy Improvement",
+			"source": "PHB",
+			"page": 89,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"level": 18,
+			"entries": [
+				"At 18th level, you add your Wisdom modifier to the damage dealt to your Prey."
 			]
 		},
 		{
@@ -4016,7 +4330,7 @@
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
+				"At 20th level, you become an unparalleled hunter of your enemies. You can have up to three creatures marked as your Prey, additionally you gain the benefits of the Hunter’s Mark Spell against your Preys."
 			]
 		},
 		{
@@ -4195,7 +4509,7 @@
 					"type": "entries",
 					"name": "Maneuvers",
 					"entries": [
-						"You learn two {@filter maneuvers|optionalfeatures|feature type=mv:b} of your choice, which are chosen from the list of maneuvers available to fighters with the Battle Master archetype. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.",
+						"You learn two {@filter maneuvers|optionalfeatures|feature type=mv:b} of your choice, which are chosen from the list of maneuvers available to fighters with the Battle Master conclave. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.",
 						"You learn one additional maneuver of your choice at 5th, 9th, 13th, and 17th levels. Each time you learn a new maneuver, you can also replace one maneuver you know with a different one."
 					]
 				},
@@ -4437,14 +4751,14 @@
 			]
 		},
 		{
-			"name": "Ranger Archetype",
+			"name": "Ranger Conclave",
 			"source": "UAModifyingClasses",
 			"page": 5,
 			"className": "Ranger (Spell-less)",
 			"classSource": "UAModifyingClasses",
 			"level": 3,
 			"entries": [
-				"At 3rd level, you choose an archetype that you strive to emulate from the list of available archetypes. Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level."
+				"At 3rd level, you choose an conclave that you strive to emulate from the list of available conclaves. Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level."
 			]
 		},
 		{
@@ -4496,7 +4810,7 @@
 			"classSource": "UAModifyingClasses",
 			"level": 5,
 			"entries": [
-				"At 5th level, you learn one additional maneuver of your choice, which is chosen from the list of maneuvers available to fighters with the Battle Master archetype."
+				"At 5th level, you learn one additional maneuver of your choice, which is chosen from the list of maneuvers available to fighters with the Battle Master conclave."
 			]
 		},
 		{
@@ -4542,14 +4856,14 @@
 			]
 		},
 		{
-			"name": "Ranger Archetype feature",
+			"name": "Ranger Conclave feature",
 			"source": "UAModifyingClasses",
 			"page": 5,
 			"className": "Ranger (Spell-less)",
 			"classSource": "UAModifyingClasses",
 			"level": 7,
 			"entries": [
-				"At 7th level, you gain a feature granted to you by your Ranger Archetype."
+				"At 7th level, you gain a feature granted to you by your Ranger Conclave."
 			]
 		},
 		{
@@ -4599,7 +4913,7 @@
 			"classSource": "UAModifyingClasses",
 			"level": 9,
 			"entries": [
-				"At 9th level, you learn one additional maneuver of your choice, which is chosen from the list of maneuvers available to fighters with the Battle Master archetype."
+				"At 9th level, you learn one additional maneuver of your choice, which is chosen from the list of maneuvers available to fighters with the Battle Master conclave."
 			]
 		},
 		{
@@ -4687,14 +5001,14 @@
 			]
 		},
 		{
-			"name": "Ranger Archetype feature",
+			"name": "Ranger Conclave feature",
 			"source": "UAModifyingClasses",
 			"page": 5,
 			"className": "Ranger (Spell-less)",
 			"classSource": "UAModifyingClasses",
 			"level": 11,
 			"entries": [
-				"At 11th level, you gain a feature granted to you by your Ranger Archetype."
+				"At 11th level, you gain a feature granted to you by your Ranger Conclave."
 			]
 		},
 		{
@@ -4732,7 +5046,7 @@
 			"classSource": "UAModifyingClasses",
 			"level": 13,
 			"entries": [
-				"At 13th level, you learn one additional maneuver of your choice, which is chosen from the list of maneuvers available to fighters with the Battle Master archetype."
+				"At 13th level, you learn one additional maneuver of your choice, which is chosen from the list of maneuvers available to fighters with the Battle Master conclave."
 			]
 		},
 		{
@@ -4780,14 +5094,14 @@
 			]
 		},
 		{
-			"name": "Ranger Archetype feature",
+			"name": "Ranger Conclave feature",
 			"source": "UAModifyingClasses",
 			"page": 5,
 			"className": "Ranger (Spell-less)",
 			"classSource": "UAModifyingClasses",
 			"level": 15,
 			"entries": [
-				"At 15th level, you gain a feature granted to you by your Ranger Archetype."
+				"At 15th level, you gain a feature granted to you by your Ranger Conclave."
 			]
 		},
 		{
@@ -4825,7 +5139,7 @@
 			"classSource": "UAModifyingClasses",
 			"level": 17,
 			"entries": [
-				"At 17th level, you learn one additional maneuver of your choice, which is chosen from the list of maneuvers available to fighters with the Battle Master archetype."
+				"At 17th level, you learn one additional maneuver of your choice, which is chosen from the list of maneuvers available to fighters with the Battle Master conclave."
 			]
 		},
 		{
@@ -5630,7 +5944,7 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.",
+				"The Beast Master conclave embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master conclave means committing yourself to this ideal, working in partnership with an animal as its companion and friend.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Ranger's Companion|Ranger||Beast Master||3"
@@ -5678,7 +5992,7 @@
 			"entries": [
 				"{@i 3rd-level Beast Master feature (enhances Ranger's Companion)}",
 				"While wandering the wilds, a ranger encounters many sorts of animals, some of which the ranger might befriend. This friendship can arise from successful use of the {@skill Animal Handling} skill or the {@spell animal friendship} spell. If the resulting bond is strong enough, the animal might join the ranger on adventures.",
-				"A ranger who has the Beast Master archetype can form an even stronger bond, feeling almost like a sibling to an animal. A special type of beast awaits a Beast Master in the wilds, a creature whose lineage stretches back to the beginnings of the world: a primal beast known as a {@creature Beast of the Air|UAClassFeatureVariants} or a {@creature Beast of the Earth|UAClassFeatureVariants}. Such a creature seeks out the type of companionship that a Beast Master offers, ready for the two of them to battle the imbalances in the natural world.",
+				"A ranger who has the Beast Master conclave can form an even stronger bond, feeling almost like a sibling to an animal. A special type of beast awaits a Beast Master in the wilds, a creature whose lineage stretches back to the beginnings of the world: a primal beast known as a {@creature Beast of the Air|UAClassFeatureVariants} or a {@creature Beast of the Earth|UAClassFeatureVariants}. Such a creature seeks out the type of companionship that a Beast Master offers, ready for the two of them to battle the imbalances in the natural world.",
 				"The primal beast is a special creature that a Beast Master can choose for the Ranger's Companion feature. When choosing such a creature, you decide whether it is a Beast of the Air or the Earth, and you determine its appearance. Stories describe primal beasts that mystically change form to align with the spirit of their companion.",
 				"When a primal beast is met apart from a Beast Master, the creature takes the form a regular beast of challenge rating 1/4 or lower, as determined by the DM."
 			]
@@ -5754,7 +6068,7 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
+				"Emulating the Hunter conclave means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Hunter's Prey|Ranger||Hunter||3"
@@ -8170,7 +8484,7 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.",
+				"The Beast Master conclave embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master conclave means committing yourself to this ideal, working in partnership with an animal as its companion and friend.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Ranger's Companion|Ranger (Spell-less)|UAModifyingClasses|Beast Master||3"
@@ -8219,7 +8533,7 @@
 			"entries": [
 				"{@i 3rd-level Beast Master feature (enhances Ranger's Companion)}",
 				"While wandering the wilds, a ranger encounters many sorts of animals, some of which the ranger might befriend. This friendship can arise from successful use of the {@skill Animal Handling} skill or the {@spell animal friendship} spell. If the resulting bond is strong enough, the animal might join the ranger on adventures.",
-				"A ranger who has the Beast Master archetype can form an even stronger bond, feeling almost like a sibling to an animal. A special type of beast awaits a Beast Master in the wilds, a creature whose lineage stretches back to the beginnings of the world: a primal beast known as a {@creature Beast of the Air|UAClassFeatureVariants} or a {@creature Beast of the Earth|UAClassFeatureVariants}. Such a creature seeks out the type of companionship that a Beast Master offers, ready for the two of them to battle the imbalances in the natural world.",
+				"A ranger who has the Beast Master conclave can form an even stronger bond, feeling almost like a sibling to an animal. A special type of beast awaits a Beast Master in the wilds, a creature whose lineage stretches back to the beginnings of the world: a primal beast known as a {@creature Beast of the Air|UAClassFeatureVariants} or a {@creature Beast of the Earth|UAClassFeatureVariants}. Such a creature seeks out the type of companionship that a Beast Master offers, ready for the two of them to battle the imbalances in the natural world.",
 				"The primal beast is a special creature that a Beast Master can choose for the Ranger's Companion feature. When choosing such a creature, you decide whether it is a Beast of the Air or the Earth, and you determine its appearance. Stories describe primal beasts that mystically change form to align with the spirit of their companion.",
 				"When a primal beast is met apart from a Beast Master, the creature takes the form a regular beast of challenge rating 1/4 or lower, as determined by the DM."
 			]
@@ -8295,7 +8609,7 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
+				"Emulating the Hunter conclave means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Hunter's Prey|Ranger (Spell-less)|UAModifyingClasses|Hunter||3"
