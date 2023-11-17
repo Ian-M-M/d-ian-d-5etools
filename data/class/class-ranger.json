@@ -2006,9 +2006,9 @@
 			],
 			"subclassFeatures": [
 				"Hunter|Ranger||Hunter||3",
-				"Defensive Tactics|Ranger||Hunter||7",
-				"Multiattack|Ranger||Hunter||11",
-				"Superior Hunter's Defense|Ranger||Hunter||15"
+				"Hunter Learner|Ranger||Hunter||7",
+				"Hunter Adept|Ranger||Hunter||11",
+				"Hunter Master|Ranger||Hunter||15"
 			]
 		},
 		{
@@ -4615,18 +4615,21 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"Emulating the Hunter conclave means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
+				"Hunters have the deepest bond with the beasts, showing themselves by bonding with a spirit of animal origin.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Prey|Ranger||Hunter||3"
+					"subclassFeature": "Hunter's Magic|Ranger||Hunter||3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hunter Apprentice|Ranger||Hunter||3"
 				}
 			]
 		},
 		{
-			"name": "Horde Breaker",
+			"name": "Hunter's Magic",
 			"source": "PHB",
-			"page": 93,
-			"srd": true,
+			"page": 41,
 			"className": "Ranger",
 			"classSource": "PHB",
 			"subclassShortName": "Hunter",
@@ -4634,11 +4637,45 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon."
+				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Hunter Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know",
+				{
+					"type": "table",
+					"caption": "Hunter Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell bless}"
+						],
+						[
+							"5th",
+							"{@spell hold person}"
+						],
+						[
+							"9th",
+							"{@spell haste}"
+						],
+						[
+							"13th",
+							"{@spell polymorph}"
+						],
+						[
+							"17th",
+							"{@spell hold monster}"
+						]
+					]
+				}
 			]
 		},
 		{
-			"name": "Hunter's Prey",
+			"name": "Hunter Apprentice",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -4649,7 +4686,8 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you gain one of the following features of your choice.",
+				"At 3rd level, you gain one slot of Hunter Knowledge, you gain additional slots, when you gain a Conclave feature. You can use those slots to pick a trait from the given list of that slot. You can change that trait when you finish a Long Rest of if you use your Channel Nature.",
+				"You can use your slot in one of the following traits.",
 				{
 					"type": "options",
 					"count": 1,
@@ -4668,6 +4706,21 @@
 						}
 					]
 				}
+			]
+		},
+		{
+			"name": "Horde Breaker",
+			"source": "PHB",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Hunter",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon."
 			]
 		},
 		{
@@ -4701,7 +4754,7 @@
 			]
 		},
 		{
-			"name": "Defensive Tactics",
+			"name": "Hunter Learner",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -4712,7 +4765,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you gain one of the following features of your choice.",
+				"At 7th level, you gain an additional Hunter Knowledge slot, you can use it to select one of the following features of your choice.",
 				{
 					"type": "options",
 					"count": 1,
@@ -4779,7 +4832,7 @@
 			]
 		},
 		{
-			"name": "Multiattack",
+			"name": "Hunter Adept",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -4790,7 +4843,7 @@
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you gain one of the following features of your choice.",
+				"At 11th level, you gain an additional Hunter Knowledge slot, you can use it to select one of the following features of your choice.",
 				{
 					"type": "options",
 					"count": 1,
@@ -4868,7 +4921,7 @@
 			]
 		},
 		{
-			"name": "Superior Hunter's Defense",
+			"name": "Hunter Master",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -4879,7 +4932,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, you gain one of the following features of your choice.",
+				"At 15th level, you gain an additional Hunter Knowledge slot, you can use it to select one of the following features of your choice.",
 				{
 					"type": "options",
 					"count": 1,
@@ -4928,22 +4981,18 @@
 				"A fey mystique surrounds you, thanks to the boon of an archfey, the shining fruit you ate from a talking tree, the magic spring you swam in, or some other auspicious event. However you acquired your fey magic, you are now a Fey Wanderer, a ranger who represents both the mortal and the fey realms. This fey aura comes from your bond with a fey spirit.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Dreadful Strikes|Ranger||Fey Wanderer|TCE|3"
-				},
-				{
-					"type": "refSubclassFeature",
 					"subclassFeature": "Fey Wanderer Magic|Ranger||Fey Wanderer|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Otherworldly Glamour|Ranger||Fey Wanderer|TCE|3"
+					"subclassFeature": "Channel Nature|Ranger||Fey Wanderer|TCE|3"
 				}
 			]
 		},
 		{
-			"name": "Dreadful Strikes",
+			"name": "Channel Nature",
 			"source": "TCE",
-			"page": 58,
+			"page": 86,
 			"className": "Ranger",
 			"classSource": "PHB",
 			"subclassShortName": "Fey Wanderer",
@@ -4951,9 +5000,16 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level Fey Wanderer feature}",
-				"You can augment your weapon strikes with mind-scarring magic, drawn from the gloomy hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra {@damage 1d4} psychic damage to the target, which can take this extra damage only once per turn.",
-				"The extra damage increases to {@dice 1d6} when you reach 11th level in this class."
+				"When you join this conclave at 3rd level, you gain the following two Channel Nature options.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dreadful Strikes|Ranger||Fey Wanderer|TCE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Otherworldly Glamour|Ranger||Fey Wanderer|TCE|3"
+				},
+				"In addition, you gain proficiency in one of the following skills of your choice: Deception, Performance, or Persuasion."
 			]
 		},
 		{
@@ -5044,6 +5100,20 @@
 			]
 		},
 		{
+			"name": "Dreadful Strikes",
+			"source": "TCE",
+			"page": 58,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Fey Wanderer",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"As a bonus action, you can augment your weapon strikes with mind-scarring magic, drawn from the gloomy hollows of the Feywild. During a minute you deal extra 1d6 psychic damage with your weapons attacks."
+			]
+		},
+		{
 			"name": "Otherworldly Glamour",
 			"source": "TCE",
 			"page": 58,
@@ -5054,9 +5124,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level Fey Wanderer feature}",
-				"Your fey qualities give you a supernatural charm. As a result, whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier (minimum of +1).",
-				"In addition, you gain proficiency in one of the following skills of your choice: {@skill Deception}, {@skill Performance}, or {@skill Persuasion}."
+				"Your fey qualities give you a supernatural charm. As a result, whenever you make a Charisma check, you can use your Channel Nature, gaining a bonus to the check equal to your Wisdom modifier (minimum of +1). This bonus lasts for the next hour."
 			]
 		},
 		{
@@ -5117,11 +5185,29 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Shadow Walkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Shadow Walker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.",
+				"Shadow Walker are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. In those habitats Shadow Walkers bond themselves with spirits from the Shadow Realm.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Shadow Walker Magic|Ranger||Shadow Walker|XGE|3"
 				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Nature|Ranger||Shadow Walker|XGE|3"
+				}
+			]
+		},
+		{
+			"name": "Channel Nature",
+			"source": "XGE",
+			"page": 86,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow Walker",
+			"subclassSource": "XGE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join this conclave at 3rd level, you gain the following two Channel Nature options.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Dread Ambusher|Ranger||Shadow Walker|XGE|3"
@@ -5129,7 +5215,8 @@
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Umbral Sight|Ranger||Shadow Walker|XGE|3"
-				}
+				},
+				"In addition, you are also adept at evading creatures that rely on darkvision. While in darkness, you are invisible to any creature that relies on darkvision to see you in that darkness. You gain proficiency in Stealh or Perception, your choice."
 			]
 		},
 		{
@@ -5143,8 +5230,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you master the art of the ambush. You can give yourself a bonus to your initiative rolls equal to your Wisdom modifier.",
-				"At the start of your first turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the {@action Attack} action on that turn, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra {@damage 1d8} damage of the weapon's damage type."
+				"When you roll initiative, you can use your Channel Nature, gaining a bonus to your initiative equals to your Wisdom modifier. During 1 minute you gain 10 ft to your movement, and if you take the Attack action, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra 1d8 necrotic damage."
 			]
 		},
 		{
@@ -5206,8 +5292,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you gain {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision} from your race, its range increases by 30 feet.",
-				"You are also adept at evading creatures that rely on {@sense darkvision}. While in darkness, you are {@condition invisible} to any creature that relies on {@sense darkvision} to see you in that darkness."
+				"As a bonus action, you can use your Channel Nature, giving a number of creatures equals to your Wisdom modifier, darkvision out to a range of 60 feet. If you already have darkvision from your race, its range increases by 30 feet."
 			]
 		},
 		{
