@@ -1056,6 +1056,96 @@
 			"ammoType": "renaissance bullet"
 		},
 		{
+			"name": "Pistol",
+			"source": "HMB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 15000,
+			"reload": 4,
+			"missfire": 1,
+			"weaponCategory": "martial",
+			"property": [
+				"AF",
+				"RLD",
+				"MSF"
+			],
+			"range": "60/120",
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "renaissance bullet"
+		},
+		{
+			"name": "Palm Pistol",
+			"source": "HMB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 5000,
+			"reload": 1,
+			"missfire": 1,
+			"weaponCategory": "martial",
+			"property": [
+				"AF",
+				"RLD",
+				"MSF"
+			],
+			"range": "30/160",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "renaissance bullet"
+		},
+		{
+			"name": "Musket",
+			"source": "HMB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 30000,
+			"reload": 1,
+			"missfire": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"T",
+				"AF",
+				"RLD",
+				"MSF"
+			],
+			"range": "120/480",
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "renaissance bullet"
+		},
+		{
+			"name": "Blunderbuss",
+			"source": "HMB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 30000,
+			"reload": 1,
+			"missfire": 4,
+			"weaponCategory": "martial",
+			"property": [
+				"T",
+				"AF",
+				"RLD",
+				"MSF"
+			],
+			"range": "15/60",
+			"dmg1": "2d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "renaissance bullet"
+		},
+		{
 			"name": "Plate Armor",
 			"source": "PHB",
 			"page": 145,
@@ -1692,6 +1782,20 @@
 					]
 				}
 			]
+		},
+		{
+			"abbreviation": "MSF",
+			"source": "HMB",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Missfire",
+					"entries": [
+						"Whenever you make an attack roll with a firearm, and the dice roll is equal to or lower than the weapon’s Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful Tinker’s Tools check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be mended out of combat at a quarter of the cost of the firearm. Creatures who use a firearm without being proficient increase the weapon’s misfire score by 1."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.missfire}})"
 		},
 		{
 			"abbreviation": "L",
