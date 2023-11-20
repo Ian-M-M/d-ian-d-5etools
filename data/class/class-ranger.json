@@ -4686,7 +4686,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you gain one slot of Hunter Knowledge, you gain additional slots, when you gain a Conclave feature. You can use those slots to pick a trait from the given list of that slot. You can change that trait when you finish a Long Rest of if you use your Channel Nature.",
+				"At 3rd level, you gain one slot of Hunter Knowledge. You can use the slot to pick a trait from the given list of that slot. You can change that trait when you finish a Long Rest of if you use your Channel Nature as an action.",
 				"You can use your slot in one of the following traits.",
 				{
 					"type": "options",
