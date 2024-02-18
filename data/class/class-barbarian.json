@@ -636,6 +636,20 @@
 			]
 		},
 		{
+			"name": "Path of the Kaiju",
+			"shortName": "Kaiju",
+			"source": "PHB",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 103,
+			"subclassFeatures": [
+				"Path of the Kaiju|Barbarian||Kaiju|PHB|3",
+				"Kaiju Force|Barbarian||Kaiju|PHB|6",
+				"Transformation of the Kaiju|Barbarian||Kaiju|PHB|10",
+				"Chaos Threshold|Barbarian||Kaiju|PHB|14"
+			]
+		},
+		{
 			"name": "Path of the Ancestral Guardian",
 			"shortName": "Ancestral Guardian",
 			"source": "XGE",
@@ -1084,6 +1098,278 @@
 		}
 	],
 	"subclassFeature": [
+		{
+			"name": "The Ascendant Dragon",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"While raging, you can use an action to let loose a devastating blast of radiant energy from your mouth. Each creature in a 15-foot cone must succeed on a Dexterity saving throw (DC equal to 8 + your Strength modifier + your proficiency bonus), taking a number of d6s radiant damage equal to your proficiency bonus on a failed save, or half as much damage on a successful one."
+			]
+		},
+		{
+			"name": "The Eternal Leviathan",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"When you enter your rage, or as a bonus action while raging, you can bellow an echoing cry. Each creature of your choice within 10 feet of you must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or have disadvantage on attack rolls against any target other than you until the start of your next turn."
+			]
+		},
+		{
+			"name": "The Titan Earth",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"You can use your Constitution modifier in place of your Strength modifier for the attack and damage rolls of your unarmed strikes and weapon attacks. These strikes are still considered Strength-based attack rolls for the purposes of your other barbarian features."
+			]
+		},
+		{
+			"name": "The Armoured Kabuto",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"While raging, if you move at least 15 feet straight towards a target and then immediately hit it with a weapon attack, the target takes an extra 9 (2d8) bludgeoning damage from the attack."
+			]
+		},
+		{
+			"name": "The Infinite Tempest",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"The first time each turn while raging that you hit a target with a melee attack roll, you deal 3 (1d6) lightning damage to each creature of your choice within 10 feet of the target as lightning spirals out from the point of impact."
+			]
+		},
+		{
+			"name": "Aspect of the Kaiju",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you adopt this path, choose a kaiju through which you draw power and gain the associated benefit from the options below.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "The Ascendant Dragon|Barbarian||Kaiju|PHB|3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "The Eternal Leviathan|Barbarian||Kaiju|PHB|3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "The Titan Earth|Barbarian||Kaiju|PHB|3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "The Armoured Kabuto|Barbarian||Kaiju|PHB|3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "The Infinite Tempest|Barbarian||Kaiju|PHB|3"
+						}
+					]
+				},
+				"You can switch your chosen kaiju each time you gain a new barbarian level."
+			]
+		},
+		{
+			"name": "Apex Hunter",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain proficiency in the Medicine and Survival skills. If you already have this proficiency, you gain proficiency in another skill of your choice. Additionally, you can take the Brace action*, stand up from prone, or mount a creature using only 5 feet of movement."
+			]
+		},
+		{
+			"name": "Path of the Kaiju",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"The Path of the Kaiju is one of sheer destructive force. Some warriors of this kind are fueled by a relentless hatred of a kaiju, perhaps one that destroyed their home or ravaged their continent. In such cases, an individual’s burning obsession is a source of incredible strength, manifesting as an aspect of the kaiju’s own power in moments of blind rage. Other barbarians might worship kaiju for their strength and grandeur, calling on their aid in battle, embodying the might and fury of a colossus as they charge into the fray.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Aspect of the Kaiju|Barbarian||Kaiju|PHB|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Apex Hunter|Barbarian||Kaiju|PHB|3"
+				}
+			]
+		},
+		{
+			"name": "Kaiju Force",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 6,
+			"entries": [
+				"When you enter your rage, you can choose for you and everything you are wearing and carrying to double in size in all dimensions if there is room, and your weight is multiplied by eight. This growth lasts until your rage ends and increases your size by one category, from Medium to Large, for example. While in this form, you can add your Constitution modifier to all Strength checks and Strength saving throws, and your weapon attacks deal an extra 1d4 damage on a hit."
+			]
+		},
+		{
+			"name": "The Ascendant Dragon",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 10,
+			"entries": [
+				"While raging, you and any objects you are wearing or carrying assume a pseudo- liquid form. In this form, you have resistance to fire damage, you are immune to the grappled and restrained conditions, you gain a swimming speed of 60 feet, you can move through other creatures’ spaces and through gaps as small as 1 inch wide without squeezing (but you can’t stop there), and you gain the benefits of half cover while submerged in water."
+			]
+		},
+		{
+			"name": "The Eternal Leviathan",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 10,
+			"entries": [
+				"While raging, you adopt a translucent, ghastly form. In this form, you have resistance to cold and necrotic damage, and you can move through other creatures and objects as if they were difficult terrain. You take 5 force damage if you end your turn inside an object. If you are inside an object when your rage ends, you are shunted to the nearest unoccupied space and take 5 force damage for every 5 feet travelled."
+			]
+		},
+		{
+			"name": "The Titan Earth",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 10,
+			"entries": [
+				"While using your Kaiju Force feature, you and everything you are wearing and carrying grows still further. Provided there is room, your size increases by one category, from Large to Huge, for example. While in this form, your reach increases by 5 feet, and your weapon attacks deal an extra 1d4 damage on a hit."
+			]
+		},
+		{
+			"name": "The Armoured Kabuto",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 10,
+			"entries": [
+				"While raging, you sprout large, insectoid wings. You have a flying speed equal to your walking speed, and your movement doesn’t provoke opportunity attacks."
+			]
+		},
+		{
+			"name": "The Infinite Tempest",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 10,
+			"entries": [
+				"While raging, you crackle with lighting and your blows land with booming claps of thunder. In this form, you have resistance to lightning and thunder damage, and you can use a bonus action to move in a straight line up to 30 feet, passing through other creatures without provoking opportunity attacks. Each creature you pass through in this way must succeed on a Dexterity saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or take 1d8 lightning damage."
+			]
+		},
+		{
+			"name": "Transformation of the Kaiju",
+			"source": "PHB",
+			"page": 103,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 10,
+			"entries": [
+				"When you adopt this path, choose a kaiju through which you draw power and gain the associated benefit from the options below.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "The Ascendant Dragon|Barbarian||Kaiju|PHB|10"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "The Eternal Leviathan|Barbarian||Kaiju|PHB|10"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "The Titan Earth|Barbarian||Kaiju|PHB|10"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "The Armoured Kabuto|Barbarian||Kaiju|PHB|10"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "The Infinite Tempest|Barbarian||Kaiju|PHB|10"
+						}
+					]
+				},
+				"You can switch your chosen kaiju each time you gain a new barbarian level."
+			]
+		},
+		{
+			"name": "Chaos Threshold",
+			"source": "PHB",
+			"page": 104,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Kaiju",
+			"subclassSource": "PHB",
+			"level": 14,
+			"entries": [
+				"While you are raging and have hit points equal to less than half your hit point maximum, your speed increases by 10 feet and you can make one weapon attack as a bonus action. Furthermore, if you fail a saving throw, you can expend one use of your rage to succeed instead. You can use this feature to succeed on a saving throw a number of times equal to half your Constitution modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
 		{
 			"name": "Giant Power",
 			"source": "BGG",
