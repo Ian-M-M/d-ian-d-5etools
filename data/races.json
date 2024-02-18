@@ -753,15 +753,10 @@
 					"entries": [
 						"Your frog features let you do the following things.",
 						{
-							"name": "Hold Breath.",
-							"type": "entries",
-							"entries" :[
-								"You can hold its breath for 20 minutes."
-							],
-							"name": "Standing Leap.",
-							"type": "entries",
-							"entries" :[
-								"You can can leap 30 feet horizontally or 20 feet vertically from a standing position."
+							"type": "list",
+							"items" :[
+								"Hold Breath. You can hold its breath for 20 minutes.",
+								"Standing Leap. You can can leap 30 feet horizontally or 20 feet vertically from a standing position."
 							]
 						}
 					],
