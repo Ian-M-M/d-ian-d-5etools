@@ -8,14 +8,29 @@
 		{
 			"name": "Aasimar",
 			"source": "HMB",
+			"creatureTypes": [
+				"humanoid (Celestial)"
+			],
 			"size": [
 				"S",
 				"M"
 			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
 			"speed": 30,
 			"age": {
-				"max": 180
+				"mature": 20
 			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"celestial": true
+				}
+			],
 			"darkvision": 60,
 			"resist": [
 				"necrotic",
@@ -35,6 +50,13 @@
 					"entries": [
 						"You have resistance to necrotic damage and radiant damage."
 					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Celestial."
+					],
+					"type": "entries"
 				},
 				{
 					"type": "entries",
@@ -82,7 +104,7 @@
 			"name": "Changeling",
 			"source": "HMB",
 			"creatureTypes": [
-				"fey"
+				"humanoid (fey)"
 			],
 			"size": [
 				"S",
@@ -133,19 +155,26 @@
 						"You stay in the new form until you use an action to revert to your true form or until you die."
 					]
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Dhampir",
 			"source": "HMB",
+			"creatureTypes": [
+				"humanoid (undead)"
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
 			"size": [
 				"S",
 				"M"
 			],
 			"speed": {
-				"walk": 35,
+				"walk": 30,
 				"climb": true
 			},
 			"darkvision": 60,
@@ -155,14 +184,6 @@
 					"name": "Size",
 					"entries": [
 						"You are Medium or Small. You choose the size when you gain this lineage."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Ancestral Legacy",
-					"entries": [
-						"If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.",
-						"If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
 					]
 				},
 				{
@@ -190,7 +211,7 @@
 					"type": "entries",
 					"name": "Vampiric Bite",
 					"entries": [
-						"Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals {@damage 1d4} piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.",
+						"Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals {@damage 1d8} piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.",
 						"When you attack with this bite and hit a creature that isn't a Construct or an Undead, you can empower yourself in one of the following ways of your choice:",
 						{
 							"type": "list",
@@ -202,15 +223,16 @@
 						"You can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 					]
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Dragonborn",
 			"source": "HMB",
 			"size": [
 				"M"
+			],
+			"creatureTypes": [
+				"humanoid (Dragon)"
 			],
 			"speed": 30,
 			"heightAndWeight": {
@@ -250,13 +272,11 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+						"You can speak, read, and write Common and Draconic."
 					],
 					"type": "entries"
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Dwarf",
@@ -344,6 +364,13 @@
 					"name": "Stonecunning",
 					"entries": [
 						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, you are considered proficient in the {@skill History} skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Dwarven Toughness",
+					"entries": [
+						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
 					],
 					"type": "entries"
 				},
@@ -493,7 +520,7 @@
 			"source": "HMB",
 			"page": 20,
 			"creatureTypes": [
-				"humanoid"
+				"humanoid (fey)"
 			],
 			"creatureTypeTags": [
 				"goblinoid"
@@ -568,10 +595,20 @@
 				"mature": 20,
 				"max": 100
 			},
+			"feats": [
+				{
+					"any": 1
+				}
+			],
 			"languageProficiencies": [
 				{
 					"common": true,
 					"anyStandard": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"any": 1
 				}
 			],
 			"entries": [
@@ -595,10 +632,156 @@
 						"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
 					],
 					"type": "entries"
+				},
+				{
+					"name": "Skills",
+					"entries": [
+						"You gain proficiency in one skill of your choice."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Inspired",
+					"entries": [
+						"When you take a Long Rest you gain an additional inspiration point. Additionally your maximum number of inspiration points is 4."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Feat",
+					"entries": [
+						"You gain one {@5etools feat|feats.html} of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Grippli",
+			"source": "HMB",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": true
+			},
+			"heightAndWeight": {
+				"baseHeight": 50,
+				"heightMod": "2d10",
+				"baseWeight": 100,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 5,
+				"max": 60
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"primordial": true
 				}
 			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"nature",
+							"acrobatic",
+							"survival"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"jump"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"beast sense"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"1": [
+							"druidcraft#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Grippli reach adulthood in their 5 and live less than 60 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Grippli stand a little shorter than human . Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Primordial. "
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Skills",
+					"entries": [
+						"You choose one from the following skills: Acrobatic, Nature or Survival and you gain proficiency in it."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Frogfolk",
+					"entries": [
+						"Your frog features let you do the following things.",
+						{
+							"name": "Hold Breath.",
+							"type": "entries",
+							"entries" :[
+								"You can hold its breath for 20 minutes."
+							],
+							"name": "Standing Leap.",
+							"type": "entries",
+							"entries" :[
+								"You can can leap 30 feet horizontally or 20 feet vertically from a standing position."
+							]
+						}
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Tongue.",
+					"type": "entries",
+					"entries" :[
+						"Your tongue is a natural weapon, which you can use to make unarmed strikes with a range of 10 ft. If you hit with them, you can deal bludgeoning damage equal to 1d6 + your Dexterity modifier, additionally when you hit you can grapple the target."
+					]
+				},
+				{
+					"name": "Frog Magic.",
+					"type": "entries",
+					"entries" :[
+						"You know the {@spell druidcraft} cantrip. When you reach 3rd level, you learn the spell {@spell jump} and at 5th level you learn the {@spell beast sense} spell. You can use each of those spells 1 per Long Rest."
+					]
+				}
+			]
 		},
 		{
 			"name": "Reborn",
@@ -1595,37 +1778,6 @@
 			]
 		},
 		{
-			"name": "Hill",
-			"source": "PHB",
-			"raceName": "Dwarf",
-			"raceSource": "HMB",
-			"page": 20,
-			"srd": true,
-			"basicRules": true,
-			"ability": [
-				{
-					"wis": 1
-				}
-			],
-			"heightAndWeight": {
-				"baseHeight": 44,
-				"heightMod": "2d4",
-				"baseWeight": 115,
-				"weightMod": "2d6"
-			},
-			"entries": [
-				{
-					"name": "Dwarven Toughness",
-					"entries": [
-						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
-					],
-					"type": "entries"
-				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
 			"name": "Dark Elf",
 			"alias": [
 				"Dark"
@@ -1634,11 +1786,6 @@
 			"raceName": "Elf",
 			"raceSource": "HMB",
 			"page": 24,
-			"ability": [
-				{
-					"cha": 1
-				}
-			],
 			"heightAndWeight": {
 				"baseHeight": 53,
 				"heightMod": "2d6",
@@ -1662,14 +1809,14 @@
 						"3": {
 							"daily": {
 								"1": [
-									"faerie fire"
+									"command"
 								]
 							}
 						},
 						"5": {
 							"daily": {
 								"1": [
-									"darkness"
+									"enhance ability"
 								]
 							}
 						}
@@ -1684,9 +1831,9 @@
 			],
 			"entries": [
 				{
-					"name": "Superior Darkvision",
+					"name": "Darkvision",
 					"entries": [
-						"Accustomed to the depths of the Underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray."
 					],
 					"data": {
 						"overwrite": "Darkvision"
@@ -1696,7 +1843,7 @@
 				{
 					"name": "Dark Elf Magic",
 					"entries": [
-						"You know the {@spell dancing lights} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"You know the {@spell dancing lights} cantrip. When you reach 3rd level, you can cast the {@spell command} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell enhance ability} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					],
 					"type": "entries"
 				},
@@ -1707,8 +1854,7 @@
 					],
 					"type": "entries"
 				}
-			],
-			"hasFluff": true
+			]
 		},
 		{
 			"name": "High",
@@ -1719,11 +1865,6 @@
 			"srd": true,
 			"basicRules": true,
 			"speed": 30,
-			"ability": [
-				{
-					"int": 1
-				}
-			],
 			"heightAndWeight": {
 				"baseHeight": 54,
 				"heightMod": "2d10",
@@ -1796,11 +1937,6 @@
 			"page": 24,
 			"basicRules": true,
 			"speed": 35,
-			"ability": [
-				{
-					"wis": 1
-				}
-			],
 			"heightAndWeight": {
 				"baseHeight": 54,
 				"heightMod": "2d10",
@@ -1840,74 +1976,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"source": "HMB",
-			"raceName": "Human",
-			"raceSource": "HMB",
-			"page": 29,
-			"basicRules": true,
-			"ability": [
-				{
-					"str": 1,
-					"dex": 1,
-					"con": 1,
-					"int": 1,
-					"wis": 1,
-					"cha": 1
-				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Variant",
-			"source": "HMB",
-			"raceName": "Human",
-			"raceSource": "HMB",
-			"page": 31,
-			"basicRules": true,
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"count": 2
-					}
-				}
-			],
-			"feats": [
-				{
-					"any": 1
-				}
-			],
-			"skillProficiencies": [
-				{
-					"any": 1
-				}
-			],
-			"entries": [
-				{
-					"name": "Skills",
-					"entries": [
-						"You gain proficiency in one skill of your choice."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Feat",
-					"entries": [
-						"You gain one {@5etools feat|feats.html} of your choice."
-					],
-					"type": "entries"
-				}
-			]
 		},
 		{
 			"source": "PHB",
