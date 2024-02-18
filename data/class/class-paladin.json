@@ -889,6 +889,45 @@
 				"Aura of Conquest|Paladin||Conquest|XGE|7",
 				"Invincible Conqueror|Paladin||Conquest|XGE|15"
 			]
+		},
+		{
+			"name": "Oath of the Open Sea",
+			"shortName": "Open Sea",
+			"source": "PHB",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"page": 174,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"create or destroy water",
+							"expeditious retreat"
+						],
+						"5": [
+							"augury",
+							"misty step"
+						],
+						"9": [
+							"call lightning",
+							"tidal wave"
+						],
+						"13": [
+							"control water",
+							"freedom of movement"
+						],
+						"17": [
+							"commune with nature",
+							"conjure elemental"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Oath of the Open Sea|Paladin|PHB|Open Sea|PHB|3",
+				"Aura of Liberation|Paladin|PHB|Open Sea|PHB|7",
+				"Mythic Swashbuckler|Paladin|PHB|Open Sea|PHB|15"
+			]
 		}
 	],
 	"classFeature": [
@@ -1398,6 +1437,218 @@
 		}
 	],
 	"subclassFeature": [
+		{
+			"name": "Oath of the Open Sea",
+			"source": "PHB",
+			"page": 174,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Open Sea",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The Oath of the Open Sea calls to seafaring warriors, swashbuckling sailors, and traveling guardians who seek the thrill of a limitless horizon. Driven to search for adventure and mystery across and beneath every endless oceanic expanse, paladins who swear this oath stand against those who would deny liberty to likeminded travelers, rooting out tyranny and corruption wherever it is found.",
+				"Such guardians believe in the natural beauty of the sea, often making offerings and prayers to entities or deities such as the {@deity The Wildmother|Exandria|PHB|Wildmother} or the {@deity The Stormlord|Exandria|PHB|Stormlord} who influence safe passage. At the same time, they answer the call to hunt the monstrous creatures that too often bloody the waters with wanton violence and ill intent, and which terrorize the folk of the sea and shore.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of the Open Sea|Paladin|PHB|Open Sea|PHB|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin|PHB|Open Sea|PHB|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Open Sea|PHB|3"
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "PHB",
+			"page": 175,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Open Sea",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
+				{
+					"type": "entries",
+					"name": "Marine Layer",
+					"page": 175,
+					"entries": [
+						"As an action, you channel the sea to create a thick cloud of fog that surrounds you for 20 feet in all directions. The fog moves with you, remaining centered on you and making its area heavily obscured. You and each creature within 5 feet of you instead treat the area as lightly obscured. This fog lasts for 10 minutes, spreads around corners, and cannot be dispersed unless you choose to end this effect (no action required)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fury of the Tides",
+					"page": 175,
+					"entries": [
+						"As a bonus action, you channel the powerful might of the waves to bolster your attacks for 1 minute. Once per turn for the duration, when you hit a creature with a weapon attack, you can choose to push the target 10 feet away from you. If pushed into an obstacle or another creature, the target takes bludgeoning damage equal to your Charisma modifier."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Rules Tip: Visibility",
+					"page": 175,
+					"entries": [
+						"Fog and other effects can obscure vision for you, your enemies, and your allies. When you heavily obscure an area using your Marine Layer Channel Divinity option, all creatures within the area have their vision completely blocked, and creatures outside the area can't see in. Creatures that can't see automatically fail {@quickref ability checks|PHB|2|0} that require sight. Also, attack rolls against creatures that can't see have {@quickref Advantage and Disadvantage|PHB|2|0|advantage}, and their own attack rolls have {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}.",
+						"Creatures in a lightly obscured area have {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage} only on Wisdom ({@skill Perception}) checks that rely on sight. The rules for when your vision is obscured are described completely in the fifth edition core rules."
+					]
+				}
+			]
+		},
+		{
+			"name": "Oath Spells",
+			"source": "PHB",
+			"page": 175,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Open Sea",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain oath spells at the paladin levels listed in the Oath of the Open Sea Spells table. Spells marked with an asterisk are new spells described on the {@filter spells page|spells|source=PHB}.",
+				{
+					"type": "table",
+					"caption": "Oath of the Open Sea Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell create or destroy water}, {@spell expeditious retreat}"
+						],
+						[
+							"5th",
+							"{@spell augury}, {@spell misty step}"
+						],
+						[
+							"9th",
+							"{@spell call lightning}, {@spell tidal wave}"
+						],
+						[
+							"13th",
+							"{@spell control water}, {@spell freedom of movement}"
+						],
+						[
+							"17th",
+							"{@spell commune with nature}, {@spell Conjure Elemental} (water and air elemental only)"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tenets of the Open Sea",
+			"source": "PHB",
+			"page": 174,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Open Sea",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Freedom can be a selfless virtue or a selfish want. For paladins who swear the Oath of the Open Sea, freedom is the highest calling, and a gift to be granted to all.",
+				{
+					"type": "entries",
+					"name": "No Greater Life than a Life Lived Free",
+					"page": 175,
+					"entries": [
+						"One should be free to chart their own path without oppression. Those who would exert their power to dominate others shall be smote."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trust the Skies",
+					"page": 175,
+					"entries": [
+						"The guidance of a strong breeze. The rumbling warnings of a coming storm. Nature is a source of portent and council that should be heeded."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adapt Like the Water",
+					"page": 175,
+					"entries": [
+						"The waters of the ocean can shift around any obstacle\u2014or become the most impassable obstacle of all. They carve away the land to reveal the secrets of the past, or swallow the truth and hide it forever. To embrace this fluidity is to be ready for any challenge."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Explore the Uncharted",
+					"page": 175,
+					"entries": [
+						"The world is filled with mystery. Through the pursuit of enigmatic ends, one can uncover those who hide their foul deeds, and find the path to becoming something great."
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of Liberation",
+			"source": "PHB",
+			"page": 175,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Open Sea",
+			"subclassSource": "PHB",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, you and your allies cannot be {@condition grappled} or {@condition restrained}, and {@quickref Underwater Combat|PHB|3|0|ignore penalties on movement and attacks while underwater}, while in your Aura of Protection.",
+				"Creatures that are already {@condition grappled} or {@condition restrained} when they enter the aura can spend 5 feet of movement to automatically escape unless they are bound by magic restraints."
+			]
+		},
+		{
+			"name": "Mythic Swashbuckler",
+			"source": "PHB",
+			"page": 175,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Open Sea",
+			"subclassSource": "PHB",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Beginning at 15th level, as a bonus action, you can imbue your Aura of Protection with holy power. The aura gains the following benefits for 1 minute or until you end them as a Bonus Action: ",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"name": "Mythic Duel",
+							"entries":[
+								"If you are within 5 feet of a creature and no other creatures are within 5 feet of you, you have advantage on attack rolls against that creature."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Cunning Action",
+							"entries":[
+								" You can take the Dash or Disengage action as a bonus action."
+							]
+						}
+					]
+				},
+				"Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again."
+			]
+		},
 		{
 			"name": "Oath of Conquest",
 			"source": "XGE",
