@@ -2080,6 +2080,41 @@
 				"Fey Reinforcements|Ranger||Fey Wanderer|TCE|11",
 				"Misty Wanderer|Ranger||Fey Wanderer|TCE|15"
 			]
+		},
+		{
+			"name": "Ronin",
+			"shortName": "Ronin",
+			"source": "PHB",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"page": 58,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"expeditious retreat"
+						],
+						"5": [
+							"blur"
+						],
+						"9": [
+							"remove curse"
+						],
+						"13": [
+							"death ward"
+						],
+						"17": [
+							"legend lore"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Ronin|Ranger||Ronin||3",
+				"Cleaving Parry|Ranger||Ronin||7",
+				"Multi-Weapon Mastery|Ranger||Ronin||11",
+				"Relentless Onslaught|Ranger||Ronin||15"
+			]
 		}
 	],
 	"classFeature": [
@@ -4604,6 +4639,170 @@
 		}
 	],
 	"subclassFeature": [
+		{
+			"name": "Slash Draw",
+			"source": "PHB",
+			"page": 86,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Ronin",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You have mastered the art of striking with sudden, explosive power at any moment. The first time each turn that you hit a creature with a melee weapon attack using a weapon you drew that turn, the attack deals an extra 1d6 damage of that weapon’s type. This extra damage increases to 1d8 when you reach 11th level in this class.",
+				"In addition, twice per turn, you can draw or stow one weapon, provided you aren’t incapacitated (no action required)."	
+			]
+		},
+		{
+			"name": "Masterless",
+			"source": "PHB",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Ronin",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"As a bonus action, you can use your channel Nature to end the {@condition charmed} or {@condition frigthened}."
+			]
+		},
+		{
+			"name": "Channel Nature",
+			"source": "PHB",
+			"page": 86,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Ronin",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your Conclave gives you the following two Channel Nature option.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Masterless|Ranger||Ronin||3"
+				}
+			]
+		},
+		{
+			"name": "Wanderer Magic",
+			"source": "PHB",
+			"page": 41,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Ronin",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Shadow Walker Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Shadow Walker Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell expeditious retreat}"
+						],
+						[
+							"5th",
+							"{@spell blur}"
+						],
+						[
+							"9th",
+							"{@spell remove curse}"
+						],
+						[
+							"13th",
+							"{@spell death ward}"
+						],
+						[
+							"17th",
+							"{@spell legend lore}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Ronin",
+			"source": "PHB",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Ronin",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"The Ronin are masterless, wandering warriors, beholden to no code but their own. No two are the same, each with their own tale that led them down the warrior’s path. They are masters of many weapons, striking with blade and arrow in a spectacle of blinding speed and accuracy. Some Ronin use their power to protect the vulnerable—vigilantes doing what they see as right, no matter the cost. Others pursue their own ends, unfettered by the consequences of their actions.",
+				"Ronin are dangerous combatants, hardened survivors, and above all things, free.",
+				"Yor magic comes from the bond that you have created with a Yokai.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Slash Draw|Ranger||Ronin||3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wanderer Magic|Ranger||Ronin||3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Nature|Ranger||Ronin||3"
+				}
+			]
+		},
+		{
+			"name": "Cleaving Parry",
+			"source": "PHB",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Ronin",
+			"subclassSource": "PHB",
+			"level": 7,
+			"entries": [
+				"When a creature makes a weapon attack against you while you have a stowed melee weapon and a free hand, you can use your reaction to attempt to parry that blow, drawing your stowed weapon as you do so. Your AC increases by an amount equal to your Dexterity or Strength modifier (your choice) against that attack, and you gain temporary hit points equal to your proficiency bonus + your Wisdom modifier (minimum of 1). After the attack hits or misses, you can then stow that weapon as a part of this reaction."
+			]
+		},
+		{
+			"name": "Multi-Weapon Mastery",
+			"source": "PHB",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Ronin",
+			"subclassSource": "PHB",
+			"level": 11,
+			"entries": [
+				"You have advantage on the first melee weapon attack you make each turn, as well as advantage on the first ranged weapon attack you make each turn.",
+				"In addition, being within 5 feet of a hostile creature doesn’t impose disadvantage on your ranged attack rolls."
+			]
+		},
+		{
+			"name": "Relentless Onslaught",
+			"source": "PHB",
+			"page": 93,
+			"srd": true,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Ronin",
+			"subclassSource": "PHB",
+			"level": 15,
+			"entries": [
+				"The speed and ferocity of your onslaught is legendary. When you take the Attack action, each time you score a critical hit or reduce a creature to 0 hit points as part of that action, you can make one additional weapon attack. You can make up to three additional attacks with this feature per turn."
+			]
+		},
 		{
 			"name": "Hunter",
 			"source": "PHB",
