@@ -2204,38 +2204,38 @@
 				{
 					"name": "Artic",
 					"entries":[
-						"You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain +10 ft to your swim Speed."
+						"You aren’t affected by extreme cold, you gain resistance to cold damage."
 					]
 				},
 				{
 
 					"name": "Desert ",
 					"entries":[
-						"You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain +10 ft to your swim Speed."
+						"You aren’t affected by extreme heat, you gain resistance to cold fire."
 					]
 				},
 				{
 					"name": "Forest, Mountain, or Underground",
 					"entries":[
-						"You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain +10 ft to your swim Speed."
+						"You gain a climb Speed equal to your Speed. If you already had a climb Speed, you gain +10 ft to your climb Speed."
 					]
 				},
 				{
 					"name": "Plains or Swamp",
 					"entries":[
-						"You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain +10 ft to your swim Speed."
+						"You gain +10 ft to your walking Speed."
 					]
 				},
 				{
 					"name": "Sky",
 					"entries":[
-						"You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain +10 ft to your swim Speed."
+						"You gain +10 ft to your flying Speed, if you have one; otherwise, you gain a flying speed of 10 ft."
 					]
 				},
 				{
 					"name": "Urban",
 					"entries":[
-						"You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain +10 ft to your swim Speed."
+						"You gain proficiency in Investigation and Insight."
 					]
 				}
 			]
