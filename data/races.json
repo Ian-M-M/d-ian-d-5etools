@@ -467,6 +467,57 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Enkoh",
+			"source": "HMB",
+			"size": [
+				"M"
+			],
+			"creatureTypes": [
+				"humanoid (spirit)"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 15,
+				"max": 700
+			},
+			"resist": [
+				"cold"
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Improved Resting"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"An enkoh reaches maturity at 15 years of age and can live up to 700 years."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your GM agree is appropriate for your character."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Felinoid",
 			"source": "HMB",
 			"size": [
@@ -1225,6 +1276,51 @@
 					"name": "Feline Agility",
 					"entries": [
 						"Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Hulking",
+			"source": "HMB",
+			"raceName": "Enkoh",
+			"raceSource": "HMB",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": true		
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chest Beating",
+					"entries": [
+						"As a bonus action, you can pound your fists to your chest, causing a surge of adrenaline and valour. Until the start of your next turn, you have resistance to bludgeoning, piercing, and slashing damage, and you have advantage on Intimidation checks. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Cooks",
+					"entries": [
+						"With ingredients worth at least 1 sp, you can prepare a meal for a number of Medium or smaller creatures equal to 2 + your proficiency bonus over the course of a short or long rest. A creature who eats the meal at the end of the rest regains one spent Hit Die and gains temporary hit points equal to 1d6 + your proficiency bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
 					]
 				}
 			],
