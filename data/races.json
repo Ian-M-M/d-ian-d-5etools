@@ -1328,6 +1328,70 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Springtail",
+			"source": "HMB",
+			"raceName": "Enkoh",
+			"raceSource": "HMB",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 35,
+				"climb": true		
+			},
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"animal handling",
+							"nature",
+							"performance",
+							"survival"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [ 
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your walking speed is 35 feet, and you have a climbing speed equal to your walking speed. In addition, climbing on a creature larger than you doesn’t count as difficult terrain for you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Beast Wardens",
+					"entries": [
+						"You have advantage on ability checks to tame or influence Beasts."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skillfull",
+					"entries": [
+						"You gain proficiency in your choice of two of the following skills: Acrobatics, Animal Handling, Nature, Performance, or Survival."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Springing Leap",
+					"entries": [
+						"You can calculate your jump distance using your Dexterity. When you do, your long jump covers a number of feet equal to your Dexterity score with or without a running start, and your high jump equals 3 + your Dexterity modifier (minimum of 0 feet) with or without a running start. Either way, each foot you clear on the jump costs a foot of movement"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sturdy Tail",
+					"entries": [
+						"Your tail can support your weight and balance. When you make an ability check or saving throw to avoid being forcibly moved, you can use your reaction to curl your tail around an object within 5 feet of you that is attached to the ground or another sturdy surface. If you do so, you have advantage on that check or save."
+					]
+				}
+			]
+		},
+		{
 			"name": "Chromatic",
 			"source": "FTD",
 			"raceName": "Dragonborn",
