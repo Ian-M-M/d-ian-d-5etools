@@ -928,12 +928,12 @@
 							"sleep"
 						],
 						"3": [
-							"moonbeam",
-							"see invisibility"
+							"invisibility",
+							"darkness"
 						],
 						"5": [
 							"gaseous form",
-							"stinking cloud"
+							"vampiric touch"
 						],
 						"7": [
 							"greater invisibility",
@@ -1234,7 +1234,7 @@
 				"name": "Sorcery Point"
 			},
 			"entries": [
-				"At 3rd level you can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can reroll the d20, and you must use the new roll, potentially turning the failure into a success. This trait can be used a number of time equal to your Charisma modifier."
+				"At 3rd level you can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can reroll the d20, and you must use the new roll, potentially turning the failure into a success. This trait can be used a number of time equal to your Charisma modifier, and you regain the uses when you finish a long rest."
 			]
 		},
 		{
@@ -1272,7 +1272,7 @@
 			"level": 5,
 			"entries": [
 				"At 5th level, you can use your innate magic to heal yourself. As an action, you can heal yourself by an amount equal to a roll of d6, the number of d6 is your proficiency bonus",
-				"You can use this trait once, and you use it again when you finish a Short or Long Rest"
+				"You can use this trait once, and you use it again when you finish a short or long rest"
 			]
 		},
 		{
@@ -1569,7 +1569,7 @@
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"At 20th level, you are now so suffused with magic that you can alter reality itself. You always have the Wish spell prepared, and if you undergo the spell’s casting stress, you have no chance of losing the ability to cast the spell.",
+				"At 20th level, you are now so suffused with magic that you can alter reality itself. You always have the {@spell wish} spell prepared, and if you undergo the spell’s casting stress, you have no chance of losing the ability to cast the spell.",
 				"In addition, you can cast Wish to replicate a spell of 1st through 8th level without expending a 9th-level Spell Slot. You instead expend a slot of the replicated spell’s level. Once you use Wish in this way, you can’t do so again until you finish a Long Rest."
 			]
 		},
@@ -1979,11 +1979,11 @@
 						],
 						[
 							"3rd",
-							"{@spell moonbeam}, {@spell see invisibility}"
+							"{@spell invsibility}, {@spell darkness}"
 						],
 						[
 							"5th",
-							"{@spell gaseous form}, {@spell stinking cloud}"
+							"{@spell gaseous form}, {@spell vampiric touch}"
 						],
 						[
 							"7th",
@@ -2017,7 +2017,7 @@
 			"header": 1,
 			"entries": [
 				"Starting at 1st level, you have {@sense darkvision} with a range of 120 feet.",
-				"When you reach 3rd level in this class, you learn the {@spell darkness} spell, which doesn't count against your number of sorcerer spells prepared. You can see through the darkness created by the spell."
+				"You can see through magical darkness."
 			]
 		},
 		{
@@ -2045,7 +2045,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you gain the ability to call forth a howling creature of darkness to harass your foes. You learn the {@spell Summon Shadowspawn|TCE} spell, and you can cast it without the material component, this summon must be with the Fury form only."
+				"At 6th level, you gain the ability to call forth a howling creature of darkness to harass your foes. You learn the {@spell Summon Shadowspawn|TCE} spell, that doens't count against your prepared spells, and you can cast it without the material component, this summon must be with the Fury form only."
 			]
 		},
 		{
