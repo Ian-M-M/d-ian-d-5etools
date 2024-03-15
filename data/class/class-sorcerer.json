@@ -144,102 +144,102 @@
 						[
 							4,
 							4,
-							"{@filter 1st|spells|level=1|class=sorcerer}"
+							"{@filter 1st|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=1}"
 						],
 						[
 							4,
 							6,
-							"{@filter 1st|spells|level=1|class=sorcerer}"
+							"{@filter 1st|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=1}"
 						],
 						[
 							4,
 							14,
-							"{@filter 2nd|spells|level=2|class=sorcerer}"
+							"{@filter 2nd|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=2}"
 						],
 						[
 							5,
 							17,
-							"{@filter 2nd|spells|level=2|class=sorcerer}"
+							"{@filter 2nd|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=2}"
 						],
 						[
 							5,
 							27,
-							"{@filter 3rd|spells|level=3|class=sorcerer}"
+							"{@filter 3rd|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=3}"
 						],
 						[
 							5,
 							32,
-							"{@filter 3rd|spells|level=3|class=sorcerer}"
+							"{@filter 3rd|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=3}"
 						],
 						[
 							5,
 							38,
-							"{@filter 4th|spells|level=4|class=sorcerer}"
+							"{@filter 4th|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=4}"
 						],
 						[
 							5,
 							44,
-							"{@filter 4th|spells|level=4|class=sorcerer}"
+							"{@filter 4th|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=4}"
 						],
 						[
 							5,
 							57,
-							"{@filter 5th|spells|level=5|class=sorcerer}"
+							"{@filter 5th|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=5}"
 						],
 						[
 							6,
 							64,
-							"{@filter 5th|spells|level=5|class=sorcerer}"
+							"{@filter 5th|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=5}"
 						],
 						[
 							6,
 							73,
-							"{@filter 6th|spells|level=6|class=sorcerer}"
+							"{@filter 6th|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=6}"
 						],
 						[
 							6,
 							73,
-							"{@filter 6th|spells|level=6|class=sorcerer}"
+							"{@filter 6th|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=6}"
 						],
 						[
 							6,
 							83,
-							"{@filter 7th|spells|level=7|class=sorcerer}"
+							"{@filter 7th|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=7}"
 						],
 						[
 							6,
 							83,
-							"{@filter 7th|spells|level=7|class=sorcerer}"
+							"{@filter 7th|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=7}"
 						],
 						[
 							6,
 							94,
-							"{@filter 8th|spells|level=8|class=sorcerer}"
+							"{@filter 8th|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=8}"
 						],
 						[
 							6,
 							94,
-							"{@filter 8th|spells|level=8|class=sorcerer}"
+							"{@filter 8th|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=8}"
 						],
 						[
 							6,
 							107,
-							"{@filter 9th|spells|level=9|class=sorcerer}"
+							"{@filter 9th|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=9}"
 						],
 						[
 							6,
 							114,
-							"{@filter 9th|spells|level=9|class=sorcerer}"
+							"{@filter 9th|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=9}"
 						],
 						[
 							6,
 							123,
-							"{@filter 9th|spells|level=9|class=sorcerer}"
+							"{@filter 9th|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=9}"
 						],
 						[
 							6,
 							133,
-							"{@filter 9th|spells|level=9|class=sorcerer}"
+							"{@filter 9th|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=9}"
 						]
 					]
 				}
@@ -1089,7 +1089,7 @@
 					"type": "entries",
 					"name": "Preparing and Casting Spells",
 					"entries": [
-						"Whenever you finish a Long Rest, you can replace any Spell you have prepared for this Class with another Spell from the Sorcerer, Warlock or Wizard spell lists, that isn’t from the schools of Conjuration, Divination and Necromancy. At higher levels in this Class, you can prepare more Spells. The amount of spells you can prepare is equal to your Charisma modifier + your Sorcerer level (minimum of 1)."
+						"Whenever you finish a Long Rest, you can replace any Spell you have prepared for this Class with another  Spell from the {@filter Sorcerer, Warlock or Wizard spell lists, that isn’t from the schools of Conjuration, Divination and Necromancy|spells|class=sorcerer;warlock;wizard|school=A;I;T;E;V|level=1;2;3;4;5;6;7;8;9}. At higher levels in this Class, you can prepare more Spells. The amount of spells you can prepare is equal to your Charisma modifier + your Sorcerer level (minimum of 1)."
 					]
 				},
 				{
