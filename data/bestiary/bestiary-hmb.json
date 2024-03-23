@@ -2,8 +2,8 @@
 	"_meta": {
 		"otherSources": {
 			"monster": {
-				"MM": "TCE",
-				"DMG": "TCE"
+				"MM": "HMB",
+				"DMG": "HMB"
 			}
 		},
 		"dependencies": {
@@ -175,6 +175,154 @@
 					"name": "Bestial Strike",
 					"entries": [
 						"Melee Attack: your Spell Attack Modifier to hit, reach 5 ft., one target. Hit: 1d4 + your Wisdom modifier Bludgeoning, Piercing, or Slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Orc Necromantic Warchief",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"orc"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"source": "HMB",
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item chain mail|phb",
+						"{@item wand of orcus}"
+					]
+				},
+				{
+					"ac": 18,
+					"from": [
+						"{@spell mage armor}",
+						"{@item wand of orcus}"
+					]
+				}
+			],
+			"hp": {
+				"average": 100,
+				"formula": "14d8 + 44"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 16,
+			"int": 18,
+			"wis": 12,
+			"cha": 16,
+			"save": {
+				"str": "+7",
+				"int": "+7",
+				"wis": "+4"
+			},
+			"skill": {
+				"arcana": "+7",
+				"history": "+7",
+				"intimidation": "+6"
+			},
+			"resist": [
+				"necrotic"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			], 
+			"passive": 10,
+			"languages": [
+				"Common", 
+				"Orc"
+			],
+			"cr": "7",
+			"spellcasting" :[
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The orc casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 16):"
+					],
+					"will":[
+						"{@spell dancing lights}", 
+						"{@spell mage hand}", 
+						"{@spell prestidigitation}"
+					],
+					"daily":{
+						"2e": [
+							"{@spell bestow curse}", 
+							"{@spell dimension door}", 
+							"{@spell mage armor}", 
+							"{@spell web}"
+						],
+						"1e": [
+							"{@spell circle of death}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Gruumsh's Fury",
+					"entries": [
+						"The orc deals an extra 4 (1d8) damage when it hits with a weapon attack (included in the attacks)."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"The Orc necromantic warchief wields the {@item Wand of Orcus}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The orc makes two attacks with its greataxe or its spear."
+					]
+				},
+				{
+					"name": "Wand of Orcus",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d12 + 7} necrotic plus {@damage 1d8}) slashing."
+					]
+				},
+				{
+					"name": "Arcane Burst",
+					"entries": [
+						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 120 ft., one target. {@h} 25 ({@damage 4d10 + 3}) necrotic damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Summon Undead (1/Day)",
+					"entries": [
+						"The orc magically summons three {@creature skeleton||skeletons} or {@creature zombie||zombies}. The summoned creatures appear in unoccupied spaces within 60 feet of the orc, whom they obey. They take their turns immediately after the orc. Each lasts for 1 hour, until it or the orc dies, or until the orc dismisses it as a bonus action."
+					]
+				},
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Grim Harvest (1/Turn)",
+					"entries": [
+						"When the orc kills a creature with necrotic damage, the orc regains 9 (2d8) hit points."
 					]
 				}
 			]
