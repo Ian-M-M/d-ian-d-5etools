@@ -12,7 +12,6 @@
 				"humanoid (Celestial)"
 			],
 			"size": [
-				"S",
 				"M"
 			],
 			"heightAndWeight": {
@@ -21,10 +20,15 @@
 				"baseWeight": 110,
 				"weightMod": "2d4"
 			},
-			"speed": 30,
+			"speed": {
+				"walk": 30,
+				"fly": "while Guardian's Form is active you have 30"
+			},
 			"age": {
 				"mature": 20
 			},
+			"matureAge": 20,
+			"maxAge": 100,
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -39,9 +43,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "Darkvision",
 					"entries": [
-						"You are Medium or Small. You choose the size when you select this race."
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
 					]
 				},
 				{
@@ -52,17 +56,20 @@
 					]
 				},
 				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Celestial."
-					],
-					"type": "entries"
-				},
-				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "Ward Connection",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+						"You are connected to another mortal from birth. This mortal is your ward, and the link between you helps you to protect and watch over them by giving you information on your ward:",
+						{
+							"type": "list",
+							"items": [
+								"You know the general direction to the location of your ward, but not how far away they are from you.",
+								"You know the general emotional state of your ward.",
+								"You know if your ward is in life-threatening danger.",
+								"While you are within 30 feet of your ward, your ward rolls all death saving throws with advantage."
+							]
+						},
+						"Your life is intrinsically tied to that of your ward. If your ward dies, you die with them. If your ward dies and is later revived through any means including magic, you are not automatically revived with them. You cannot be revived if your ward is dead, but if you are revived while your ward is alive, you immediately regain the effects of Ward Connection upon your revival."
 					]
 				},
 				{
@@ -82,21 +89,11 @@
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Ward Connection",
+					"name": "Languages",
 					"entries": [
-						"You are connected to another mortal from birth. This mortal is your ward, and the link between you helps you to protect and watch over them by giving you information on your ward:",
-						{
-							"type": "list",
-							"items": [
-								"You know the general direction to the location of your ward, but not how far away they are from you.",
-								"You know the general emotional state of your ward.",
-								"You know if your ward is in life-threatening danger.",
-								"While you are within 30 feet of your ward, your ward rolls all death saving throws with advantage."
-							]
-						},
-						"Your life is intrinsically tied to that of your ward. If your ward dies, you die with them. If your ward dies and is later revived through any means including magic, you are not automatically revived with them. You cannot be revived if your ward is dead, but if you are revived while your ward is alive, you immediately regain the effects of Ward Connection upon your revival."
-					]
+						"You can speak, read, and write Common and Celestial."
+					],
+					"type": "entries"
 				}
 			]
 		},
@@ -104,10 +101,9 @@
 			"name": "Changeling",
 			"source": "HMB",
 			"creatureTypes": [
-				"humanoid (fey)"
+				"humanoid (Fey)"
 			],
 			"size": [
-				"S",
 				"M"
 			],
 			"speed": 30,
@@ -128,20 +124,6 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Creature Type",
-					"entries": [
-						"You are a Fey."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"You are Medium or Small. You choose the size when you select this race."
-					]
-				},
-				{
-					"type": "entries",
 					"name": "Changeling Instincts",
 					"entries": [
 						"Thanks to your connection to the fey realm, you gain proficiency with two of the following skills of your choice: {@skill Deception}, {@skill Insight}, {@skill Intimidation}, {@skill Performance}, or {@skill Persuasion}."
@@ -154,6 +136,13 @@
 						"As an action, you change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height between Medium and Small. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of an individual you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.",
 						"You stay in the new form until you use an action to revert to your true form or until you die."
 					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your GM agree is appropriate for your character."
+					],
+					"type": "entries"
 				}
 			]
 		},
@@ -161,7 +150,7 @@
 			"name": "Dhampir",
 			"source": "HMB",
 			"creatureTypes": [
-				"humanoid (undead)"
+				"humanoid (Undead)"
 			],
 			"heightAndWeight": {
 				"baseHeight": 56,
@@ -170,7 +159,6 @@
 				"weightMod": "2d4"
 			},
 			"size": [
-				"S",
 				"M"
 			],
 			"speed": {
@@ -179,13 +167,6 @@
 			},
 			"darkvision": 60,
 			"entries": [
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"You are Medium or Small. You choose the size when you gain this lineage."
-					]
-				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
@@ -222,6 +203,13 @@
 						},
 						"You can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your GM agree is appropriate for your character."
+					],
+					"type": "entries"
 				}
 			]
 		},
@@ -232,7 +220,7 @@
 				"M"
 			],
 			"creatureTypes": [
-				"humanoid (Dragon)"
+				"humanoid (Dragonborn)"
 			],
 			"speed": 30,
 			"heightAndWeight": {

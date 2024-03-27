@@ -252,6 +252,18 @@ Parser.getAbilityModifier = function (abilityScore) {
 	return `${modifier}`;
 };
 
+Parser.getMatureAge = (ent) => {
+	if (ent.matureAge == null) return "\u2014";
+
+	return ent.matureAge;
+};
+
+Parser.getMaxAge = (ent) => {
+	if (ent.maxAge == null) return "\u2014";
+
+	return ent.maxAge;
+};
+
 Parser.getSpeedString = (ent, {isMetric = false, isSkipZeroWalk = false} = {}) => {
 	if (ent.speed == null) return "\u2014";
 
