@@ -107,6 +107,8 @@
 				"M"
 			],
 			"speed": 30,
+			"matureAge": 20,
+			"maxAge": 90,
 			"skillProficiencies": [
 				{
 					"choose": {
@@ -165,6 +167,8 @@
 				"walk": 30,
 				"climb": true
 			},
+			"matureAge": "-",
+			"maxAge": "unknown",
 			"darkvision": 60,
 			"entries": [
 				{
@@ -233,6 +237,8 @@
 				"mature": 15,
 				"max": 80
 			},
+			"matureAge": 15,
+			"maxAge": 80,
 			"traitTags": [
 				"Uncommon Race"
 			],
@@ -277,6 +283,8 @@
 				"mature": 20,
 				"max": 350
 			},
+			"matureAge": 20,
+			"maxAge": 350,
 			"darkvision": 60,
 			"traitTags": [
 				"Tool Proficiency"
@@ -384,14 +392,11 @@
 				"mature": 100,
 				"max": 750
 			},
+			"matureAge": 100,
+			"maxAge": 750,
 			"darkvision": 60,
 			"traitTags": [
 				"Improved Resting"
-			],
-			"skillProficiencies": [
-				{
-					"perception": true
-				}
 			],
 			"languageProficiencies": [
 				{
@@ -401,30 +406,9 @@
 			],
 			"entries": [
 				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium."
-					]
-				},
-				{
 					"name": "Darkvision",
 					"entries": [
 						"Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Keen Senses",
-					"entries": [
-						"You have proficiency in the {@skill Perception} skill."
 					],
 					"type": "entries"
 				},
@@ -446,7 +430,7 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+						"You can speak, read, and write Common and Elvish."
 					],
 					"type": "entries"
 				}
@@ -471,6 +455,8 @@
 			"resist": [
 				"cold"
 			],
+			"matureAge": 75,
+			"maxAge": 700,
 			"darkvision": 60,
 			"traitTags": [
 				"Improved Resting"
@@ -522,6 +508,8 @@
 				"mature": 15,
 				"max": 80
 			},
+			"matureAge": 15,
+			"maxAge": 80,
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -567,16 +555,24 @@
 			"size": [
 				"S"
 			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"arcana",
+							"history",
+							"investigation",
+							"nature",
+							"religion"
+						]
+					}
+				}
+			],
+			"matureAge": 8,
+			"maxAge": 60,
 			"speed": 30,
 			"darkvision": 60,
 			"entries": [
-				{
-					"type": "entries",
-					"name": "Creature Type",
-					"entries": [
-						"You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid."
-					]
-				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
@@ -595,8 +591,8 @@
 					"type": "entries",
 					"name": "Fury of the Small",
 					"entries": [
-						"When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your proficiency bonus.",
-						"You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn."
+						"When you damage a creature with an attack or a spell and the creature’s size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your character level.",
+						"You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn"
 					]
 				},
 				{
@@ -604,6 +600,13 @@
 					"name": "Nimble Escape",
 					"entries": [
 						"You can take the {@action Disengage} or {@action Hide} action as a bonus action on each of your turns."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "High Knowledge",
+					"entries": [
+						"You gain proficiency in one of the following skills: Arcana, History, Investigation, Nature or Religion."
 					]
 				},
 				{
@@ -634,6 +637,8 @@
 				"mature": 20,
 				"max": 100
 			},
+			"matureAge": 20,
+			"maxAge": 100,
 			"feats": [
 				{
 					"any": 1
@@ -652,27 +657,6 @@
 			],
 			"entries": [
 				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Humans reach adulthood in their late teens and live less than a century."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
-					]
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
-					],
-					"type": "entries"
-				},
-				{
 					"name": "Skills",
 					"entries": [
 						"You gain proficiency in one skill of your choice."
@@ -680,16 +664,16 @@
 					"type": "entries"
 				},
 				{
-					"name": "Inspired",
+					"name": "Feat",
 					"entries": [
-						"When you take a Long Rest you gain an additional inspiration point. Additionally your maximum number of inspiration points is 4."
+						"You gain one {@5etools feat|feats.html} of your choice."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Feat",
+					"name": "Languages",
 					"entries": [
-						"You gain one {@5etools feat|feats.html} of your choice."
+						"You can speak, read, and write Common and one extra language of your choice."
 					],
 					"type": "entries"
 				}
@@ -715,6 +699,8 @@
 				"mature": 5,
 				"max": 60
 			},
+			"matureAge": 5,
+			"maxAge": 60,
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -818,12 +804,60 @@
 			]
 		},
 		{
+			"name": "Orc",
+			"source": "HMB",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 10,
+				"max": 70
+			},
+			"matureAge": 10,
+			"maxAge": 70,
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"orc": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Relentless Endurance",
+					"entries": [
+						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can’t do so again until you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Orc."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Reborn",
 			"source": "HMB",
 			"size": [
 				"S",
 				"M"
 			],
+			"matureAge": "-",
+			"maxAge": "unknown",
 			"speed": 30,
 			"traitTags": [
 				"Improved Resting"
@@ -876,19 +910,15 @@
 		},
 		{
 			"name": "Tiefling",
-			"source": "PHB",
+			"source": "HMB",
 			"page": 42,
 			"srd": true,
 			"size": [
 				"M"
 			],
+			"matureAge": 20,
+			"maxAge": 100,
 			"speed": 30,
-			"ability": [
-				{
-					"cha": 2,
-					"int": 1
-				}
-			],
 			"heightAndWeight": {
 				"baseHeight": 57,
 				"heightMod": "2d8",
@@ -910,53 +940,147 @@
 				}
 			],
 			"resist": [
-				"fire"
+				{
+					"choose": {
+						"from": [
+							"fire",
+							"cold",
+							"lightning",
+							"poison",
+							"necrotic"
+						]
+					}
+				}
 			],
-			"soundClip": {
-				"type": "internal",
-				"path": "races/tiefling.mp3"
-			},
 			"additionalSpells": [
 				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"hellish rebuke#2"
-								]
+					"choose": {
+						"from": [
+							{
+								"innate": {
+									"3": {
+										"daily": {
+											"1": [
+												"burning hands"
+											]
+										}
+									},
+									"5": {
+										"daily": {
+											"1": [
+												"scorching ray"
+											]
+										}
+									}
+								},
+								"ability": "cha",
+								"known": {
+									"1": [
+										"fire bolt#c"
+									]
+								}
+							},
+							{
+								"innate": {
+									"3": {
+										"daily": {
+											"1": [
+												"armor of agathys"
+											]
+										}
+									},
+									"5": {
+										"daily": {
+											"1": [
+												"darkness"
+											]
+										}
+									}
+								},
+								"ability": "cha",
+								"known": {
+									"1": [
+										"ray of frots#c"
+									]
+								}
+							},
+							{
+								"innate": {
+									"3": {
+										"daily": {
+											"1": [
+												"witch bolt"
+											]
+										}
+									},
+									"5": {
+										"daily": {
+											"1": [
+												"hold person"
+											]
+										}
+									}
+								},
+								"ability": "cha",
+								"known": {
+									"1": [
+										"shocking grasp#c"
+									]
+								}
+							},
+							{
+								"innate": {
+									"3": {
+										"daily": {
+											"1": [
+												"ray of sickness"
+											]
+										}
+									},
+									"5": {
+										"daily": {
+											"1": [
+												"invisibility"
+											]
+										}
+									}
+								},
+								"ability": "cha",
+								"known": {
+									"1": [
+										"poisonn spray#c"
+									]
+								}
+							},
+							{
+								"innate": {
+									"3": {
+										"daily": {
+											"1": [
+												"false life"
+											]
+										}
+									},
+									"5": {
+										"daily": {
+											"1": [
+												"shadow blade"
+											]
+										}
+									}
+								},
+								"ability": "cha",
+								"known": {
+									"1": [
+										"toll the dead#c"
+									]
+								}
 							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"darkness"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"thaumaturgy#c"
 						]
 					}
 				}
 			],
 			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Tieflings mature at the same rate as humans but live a few years longer."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Tieflings are about the same size and build as humans. Your size is Medium."
-					]
-				},
 				{
 					"name": "Darkvision",
 					"entries": [
@@ -965,16 +1089,19 @@
 					"type": "entries"
 				},
 				{
-					"name": "Hellish Resistance",
-					"entries": [
-						"You have resistance to fire damage."
-					],
-					"type": "entries"
-				},
-				{
 					"name": "Infernal Legacy",
 					"entries": [
-						"You know the {@spell thaumaturgy} cantrip. Once you reach 3rd level, you can cast the {@spell hellish rebuke} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell darkness} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"You can choose one of the following elements: fire, cold, lightning, necrotic or poison. This determine the damage that you have resistance to. In addition you gain access to 1 spell that you can cast once per long rest each, your spellcasting ability is Charisma for those spells. Those spells are listed below and your learn them in order at 1st, 3rd and 5th level, additionally the element determine the colour of your skin.",
+						{
+							"type": "list",
+							"items": [
+								"fire. fire bolt, burning hands and scorching ray. Tipically red skin.",
+								"cold. ray of frost, armor of agathys and darkness. Tipically white/grey skin.",
+								"lightning. shocking grasp, witch bolt y hold person. Tipically blue skin.",
+								"necrotic. toll the dead, false life and shadow blade. Tipically black skin.",
+								"poison. poison spray, ray of sickness and invisibility. Tipically green skin."
+							]
+						}
 					],
 					"type": "entries"
 				},
@@ -991,33 +1118,13 @@
 		},
 		{
 			"name": "Warforged",
-			"source": "ERLW",
-			"page": 35,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 67
-				}
-			],
+			"source": "HMB",
+			"matureAge": 2,
+			"maxAge": "unknown",
 			"size": [
 				"M"
 			],
 			"speed": 30,
-			"ability": [
-				{
-					"con": 2,
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"int",
-							"wis",
-							"cha"
-						],
-						"count": 1
-					}
-				}
-			],
 			"heightAndWeight": {
 				"baseHeight": 70,
 				"heightMod": "2d6",
@@ -1186,7 +1293,7 @@
 				{
 					"name": "Claws",
 					"entries": [
-						"Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+						"Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike, additionally if you are wielding no weapong or shield, the d6 become a d8."
 					],
 					"type": "entries"
 				},
@@ -1201,6 +1308,13 @@
 					"name": "Daunting Roar",
 					"entries": [
 						"As a bonus action, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become {@condition frightened} of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can't use it again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Extra Language",
+					"entries": [
+						"You can speak, read, and write Common and one extra language of your choosing."
 					],
 					"type": "entries"
 				}
@@ -1265,6 +1379,13 @@
 					"entries": [
 						"Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
 					]
+				},
+				{
+					"name": "Extra Language",
+					"entries": [
+						"You can speak, read, and write Common and one extra language of your choosing."
+					],
+					"type": "entries"
 				}
 			],
 			"hasFluff": true,
@@ -1921,7 +2042,7 @@
 			]
 		},
 		{
-			"name": "Dark Elf",
+			"name": "Dark",
 			"alias": [
 				"Dark"
 			],
@@ -1936,14 +2057,16 @@
 				"weightMod": "1d6"
 			},
 			"darkvision": 120,
-			"traitTags": [
-				"Sunlight Sensitivity"
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				}
 			],
 			"weaponProficiencies": [
 				{
-					"rapier|phb": true,
-					"shortsword|phb": true,
-					"hand crossbow|phb": true
+					"lances|phb": true,
+					"longsword|phb": true,
+					"warhammer|phb": true
 				}
 			],
 			"additionalSpells": [
@@ -1952,14 +2075,14 @@
 						"3": {
 							"daily": {
 								"1": [
-									"command"
+									"wrathful smite"
 								]
 							}
 						},
 						"5": {
 							"daily": {
 								"1": [
-									"enhance ability"
+									"branding smite"
 								]
 							}
 						}
@@ -1967,33 +2090,29 @@
 					"ability": "cha",
 					"known": {
 						"1": [
-							"dancing lights#c"
+							"booming blade#c"
 						]
 					}
 				}
 			],
 			"entries": [
 				{
-					"name": "Darkvision",
+					"name": "Military Authority.",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray."
-					],
-					"data": {
-						"overwrite": "Darkvision"
-					},
-					"type": "entries"
+						"You have proficiency in the Intimidation skill"
+					]
 				},
 				{
-					"name": "Dark Elf Magic",
+					"name": "Dark Magic",
 					"entries": [
-						"You know the {@spell dancing lights} cantrip. When you reach 3rd level, you can cast the {@spell command} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell enhance ability} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"You know the {@spell booming blade|TCE} cantrip. When you reach 3rd level, you can cast the {@spell wrathful smite} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell branding smite} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Dark Elf Weapon Training",
 					"entries": [
-						"You have proficiency with {@item rapier|phb|rapiers}, {@item shortsword|phb|shortswords}, and {@item hand crossbow|phb|hand crossbows}."
+						"You have proficiency with the {@item longsword|phb}, {@item warhammer|phb} and {@item lance|phb}."
 					],
 					"type": "entries"
 				}
@@ -2014,6 +2133,11 @@
 				"baseWeight": 90,
 				"weightMod": "1d4"
 			},
+			"skillProficiencies":[
+				{
+					"arcana": true
+				}
+			],
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -2023,10 +2147,8 @@
 			],
 			"weaponProficiencies": [
 				{
-					"longsword|phb": true,
-					"shortsword|phb": true,
-					"shortbow|phb": true,
-					"longbow|phb": true
+					"rapier|phb": true,
+					"shortsword|phb": true
 				}
 			],
 			"additionalSpells": [
@@ -2039,22 +2161,43 @@
 									"choose": "level=0|class=Wizard"
 								}
 							]
+						},
+						"3": {
+							"_": [
+								{
+									"choose": "level=1|class=Wizard"
+								}
+							]
+						},
+						"5": {
+							"_": [
+								{
+									"choose": "level=2|class=Wizard"
+								}
+							]
 						}
 					}
 				}
 			],
 			"entries": [
 				{
-					"name": "Elf Weapon Training",
+					"name": "Arcana Eminence",
 					"entries": [
-						"You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}."
+						"You have proficiency with the Arcana skill."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Cantrip",
+					"name": "High Elf Weapon Training",
 					"entries": [
-						"You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
+						"You have proficiency with the {@item rapier|phb} and {@item shortsword|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "High Magic",
+					"entries": [
+						"You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. When you reach 3rd level, you learn a {@filter 1st level your choice from the wizard spell list|spells|level=1|class=Wizard} you regain the ability to cast it when you finish a long rest. When you reach 5th level, you also learn a {@filter 2nd level of your choice from the wizard spell list|spells|level=2|class=Wizard} once per day with this trait; you regain the ability to cast it when you finish a long rest. Intelligence is your spellcasting ability for it."
 					],
 					"type": "entries"
 				},
@@ -2069,6 +2212,72 @@
 			"overwrite": {
 				"languageProficiencies": true
 			},
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Verdant",
+			"source": "HMB",
+			"raceName": "Orc",
+			"raceSource": "HMB",
+			"page": 24,
+			"basicRules": true,
+			"speed": 30,
+			"heightAndWeight": {
+				"baseHeight": 54,
+				"heightMod": "2d10",
+				"baseWeight": 100,
+				"weightMod": "1d4"
+			},
+			"entries": [
+				{
+					"name": "Verdant",
+					"entries": [
+						"Your body is equal parts plant and flesh. You can regrow any limb you lose in 1d8+1 weeks. Additionally, you can go without food or drink as long as you spend an hour per day in direct sunlight."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Verdant Surge",
+					"entries": [
+						"Once you’ve used your Relentless Endurance Trait, you gain temporary hit points equal to double your proficiency bonus, you double your proficiency bonus when making any attack roll, and you gain 10 feet of movement to your speed. This effect lasts until you regain any hit points or until you take a long or short rest"
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Greynant",
+			"source": "HMB",
+			"raceName": "Orc",
+			"raceSource": "HMB",
+			"page": 24,
+			"basicRules": true,
+			"speed": 30,
+			"heightAndWeight": {
+				"baseHeight": 54,
+				"heightMod": "2d10",
+				"baseWeight": 100,
+				"weightMod": "1d4"
+			},
+			"entries": [
+				{
+					"name": "Adrenaline Rush",
+					"entries": [
+						"You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Whenever you use this trait, you gain a number of temporary hit points equal to your proficiency bonus."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				}
+			],
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -2088,17 +2297,20 @@
 			},
 			"weaponProficiencies": [
 				{
-					"longsword|phb": true,
-					"shortsword|phb": true,
 					"shortbow|phb": true,
 					"longbow|phb": true
 				}
 			],
+			"skillProficiencies":[
+				{
+					"survival": true
+				}
+			],
 			"entries": [
 				{
-					"name": "Elf Weapon Training",
+					"name": "Wood Elf Weapon Training",
 					"entries": [
-						"You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}."
+						"You have proficiency with the {@item shortbow|phb}, and {@item longbow|phb}."
 					],
 					"type": "entries"
 				},
@@ -2112,450 +2324,18 @@
 				{
 					"name": "Mask of the Wild",
 					"entries": [
-						"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+						"You can magically become invisible (as you were concentrating a spell), and you can remain as long as you don’t attack or cast a spell."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Natural Explorer",
+					"entries": [
+						"You have proficiency in the Survival skill."
 					],
 					"type": "entries"
 				}
 			],
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"source": "PHB",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 42,
-			"srd": true,
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Asmodeus",
-			"source": "MTF",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 21,
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Baalzebul",
-			"source": "MTF",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 21,
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"ray of sickness#2"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"crown of madness"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"thaumaturgy#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Maladomini",
-					"entries": [
-						"You know the {@spell thaumaturgy} cantrip. When you reach 3rd level, you can cast the {@spell ray of sickness} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell crown of madness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Dispater",
-			"source": "MTF",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 21,
-			"ability": [
-				{
-					"cha": 2,
-					"dex": 1
-				}
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"disguise self"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"detect thoughts"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"thaumaturgy#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Dis",
-					"entries": [
-						"You know the {@spell thaumaturgy} cantrip. When you reach 3rd level, you can cast the {@spell disguise self} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell detect thoughts} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			],
-			"overwrite": {
-				"ability": true
-			},
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Fierna",
-			"source": "MTF",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 21,
-			"ability": [
-				{
-					"cha": 2,
-					"wis": 1
-				}
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"charm person#2"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"suggestion"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"friends#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Phlegethos",
-					"entries": [
-						"You know the {@spell friends} cantrip. When you reach 3rd level, you can cast the {@spell charm person} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell suggestion} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			],
-			"overwrite": {
-				"ability": true
-			},
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Glasya",
-			"source": "MTF",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 22,
-			"ability": [
-				{
-					"cha": 2,
-					"dex": 1
-				}
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"disguise self"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"invisibility"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"minor illusion#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Malbolge",
-					"entries": [
-						"You know the {@spell minor illusion} cantrip. When you reach 3rd level, you can cast the {@spell disguise self} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			],
-			"overwrite": {
-				"ability": true
-			},
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Levistus",
-			"source": "MTF",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 22,
-			"ability": [
-				{
-					"cha": 2,
-					"con": 1
-				}
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"armor of agathys#2"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"darkness"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"ray of frost#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Stygia",
-					"entries": [
-						"You know the {@spell ray of frost} cantrip. When you reach 3rd level, you can cast the {@spell armor of Agathys} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell darkness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			],
-			"overwrite": {
-				"ability": true
-			},
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Mammon",
-			"source": "MTF",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 22,
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"tenser's floating disk"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"arcane lock"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"mage hand#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Minauros",
-					"entries": [
-						"You know the {@spell mage hand} cantrip. When you reach 3rd level, you can cast the {@spell Tenser's floating disk} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell arcane lock} spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Mephistopheles",
-			"source": "MTF",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 23,
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"burning hands#2"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"flame blade"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"mage hand#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Cania",
-					"entries": [
-						"You know the {@spell mage hand} cantrip. When you reach 3rd level, you can cast the {@spell burning hands} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell flame blade} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Zariel",
-			"source": "MTF",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 23,
-			"ability": [
-				{
-					"cha": 2,
-					"str": 1
-				}
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"searing smite#2"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"branding smite"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"thaumaturgy#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Avernus",
-					"entries": [
-						"You know the {@spell thaumaturgy} cantrip. When you reach 3rd level, you can cast the {@spell searing smite} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell branding smite} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			],
-			"overwrite": {
-				"ability": true
-			},
 			"hasFluff": true,
 			"hasFluffImages": true
 		}
