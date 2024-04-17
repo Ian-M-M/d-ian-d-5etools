@@ -24,9 +24,6 @@
 				"walk": 30,
 				"fly": "while Guardian's Form is active you have 30"
 			},
-			"age": {
-				"mature": 20
-			},
 			"matureAge": 20,
 			"maxAge": 100,
 			"languageProficiencies": [
@@ -123,6 +120,12 @@
 					}
 				}
 			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"choose": 2
+				}
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -142,7 +145,7 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and one other language that you and your GM agree is appropriate for your character."
+						"You can speak, read, and write Common and two other languages that you and your DM agree is appropriate for your character."
 					],
 					"type": "entries"
 				}
@@ -170,6 +173,12 @@
 			"matureAge": "-",
 			"maxAge": "unknown",
 			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 2
+				}
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -211,7 +220,7 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and one other language that you and your GM agree is appropriate for your character."
+						"You can speak, read, and write Common."
 					],
 					"type": "entries"
 				}
@@ -373,13 +382,11 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
+						"You can speak, read, and write Common and Dwarvish. warvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
 					],
 					"type": "entries"
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Elf",
@@ -434,9 +441,7 @@
 					],
 					"type": "entries"
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Enkoh",
@@ -487,9 +492,7 @@
 					],
 					"type": "entries"
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Felinoid",
@@ -510,12 +513,6 @@
 			},
 			"matureAge": 15,
 			"maxAge": 80,
-			"languageProficiencies": [
-				{
-					"common": true,
-					"other": true
-				}
-			],
 			"entries": [
 				{
 					"name": "Age",
@@ -530,17 +527,8 @@
 					"entries": [
 						"Felinoids are as versatil as human. Your size is Medium."
 					]
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and other Languague."
-					],
-					"type": "entries"
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Goblin",
@@ -566,6 +554,12 @@
 							"religion"
 						]
 					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
 				}
 			],
 			"matureAge": 8,
@@ -616,9 +610,7 @@
 						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
 					]
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Human",
@@ -845,9 +837,7 @@
 					],
 					"type": "entries"
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Reborn",
@@ -864,6 +854,11 @@
 			],
 			"resist": [
 				"poison"
+			],
+			"languageProficiencies": [
+				{
+					"common": true
+				}
 			],
 			"entries": [
 				{
@@ -903,10 +898,15 @@
 					"entries": [
 						"You temporarily remember glimpses of the past, perhaps faded memories from ages ago or a previous life. When you make an ability check that uses a skill, you can roll a {@dice d6} immediately after seeing the number on the {@dice d20} and add the number on the {@dice d6} to the check. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 					]
+				},
+				{
+					"type": "entries",
+					"name": "Languagues",
+					"entries": [
+						"You can speak, read, and write Common."
+					]
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Tiefling",
@@ -1112,9 +1112,7 @@
 					],
 					"type": "entries"
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Warforged",
@@ -1235,9 +1233,7 @@
 						"You can speak, read, and write Common and one other language of your choice."
 					]
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		}
 	],
 	"subrace": [
@@ -1278,8 +1274,7 @@
 			],
 			"languageProficiencies": [
 				{
-					"common": true,
-					"other": true
+					"common": true
 				}
 			],
 			"entries": [
@@ -1312,15 +1307,13 @@
 					"type": "entries"
 				},
 				{
-					"name": "Extra Language",
+					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and one extra language of your choosing."
+						"You can speak, read, and write Common."
 					],
 					"type": "entries"
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Tabaxi",
@@ -1342,6 +1335,12 @@
 				{
 					"perception": true,
 					"stealth": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 2
 				}
 			],
 			"entries": [
@@ -1387,9 +1386,7 @@
 					],
 					"type": "entries"
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Hulking",
@@ -1403,6 +1400,12 @@
 				"walk": 30,
 				"climb": true		
 			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": 1 
+				}
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -1432,9 +1435,7 @@
 						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
 					]
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Springtail",
@@ -1460,6 +1461,12 @@
 						],
 						"count": 2
 					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": 1 
 				}
 			],
 			"entries": [ 
@@ -1587,8 +1594,6 @@
 					]
 				}
 			],
-			"hasFluff": true,
-			"hasFluffImages": true,
 			"_versions": [
 				{
 					"_template": {
@@ -1755,8 +1760,6 @@
 					]
 				}
 			],
-			"hasFluff": true,
-			"hasFluffImages": true,
 			"_versions": [
 				{
 					"_template": {
@@ -1952,8 +1955,6 @@
 					]
 				}
 			],
-			"hasFluff": true,
-			"hasFluffImages": true,
 			"_versions": [
 				{
 					"_template": {
@@ -2211,9 +2212,7 @@
 			],
 			"overwrite": {
 				"languageProficiencies": true
-			},
-			"hasFluff": true,
-			"hasFluffImages": true
+			}
 		},
 		{
 			"name": "Verdant",
@@ -2244,9 +2243,7 @@
 					],
 					"type": "entries"
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Greynant",
@@ -2277,9 +2274,7 @@
 					],
 					"type": "entries"
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Wood",
@@ -2335,9 +2330,7 @@
 					],
 					"type": "entries"
 				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		}
 	]
 }
