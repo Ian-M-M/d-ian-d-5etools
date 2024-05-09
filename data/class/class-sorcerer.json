@@ -51,7 +51,7 @@
 						"MM"
 					],
 					"progression": {
-						"3": 3,
+						"2": 3,
 						"7": 3,
 						"11": 2,
 						"15": 2,
@@ -1142,8 +1142,6 @@
 			"entries": [
 				"At 2nd level, you gain access to the following metamagics:",
 				{
-					"type": "options",
-					"count": 3,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
@@ -1261,8 +1259,6 @@
 			"entries": [
 				"At 7th level, you learn the following metamagic options:",
 				{
-					"type": "options",
-					"count": 3,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
@@ -1349,8 +1345,6 @@
 			"entries": [
 				"At 11th level, you learn the following metamagic options:",
 				{
-					"type": "options",
-					"count": 2,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
@@ -1436,8 +1430,6 @@
 			"entries": [
 				"At 15th level, you learn the following metamagic options:",
 				{
-					"type": "options",
-					"count": 2,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
@@ -1487,8 +1479,6 @@
 			"entries": [
 				"At 18th level, you learn the following metamagic options: Autonomous Spell.",
 				{
-					"type": "options",
-					"count": 1,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
