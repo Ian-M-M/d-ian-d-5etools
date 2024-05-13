@@ -6242,6 +6242,23 @@
 			"entries": [
 				"You don’t provoke opportunity attacks when it flies out of an enemy's reach."
 			]
+		},
+		{
+			"name": "Good Alignment",
+			"source": "HMB",
+			"featureType": [
+				"ACL"
+			],
+			"entries": [
+				"You gain resistance to radiant damage. You gain the Angelic Protection trait.",
+				{
+					"name": "Angelical Protection",
+					"entries":[
+						"Angelic Protection. As a bonus action you talk to a one creature that can hear you that is up to 15 ft from you (including yourself) the target gains 1d6 temporary hit points, the roll increases to 2d6 at 5th level and 3d6 at 11th level. You can use this trait a number of times equals to half your proficiency bonus."
+					]
+				}
+			]
 		}
+
 	]
 }
