@@ -6,6 +6,176 @@
 	},
 	"race": [
 		{
+			"name": "Aasimar",
+			"source": "HMB",
+			"creatureTypes":[
+				"humanoid (aasimar)"
+			],
+			"size":[
+				"M"
+			],
+
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"matureAge": 20,
+			"maxAge": 110,
+			"languageProficiencies":[
+				{
+					"common": true
+				}
+			],
+			"darkvision": 60,
+			"resist": [
+				{
+					"choose": {
+						"from": [
+							"force",
+							"psychic",
+							"radiant",
+							"necrotic"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"known": {
+						"1": [
+							"guidance#c"
+						]
+					}
+				}
+			],
+			"entries":[
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+
+				},
+				{
+					"type": "entries",
+					"name": "Light Guided",
+					"entries": [
+						"You know the guidance cantrip."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Healing Hands",
+					"entries": [
+						"At the start of the day you roll a number of d4s equals to your proficiency bonus. These rolls create a pool of healing from which you can select a number of hit points to heal a creature that you touch as an action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Celestial Lineague",
+					"entries": [
+						"At 3rd the  god’s alignment  that bless your lineage give you one of the following traits:",
+						{
+							"type": "list",
+							"items":[
+								{
+									"name": "Good Alignment",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"You gain resistance to radiant damage.",
+												{
+													"name": "Angelical Protection",
+													"entries":[
+														"As a bonus action you talk to a one creature that can hear you that is up to 15 ft from you (including yourself) the target gains 1d6 temporary hit points, the roll increases to 2d6 at 5th level and 3d6 at 11th level. You can use this trait a number of times equals to half your proficiency bonus."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "Evil Alignment",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"You gain resistance to necrotic damage.",
+												{
+													"name": "Necrotic Shroud",
+													"entries":[
+														"As a bonus action you can force creatures other than your allies within 10  ft of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you for a number or rounds equal to your proficiency bonus. You can use this trait a number of times equals to half your proficiency bonus."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "Chaotic Alignment",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"You gain resistance to force damage.",
+												{
+													"name": "Chaotic Energy",
+													"entries":[
+														"As a bonus action you can imbue one attack of your next spell attack to deal extra 1d6 force damage, the damage increase to 2d6 at 7th level and 3d6 at 11th level. You can use this trait a number of times equals to half your proficiency bonus."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "Lawful Alignment",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"You gain resistance to psychic damage.",
+												{
+													"name": "Divine Mind",
+													"entries":[
+														"As a bonus action you can give yourself the following benefits during the next minute:",
+														{
+															"type": "list",
+															"items": [
+																"Advantage on Intelligence and Wisdom Saving throws.",
+																"You can add your proficiency bonus to all Intelligence checks (skills included)."
+															]
+														},
+														"You can use this trait a number of times equals to your proficiency bonus."
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languague",
+					"entries": [
+						"You can speak, read, and write Common."
+					]
+
+				}
+			]
+		},
+		{
 			"name": "Anaheran",
 			"source": "HMB",
 			"creatureTypes": [
